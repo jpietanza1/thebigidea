@@ -3,13 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Website</title>
+    <title>My Website</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            transition: 0.3s;
+        }
+
+        /* Page Content */
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>Hosted for free on GitHub Pages 🚀</p>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is the homepage.</p>
+    </div>
+
 </body>
 </html>
+
