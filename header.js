@@ -7,9 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
             // Check if the user is logged in
             let user = localStorage.getItem("loggedInUser");
             if (user) {
-                document.getElementById("loginLink").style.display = "none";  // Hide login
-                document.getElementById("signupLink").style.display = "none"; // Hide signup
-                document.getElementById("logoutBtn").style.display = "inline"; // Show logout button
+                // Hide login and signup links if logged in
+                let loginLink = document.getElementById("loginLink");
+                let signupLink = document.getElementById("signupLink");
+                let logoutBtn = document.getElementById("logoutBtn");
+
+                // If login and signup links exist, hide them
+                if (loginLink) {
+                    loginLink.style.display = "none";
+                }
+                if (signupLink) {
+                    signupLink.style.display = "none";
+                }
+
+                // Show logout button
+                if (logoutBtn) {
+                    logoutBtn.style.display = "inline";
+                }
 
                 // Display a welcome message
                 let navbar = document.querySelector(".navbar");
@@ -21,10 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
             // Logout functionality
-            document.getElementById("logoutBtn").addEventListener("click", function() {
-                localStorage.removeItem("loggedInUser");  // Remove user data
-                window.location.href = "index.html";  // Redirect to homepage
-            });
+            let logoutBtn = document.getElementById("logoutBtn");
+            if (logoutBtn) {
+                logoutBtn.addEventListener("click", function() {
+                    localStorage.removeItem("loggedInUser");  // Remove user data
+                    window.location.href = "index.html";  // Redirect to homepage
+                });
+            }
         })
         .catch(error => console.error("Error loading header:", error));
 });
