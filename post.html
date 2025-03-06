@@ -80,9 +80,9 @@
         document.getElementById("postForm").addEventListener("submit", function(event) {
             event.preventDefault();
 
-            let title = document.getElementById("postTitle").value;
-            let link = document.getElementById("postLink").value;
-            let description = document.getElementById("postDescription").value;
+            let title = document.getElementById("postTitle").value.trim();
+            let link = document.getElementById("postLink").value.trim();
+            let description = document.getElementById("postDescription").value.trim();
 
             if (title && description) {
                 let newPost = {
