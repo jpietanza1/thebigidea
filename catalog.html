@@ -32,6 +32,7 @@
             border-bottom: 1px solid #ccc;
             padding: 15px;
             text-align: left;
+            position: relative;
         }
 
         .post h2 {
@@ -56,6 +57,41 @@
             color: #888;
             font-style: italic;
         }
+
+        .archive-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            padding: 5px 10px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .archive-btn:hover {
+            background-color: #e63946;
+        }
+
+        .tab-container {
+            margin: 20px 0;
+        }
+
+        .tab {
+            display: inline-block;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #ddd;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .tab.active {
+            background-color: #333;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -64,6 +100,12 @@
 
     <div class="container">
         <h1>Community Posts</h1>
+
+        <div class="tab-container">
+            <span class="tab active" id="newPostsTab">New Posts</span>
+            <span class="tab" id="archivedPostsTab">Archived Posts</span>
+        </div>
+
         <div id="postsContainer">
             <p class="no-posts">No posts yet. Be the first to post something interesting!</p>
         </div>
@@ -72,12 +114,22 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             let postsContainer = document.getElementById("postsContainer");
+            let newPostsTab = document.getElementById("newPostsTab");
+            let archivedPostsTab = document.getElementById("archivedPostsTab");
+
             let storedPosts = JSON.parse(localStorage.getItem("posts")) || [];
+            let archivedPosts = JSON.parse(localStorage.getItem("archivedPosts")) || [];
+            let loggedInUser = localStorage.getItem("loggedInUser");
 
-            if (storedPosts.length > 0) {
-                postsContainer.innerHTML = ""; // Clear the default message
+            function renderPosts(posts, isArchived) {
+                postsContainer.innerHTML = "";
 
-                storedPosts.reverse().forEach(post => {
+                if (posts.length === 0) {
+                    postsContainer.innerHTML = `<p class="no-posts">${isArchived ? "No archived posts." : "No posts yet. Be the first to post something interesting!"}</p>`;
+                    return;
+                }
+
+                posts.reverse().forEach((post, index) => {
                     let postElement = document.createElement("div");
                     postElement.classList.add("post");
 
@@ -88,9 +140,44 @@
                         <p><small>Posted on ${new Date(post.timestamp).toLocaleString()}</small></p>
                     `;
 
+                    if (loggedInUser && !isArchived) {
+                        let archiveButton = document.createElement("button");
+                        archiveButton.classList.add("archive-btn");
+                        archiveButton.textContent = "Archive";
+                        archiveButton.onclick = function() {
+                            archivePost(index);
+                        };
+                        postElement.appendChild(archiveButton);
+                    }
+
                     postsContainer.appendChild(postElement);
                 });
             }
+
+            function archivePost(index) {
+                let postToArchive = storedPosts.splice(index, 1)[0];
+                archivedPosts.push(postToArchive);
+
+                localStorage.setItem("posts", JSON.stringify(storedPosts));
+                localStorage.setItem("archivedPosts", JSON.stringify(archivedPosts));
+
+                alert("Post archived successfully!");
+                renderPosts(storedPosts, false);
+            }
+
+            newPostsTab.addEventListener("click", function() {
+                newPostsTab.classList.add("active");
+                archivedPostsTab.classList.remove("active");
+                renderPosts(storedPosts, false);
+            });
+
+            archivedPostsTab.addEventListener("click", function() {
+                archivedPostsTab.classList.add("active");
+                newPostsTab.classList.remove("active");
+                renderPosts(archivedPosts, true);
+            });
+
+            renderPosts(storedPosts, false); // Load new posts initially
         });
     </script>
 
