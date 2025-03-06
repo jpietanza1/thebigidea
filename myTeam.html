@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Team</title>
+    <script src="header.js" defer></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { margin-top: 50px; padding: 20px; }
+    </style>
+</head>
+<body>
+
+     <div id="header-container"></div>
+
+    <div class="container">
+        <h1>Our Services</h1>
+        <p>Discover what we offer.</p>
+    </div>
+
+</body>
+  
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let user = localStorage.getItem("loggedInUser");
+        if (user) {
+            document.getElementById("header-container").innerHTML += `<span>Welcome, ${user}!</span>`;
+        }
+    });
+</script>
+
+</html>
