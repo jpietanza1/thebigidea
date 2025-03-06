@@ -15,23 +15,86 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
+            background-color: #f4f4f4;
         }
 
-        /* Page Content */
         .container {
             margin-top: 50px;
             padding: 20px;
+            width: 50%;
+            background: white;
+            margin: 50px auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        .submit-btn:hover {
+            background-color: #575757;
+            transition: 0.3s;
         }
     </style>
 </head>
 <body>
 
-     <div id="header-container"></div>
+    <div id="header-container"></div>
 
     <div class="container">
-        <h1>Post</h1>
-        <p>Update to include a way to post an article and small blurb that appears on the homepage/in a repository you can look through</p>
+        <h1>Create a Post</h1>
+        <p>Share something interesting with the community.</p>
+
+        <form id="postForm">
+            <input type="text" id="postTitle" class="post-input" placeholder="Enter the title of your post" required>
+            <input type="url" id="postLink" class="post-input" placeholder="Enter a website link (optional)">
+            <textarea id="postDescription" class="post-input" placeholder="Write a short paragraph about your post" required></textarea>
+            <button type="submit" class="submit-btn">Submit Post</button>
+        </form>
     </div>
+
+    <script>
+        document.getElementById("postForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            let title = document.getElementById("postTitle").value;
+            let link = document.getElementById("postLink").value;
+            let description = document.getElementById("postDescription").value;
+
+            if (title && description) {
+                alert("Your post has been submitted successfully!");
+                // Here you can add code to save the post (e.g., send it to a server or store in local storage)
+                
+                // Clear form fields after submission
+                document.getElementById("postForm").reset();
+            } else {
+                alert("Please fill out all required fields.");
+            }
+        });
+    </script>
 
 </body>
 </html>
