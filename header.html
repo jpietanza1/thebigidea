@@ -29,10 +29,13 @@
         }
 
         // Logout functionality
-        document.getElementById("logoutBtn").addEventListener("click", function() {
-            localStorage.removeItem("loggedInUser");  // Remove user data from localStorage
-            window.location.href = "index.html";  // Redirect to homepage after logout
-        });
+        let logoutBtn = document.getElementById("logoutBtn");
+        if (logoutBtn) {
+            logoutBtn.addEventListener("click", function() {
+                localStorage.removeItem("loggedInUser");  // Clear login info
+                window.location.href = "index.html";  // Redirect to homepage
+            });
+        }
     });
 </script>
 
