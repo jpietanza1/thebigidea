@@ -85,11 +85,19 @@
             let description = document.getElementById("postDescription").value;
 
             if (title && description) {
+                let newPost = {
+                    title: title,
+                    link: link,
+                    description: description,
+                    timestamp: new Date().toISOString()
+                };
+
+                let storedPosts = JSON.parse(localStorage.getItem("posts")) || [];
+                storedPosts.push(newPost);
+                localStorage.setItem("posts", JSON.stringify(storedPosts));
+
                 alert("Your post has been submitted successfully!");
-                // Here you can add code to save the post (e.g., send it to a server or store in local storage)
-                
-                // Clear form fields after submission
-                document.getElementById("postForm").reset();
+                window.location.href = "catalog.html"; // Redirect to catalog page
             } else {
                 alert("Please fill out all required fields.");
             }
