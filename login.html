@@ -102,7 +102,7 @@
             if (username === existingUser && password === existingPassword) {
                 // If the credentials are correct, store the user in local storage and redirect
                 localStorage.setItem("loggedInUser", username);
-                window.location.href = "dashboard.html";  // Redirect to dashboard or home page
+                window.location.href = "index.html";  // Redirect to dashboard or home page
             } else {
                 // If credentials are incorrect, show error message and stay on the login page
                 document.getElementById("error-banner").style.display = "block";  // Show error message
