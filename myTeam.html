@@ -30,8 +30,12 @@
             let user = localStorage.getItem("loggedInUser");
             let headerContainer = document.getElementById("header-container");
 
-            // Only show the welcome message if the user is logged in
-            if (user) {
+            // Check if the user is logged in
+            if (!user) {
+                // If no user is logged in, redirect to login page
+                window.location.href = "login.html";  // Redirect to login page
+            } else {
+                // Show the welcome message if logged in
                 let welcomeMessage = `<span class="welcome-message">Welcome, ${user}!</span>`;
                 headerContainer.innerHTML += welcomeMessage;
                 document.querySelector(".welcome-message").style.display = "inline";  // Show welcome message
