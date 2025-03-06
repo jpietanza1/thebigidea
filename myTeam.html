@@ -9,26 +9,35 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; text-align: center; }
         .container { margin-top: 50px; padding: 20px; }
+        .welcome-message {
+            display: none;  /* Initially hidden */
+            font-weight: bold;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
 
-     <div id="header-container"></div>
+    <div id="header-container"></div>
 
     <div class="container">
         <h1>Our Services</h1>
         <p>Discover what we offer.</p>
     </div>
 
-</body>
-  
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        let user = localStorage.getItem("loggedInUser");
-        if (user) {
-            document.getElementById("header-container").innerHTML += `<span>Welcome, ${user}!</span>`;
-        }
-    });
-</script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let user = localStorage.getItem("loggedInUser");
+            let headerContainer = document.getElementById("header-container");
 
+            // Only show the welcome message if the user is logged in
+            if (user) {
+                let welcomeMessage = `<span class="welcome-message">Welcome, ${user}!</span>`;
+                headerContainer.innerHTML += welcomeMessage;
+                document.querySelector(".welcome-message").style.display = "inline";  // Show welcome message
+            }
+        });
+    </script>
+
+</body>
 </html>
