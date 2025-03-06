@@ -73,6 +73,16 @@
             <button type="submit" class="login-btn">Login</button>
         </form>
         <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+        <script>
+            document.getElementById("loginForm").addEventListener("submit", function(event) {
+                event.preventDefault();
+                
+                let username = document.getElementById("username").value;
+                localStorage.setItem("loggedInUser", username);  // Save username in local storage
+        
+                window.location.href = "dashboard.html";  // Redirect to another page
+            });
+        </script>
     </div>
 <br><br>
 </body>
