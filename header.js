@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let user = localStorage.getItem("loggedInUser");
             if (user) {
                 document.getElementById("loginLink").style.display = "none";  // Hide login
-                document.getElementById("signupLink").style.display = "none"; // Hide signup
+                // document.getElementById("signupLink").style.display = "none"; // Hide signup, remove button
                 document.getElementById("logoutBtn").style.display = "inline"; // Show logout button
                 document.getElementById("myTeamLink").style.display = "inline"; // Show My Team link
 
