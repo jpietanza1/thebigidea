@@ -7,29 +7,80 @@
     <script src="header.js" defer></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; text-align: center; }
-        .container { margin-top: 50px; padding: 20px; }
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
+        .container { margin-top: 50px; padding: 20px; width: 60%; background: white; margin: 50px auto; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+        .tab-container { margin-bottom: 20px; }
+        .tab { display: inline-block; padding: 10px 20px; cursor: pointer; background-color: #ddd; margin: 5px; border-radius: 5px; }
+        .tab.active { background-color: #333; color: white; }
+        .content { display: none; }
+        .content.active { display: block; }
     </style>
 </head>
 <body>
 
-     <div id="header-container"></div>
+    <div id="header-container"></div>
 
     <div class="container">
-        <h1>Baseball</h1>
-        <p>Add basebll stats</p>
-        <br>
-        <h1>Football</h1>
-        <p>Add football stats</p>
-        <br>
-        <h1>Hockey</h1>
-        <p>Add hockey stats</p>
-        <br>
-        <h1>Soccer</h1>
-        <p>Add soccer stats</p>
-        <br>
+        <h1>Sports Stats</h1>
+
+        <div class="tab-container">
+            <span class="tab active" data-tab="baseball">Baseball</span>
+            <span class="tab" data-tab="football">Football</span>
+            <span class="tab" data-tab="basketball">Basketball</span>
+            <span class="tab" data-tab="soccer">Soccer</span>
+            <span class="tab" data-tab="tennis">Tennis</span>
+            <span class="tab" data-tab="golf">Golf</span>
+        </div>
+
+        <div id="baseball" class="content active">
+            <h2>Baseball</h2>
+            <p>Add baseball stats</p>
+        </div>
+        
+        <div id="football" class="content">
+            <h2>Football</h2>
+            <p>Add football stats</p>
+        </div>
+
+        <div id="basketball" class="content">
+            <h2>Basketball</h2>
+            <p>Add basketball stats</p>
+        </div>
+
+        <div id="soccer" class="content">
+            <h2>Soccer</h2>
+            <p>Add soccer stats</p>
+        </div>
+
+        <div id="tennis" class="content">
+            <h2>Tennis</h2>
+            <p>Add tennis stats</p>
+        </div>
+
+        <div id="golf" class="content">
+            <h2>Golf</h2>
+            <p>Add golf stats</p>
+        </div>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let tabs = document.querySelectorAll(".tab");
+            let contents = document.querySelectorAll(".content");
+
+            tabs.forEach(tab => {
+                tab.addEventListener("click", function() {
+                    let target = this.getAttribute("data-tab");
+
+                    tabs.forEach(t => t.classList.remove("active"));
+                    contents.forEach(c => c.classList.remove("active"));
+
+                    this.classList.add("active");
+                    document.getElementById(target).classList.add("active");
+                });
+            });
+        });
+    </script>
 
 </body>
 </html>
-
