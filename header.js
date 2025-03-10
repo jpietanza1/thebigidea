@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // document.getElementById("signupLink").style.display = "none"; // Hide signup, remove button
                 document.getElementById("logoutBtn").style.display = "inline"; // Show logout button
                 document.getElementById("myTeamLink").style.display = "inline"; // Show My Team link
+                document.getElementById("post").style.display = "inline"; // Show Post link
 
                 // Display a welcome message
                 let navbar = document.querySelector(".navbar");
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 navbar.appendChild(welcomeMessage);
             } else {
                 document.getElementById("myTeamLink").style.display = "none"; // Hide My Team if not logged in
+                document.getElementById("post").style.display = "none";
             }
 
             // Logout functionality
