@@ -1,29 +1,22 @@
-import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+import time
 
 def scrape_mlb_stats():
     url = "https://www.baseball-reference.com/leagues/MLB.shtml"
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
-    }
 
-    response = requests.get(url, headers=headers)
-    
-    if response.status_code != 200:
-        print(f"Error: Received status code {response.status_code}")
-        return {}
+    options = Options()
+    options.add_argument("--headless")  # Run in background
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
 
-    soup = BeautifulSoup(response.content, 'html.parser')
+    service = Service("/usr/bin/chromedriver")  # For GitHub Actions
+    driver = webdriver.Chrome(service=service, options=options)
 
-    # Find the correct table
-    stat_table = soup.find('table', {'id': 'league_batting'})  # ID is more reliable than class
-
-    if not stat_table:
-        print("Could not find the stats table. The website structure may have changed.")
-        return {}
-
-    rows = stat_table.find_all('tr')
+    driver.get(url)
+    time.sleep(3)
 
     stats = {
         "Batting Average": [],
@@ -33,26 +26,54 @@ def scrape_mlb_stats():
         "Stolen Bases": [],
     }
 
-    for row in rows[1:]:
-        cells = row.find_all('td')
-        if len(cells) < 8:  # Adjusted to avoid IndexError
-            continue
-        
-        player_name = cells[0].get_text(strip=True) if len(cells) > 0 else "N/A"
-        batting_avg = cells[3].get_text(strip=True) if len(cells) > 3 else "N/A"
-        on_base_percentage = cells[4].get_text(strip=True) if len(cells) > 4 else "N/A"
-        slugging = cells[5].get_text(strip=True) if len(cells) > 5 else "N/A"
-        home_runs = cells[8].get_text(strip=True) if len(cells) > 8 else "N/A"
-        stolen_bases = cells[11].get_text(strip=True) if len(cells) > 11 else "N/A"
+    try:
+        table = driver.find_element(By.ID, "league_batting")
+        rows = table.find_elements(By.TAG_NAME, "tr")
 
-        stats["Batting Average"].append({"name": player_name, "value": batting_avg})
-        stats["On Base Percentage"].append({"name": player_name, "value": on_base_percentage})
-        stats["Slugging"].append({"name": player_name, "value": slugging})
-        stats["Home Runs"].append({"name": player_name, "value": home_runs})
-        stats["Stolen Bases"].append({"name": player_name, "value": stolen_bases})
+        for row in rows[1:]:
+            cells = row.find_elements(By.TAG_NAME, "td")
+            if len(cells) < 12:
+                continue
+            
+            player_name = cells[0].text
+            batting_avg = cells[3].text
+            obp = cells[4].text
+            slugging = cells[5].text
+            home_runs = cells[8].text
+            stolen_bases = cells[11].text
 
+            stats["Batting Average"].append(f"<tr><td>{player_name}</td><td>{batting_avg}</td></tr>")
+            stats["On Base Percentage"].append(f"<tr><td>{player_name}</td><td>{obp}</td></tr>")
+            stats["Slugging"].append(f"<tr><td>{player_name}</td><td>{slugging}</td></tr>")
+            stats["Home Runs"].append(f"<tr><td>{player_name}</td><td>{home_runs}</td></tr>")
+            stats["Stolen Bases"].append(f"<tr><td>{player_name}</td><td>{stolen_bases}</td></tr>")
+
+    except Exception as e:
+        print("Error:", e)
+
+    driver.quit()
     return stats
+
+def update_html(stats):
+    with open("sports.html", "r", encoding="utf-8") as file:
+        html = file.read()
+
+    new_html = html
+
+    for category, rows in stats.items():
+        table_html = f"""
+        <h3>{category}</h3>
+        <table border="1">
+            <tr><th>Player</th><th>Value</th></tr>
+            {''.join(rows)}
+        </table>
+        """
+        new_html = new_html.replace(f"<!-- {category} -->", table_html)
+
+    with open("sports.html", "w", encoding="utf-8") as file:
+        file.write(new_html)
 
 if __name__ == "__main__":
     stats = scrape_mlb_stats()
-    print(stats)
+    update_html(stats)
+    print("sports.html updated with new MLB stats!")
