@@ -2,43 +2,13 @@
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="sports.html">Sports</a>
-    <a href="post.html" id="postLink">Post</a>
+    <a href="post.html" id="postLink" style="display: none;">Post</a>
     <a href="catalog.html">Catalog</a>
     <a href="login.html" id="loginLink">Login</a> <!-- Added id for login link -->
    <!-- <a href="signup.html" id="signupLink">Sign Up</a> --!> <!-- Added id for signup link, remove button -->
-    <a href="myTeam.html" id="myTeamLink">My Team</a>  <!-- id for My Team link -->
+    <a href="myTeam.html" id="myTeamLink" style="display: none;">My Team</a>  <!-- id for My Team link -->
     <a href="#" id="logoutBtn" style="display: none;">Logout</a>  <!-- Logout button (hidden by default) -->
 </div>
-
-<script>
-    // Ensure this script runs after the header is loaded
-    document.addEventListener("DOMContentLoaded", function() {
-        // Check if user is logged in
-        let user = localStorage.getItem("loggedInUser");
-
-        // If logged in, hide login, signup and show logout button
-        if (user) {
-            // Hide the login and signup links
-            document.getElementById("loginLink").style.display = "none";
-           // document.getElementById("signupLink").style.display = "none"; //remove signup
-            
-            // Show the logout button
-            document.getElementById("logoutBtn").style.display = "inline";
-        } else {
-            // If not logged in, hide the logout button
-            document.getElementById("logoutBtn").style.display = "none";
-        }
-
-        // Logout functionality
-        let logoutBtn = document.getElementById("logoutBtn");
-        if (logoutBtn) {
-            logoutBtn.addEventListener("click", function() {
-                localStorage.removeItem("loggedInUser");  // Clear login info
-                window.location.href = "index.html";  // Redirect to homepage
-            });
-        }
-    });
-</script>
 
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
