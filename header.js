@@ -4,32 +4,39 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             document.getElementById("header-container").innerHTML = data;
 
-            // Check if the user is logged in
+            // Ensure elements exist AFTER injecting header.html
+            let loginLink = document.getElementById("loginLink");
+            let logoutBtn = document.getElementById("logoutBtn");
+            let myTeamLink = document.getElementById("myTeamLink");
+            let postLink = document.getElementById("postLink");
+            let navbar = document.querySelector(".navbar");
+
+            // Check if user is logged in
             let user = localStorage.getItem("loggedInUser");
             if (user) {
-                document.getElementById("loginLink").style.display = "none";  // Hide login
-                // document.getElementById("signupLink").style.display = "none"; // Hide signup, remove button
-                document.getElementById("logoutBtn").style.display = "inline"; // Show logout button
-                document.getElementById("myTeamLink").style.display = "inline"; // Show My Team link
-                document.getElementById("postLink").style.display = "inline"; // Show Post link
+                if (loginLink) loginLink.style.display = "none";  // Hide login
+                if (logoutBtn) logoutBtn.style.display = "inline"; // Show logout
+                if (myTeamLink) myTeamLink.style.display = "inline"; // Show My Team
+                if (postLink) postLink.style.display = "inline"; // Show Post
 
-                // Display a welcome message
-                let navbar = document.querySelector(".navbar");
+                // Display welcome message
                 let welcomeMessage = document.createElement("span");
                 welcomeMessage.textContent = `Welcome, ${user}!`;
                 welcomeMessage.style.color = "white";
                 welcomeMessage.style.marginLeft = "10px";
                 navbar.appendChild(welcomeMessage);
             } else {
-                document.getElementById("myTeamLink").style.display = "none"; // Hide My Team if not logged in
-                document.getElementById("post").style.display = "none";
+                if (myTeamLink) myTeamLink.style.display = "none"; // Hide My Team
+                if (postLink) postLink.style.display = "none"; // Hide Post
             }
 
-            // Logout functionality
-            document.getElementById("logoutBtn").addEventListener("click", function() {
-                localStorage.removeItem("loggedInUser");  // Remove user data
-                window.location.href = "index.html";  // Redirect to homepage
-            });
+            // Add event listener AFTER ensuring logoutBtn exists
+            if (logoutBtn) {
+                logoutBtn.addEventListener("click", function() {
+                    localStorage.removeItem("loggedInUser");  // Remove user data
+                    window.location.href = "index.html";  // Redirect to homepage
+                });
+            }
         })
         .catch(error => console.error("Error loading header:", error));
 });
