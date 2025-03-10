@@ -1,86 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports!</title>
-    <script src="header.js" defer></script>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
-        .container { margin-top: 50px; padding: 20px; width: 60%; background: white; margin: 50px auto; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
-        .tab-container { margin-bottom: 20px; }
-        .tab { display: inline-block; padding: 10px 20px; cursor: pointer; background-color: #ddd; margin: 5px; border-radius: 5px; }
-        .tab.active { background-color: #333; color: white; }
-        .content { display: none; }
-        .content.active { display: block; }
-    </style>
-</head>
-<body>
+<div id="baseball" class="content active">
+    <h2>MLB Leaderboards (2024)</h2>
+    <button onclick="fetchAllStats()">Update Stats</button>
 
-    <div id="header-container"></div>
+    <div id="statsContainer">
+        <h3>Batting Average</h3>
+        <table border="1" id="battingAvgTable">
+            <thead><tr><th>Rank</th><th>Player</th><th>AVG</th></tr></thead>
+            <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
+        </table>
 
-    <div class="container">
-        <h1>Sports Stats</h1>
+        <h3>On-Base Percentage (OBP)</h3>
+        <table border="1" id="obpTable">
+            <thead><tr><th>Rank</th><th>Player</th><th>OBP</th></tr></thead>
+            <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
+        </table>
 
-        <div class="tab-container">
-            <span class="tab active" data-tab="baseball">Baseball</span>
-            <span class="tab" data-tab="football">Football</span>
-            <span class="tab" data-tab="basketball">Basketball</span>
-            <span class="tab" data-tab="soccer">Soccer</span>
-            <span class="tab" data-tab="tennis">Tennis</span>
-            <span class="tab" data-tab="golf">Golf</span>
-        </div>
+        <h3>Slugging Percentage (SLG)</h3>
+        <table border="1" id="slgTable">
+            <thead><tr><th>Rank</th><th>Player</th><th>SLG</th></tr></thead>
+            <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
+        </table>
 
-        <div id="baseball" class="content active">
-            <h2>Baseball</h2>
-            <p>Add baseball stats</p>
-        </div>
-        
-        <div id="football" class="content">
-            <h2>Football</h2>
-            <p>Add football stats</p>
-        </div>
+        <h3>Home Runs (HR)</h3>
+        <table border="1" id="hrTable">
+            <thead><tr><th>Rank</th><th>Player</th><th>HR</th></tr></thead>
+            <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
+        </table>
 
-        <div id="basketball" class="content">
-            <h2>Basketball</h2>
-            <p>Add basketball stats</p>
-        </div>
-
-        <div id="soccer" class="content">
-            <h2>Soccer</h2>
-            <p>Add soccer stats</p>
-        </div>
-
-        <div id="tennis" class="content">
-            <h2>Tennis</h2>
-            <p>Add tennis stats</p>
-        </div>
-
-        <div id="golf" class="content">
-            <h2>Golf</h2>
-            <p>Add golf stats</p>
-        </div>
+        <h3>Stolen Bases (SB)</h3>
+        <table border="1" id="sbTable">
+            <thead><tr><th>Rank</th><th>Player</th><th>SB</th></tr></thead>
+            <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
+        </table>
     </div>
+</div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let tabs = document.querySelectorAll(".tab");
-            let contents = document.querySelectorAll(".content");
+<script>
+    const statsList = {
+        "Batting Average": "battingAvgTable",
+        "On-Base Percentage": "obpTable",
+        "Slugging Percentage": "slgTable",
+        "Home Runs": "hrTable",
+        "Stolen Bases": "sbTable"
+    };
 
-            tabs.forEach(tab => {
-                tab.addEventListener("click", function() {
-                    let target = this.getAttribute("data-tab");
+    function fetchAllStats() {
+        Object.entries(statsList).forEach(([stat, tableId]) => {
+            fetch(`http://127.0.0.1:5000/api/mlb-stats?stat=${encodeURIComponent(stat)}`)
+                .then(response => response.json())
+                .then(data => {
+                    let tableBody = document.querySelector(`#${tableId} tbody`);
+                    tableBody.innerHTML = "";
 
-                    tabs.forEach(t => t.classList.remove("active"));
-                    contents.forEach(c => c.classList.remove("active"));
+                    if (data.length === 0 || data[0].error) {
+                        tableBody.innerHTML = `<tr><td colspan="3">Error fetching stats.</td></tr>`;
+                        return;
+                    }
 
-                    this.classList.add("active");
-                    document.getElementById(target).classList.add("active");
+                    data.forEach((player, index) => {
+                        let row = `<tr>
+                            <td>${index + 1}</td>
+                            <td>${player.player}</td>
+                            <td>${player.stat}</td>
+                        </tr>`;
+                        tableBody.innerHTML += row;
+                    });
+                })
+                .catch(error => {
+                    console.error("Error fetching data:", error);
+                    document.querySelector(`#${tableId} tbody`).innerHTML = "<tr><td colspan='3'>Failed to load stats.</td></tr>";
                 });
-            });
         });
-    </script>
+    }
 
-</body>
-</html>
+    document.addEventListener("DOMContentLoaded", fetchAllStats);
+</script>
