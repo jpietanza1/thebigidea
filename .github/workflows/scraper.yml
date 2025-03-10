@@ -2,7 +2,7 @@ name: Scrape MLB Stats
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Runs every day at 12 PM UTC
+    - cron: '0 12 * * *'  # Runs daily at 12 PM UTC
   workflow_dispatch:  # Allows manual runs
 
 jobs:
@@ -26,9 +26,12 @@ jobs:
         run: python scraper.py
 
       - name: Commit & Push Changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/jpietanza1/thebigidea.git
           git add sports.html
           git commit -m "Updated MLB stats"
-          git push
+          git push origin main
