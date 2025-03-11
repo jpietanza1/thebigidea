@@ -18,7 +18,7 @@
     /* CSS Grid to display two tables side by side and then fill in with another pair of tables */
     .tables-container {
         display: grid;
-        grid-template-columns: auto; /* 2 columns */
+        grid-template-columns: 1fr 1fr; /* Two columns */
         gap: 20px; /* Space between tables */
         margin-top: 20px;
     }
@@ -26,6 +26,8 @@
     /* Style for each table's wrapper */
     .table-wrapper {
         text-align: left;
+        display: flex;
+        flex-direction: column; /* Stack the title and table vertically */
     }
 
     /* Title style */
@@ -51,7 +53,7 @@
         background-color: #333; 
         color: white; 
     }
-</style>
+    </style>
 </head>
 <body>
     <div id="header-container"></div>
@@ -109,7 +111,7 @@
                     statsContainer.innerHTML = ""; // Clear existing content
                     
                     for (let category in data) {
-                        let tableHTML = `<h3>${category}</h3>`;
+                        let tableHTML = `<div class="table-wrapper"><h3>${category}</h3>`;
                         tableHTML += `<table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
                         
                         let previousRank = null;
@@ -125,7 +127,7 @@
                             rankCounter++; // Increment rank for the next player
                         });
 
-                        tableHTML += `</table>`;
+                        tableHTML += `</table></div>`;
                         statsContainer.innerHTML += tableHTML;
                     }
                 })
