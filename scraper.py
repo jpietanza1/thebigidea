@@ -1,14 +1,26 @@
 import time
 import json
+import tempfile
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 
-# Initialize WebDriver
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+# Create a temporary directory for user data to avoid conflicts
+user_data_dir = tempfile.mkdtemp()
+
+# Set up Chrome options to use the temporary user data directory
+chrome_options = Options()
+chrome_options.add_argument(f"--user-data-dir={user_data_dir}")  # Ensure a unique user data dir
+chrome_options.add_argument("--headless")  # Run in headless mode (no UI)
+chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration (necessary in headless mode)
+chrome_options.add_argument("--no-sandbox")  # Avoid sandboxing issues in some environments
+
+# Initialize WebDriver with the specified options
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
 # Open the MLB Leaders page directly
 leaders_url = "https://www.baseball-reference.com/leagues/MLB-leaders.shtml"
