@@ -1,38 +1,37 @@
-name: Scrape MLB Stats
+name: Update MLB Stats
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Runs daily at 12 PM UTC
-  workflow_dispatch:  # Allows manual runs
+    - cron: "0 12 * * *"  # Runs every day at 12 PM UTC
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
-  scrape:
+  scrape-and-update:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
-      - name: Setup Python
-        uses: actions/setup-python@v3
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          sudo apt-get install -y chromium-chromedriver
+          pip install webdriver-manager selenium
 
       - name: Run Scraper
         run: python scraper.py
 
-      - name: Commit & Push Changes
+      - name: Commit and Push Updated JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add mlb_leader_stats_table.json
+          git commit -m "Automated update: MLB stats JSON"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add sports.html
-          git commit -m "Updated MLB stats" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
