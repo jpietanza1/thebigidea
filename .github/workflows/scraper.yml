@@ -1,4 +1,4 @@
-name: Update MLB Stats
+name: Update MLB and NFL Stats
 
 on:
   schedule:
@@ -26,15 +26,18 @@ jobs:
           pip install -r requirements.txt
           pip install webdriver-manager selenium
 
-      - name: Run Scraper
+      - name: Run MLB Scraper
         run: python scraper.py
+
+      - name: Run NFL Scraper
+        run: python scraper_nfl.py
 
       - name: Commit and Push Updated JSON
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add mlb_leader_stats_table.json
-          git commit -m "Automated update: MLB stats JSON"
+          git add mlb_leader_stats_table.json nfl_leader_stats_table.json  # Add both JSON files
+          git commit -m "Automated update: MLB and NFL stats JSON"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
