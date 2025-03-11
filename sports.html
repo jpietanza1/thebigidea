@@ -14,18 +14,16 @@
         .tab.active { background-color: #333; color: white; }
         .content { display: none; }
         .content.active { display: block; }
-
-        .tables-container {
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-        }
-
-        .table-container {
-            width: 48%;
-            border-collapse: collapse;
-        }
-
+ /* CSS Grid to display two tables side by side and then fill in with another pair of tables */
+    .tables-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+        gap: 20px; /* Space between the tables */
+        margin-top: 20px;
+    }
+    .table-container {
+        border-collapse: collapse;
+    }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { border: 1px solid black; padding: 10px; text-align: center; }
         th { background-color: #333; color: white; }
