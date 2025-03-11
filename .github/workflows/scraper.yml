@@ -9,6 +9,9 @@ jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Allow write access to contents (required to push changes)
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
