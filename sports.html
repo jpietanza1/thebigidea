@@ -14,6 +14,18 @@
         .tab.active { background-color: #333; color: white; }
         .content { display: none; }
         .content.active { display: block; }
+
+        .tables-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .table-container {
+            width: 48%;
+            border-collapse: collapse;
+        }
+
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { border: 1px solid black; padding: 10px; text-align: center; }
         th { background-color: #333; color: white; }
@@ -33,7 +45,9 @@
         
         <div id="baseball" class="content active">
             <h2>Baseball Stats</h2>
-            <div id="baseball-stats"></div>
+            <div id="baseball-stats" class="tables-container">
+                <!-- Tables will be injected here by JavaScript -->
+            </div>
         </div>
         
         <div id="football" class="content">
@@ -75,9 +89,20 @@
                     for (let category in data) {
                         let tableHTML = `<h3>${category}</h3>`;
                         tableHTML += `<table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
-                        data[category].forEach(row => {
-                            tableHTML += `<tr><td>${row.Rank}</td><td>${row.Player}</td><td>${row[category]}</td></tr>`;
+                        
+                        let previousRank = null;
+                        let rankCounter = 1; // Track rank number
+                        
+                        data[category].forEach((row, index) => {
+                            if (index > 0 && row[category] === data[category][index - 1][category]) {
+                                // If current value is the same as the previous one, maintain the same rank
+                                rankCounter--;
+                            }
+                            
+                            tableHTML += `<tr><td>${rankCounter}</td><td>${row.Player}</td><td>${row[category]}</td></tr>`;
+                            rankCounter++; // Increment rank for the next player
                         });
+
                         tableHTML += `</table>`;
                         statsContainer.innerHTML += tableHTML;
                     }
@@ -85,36 +110,5 @@
                 .catch(error => console.error("Error loading baseball stats:", error));
         });
     </script>
-    
-    <script>
-    async function loadBaseballStats() {
-        try {
-            const response = await fetch('mlb_leader_stats_table.json');
-            const stats = await response.json();
-            const container = document.getElementById("baseball-stats");
-            container.innerHTML = ""; // Clear previous content
-
-            Object.keys(stats).forEach(category => {
-                let tableHTML = `<h3>${category}</h3><table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
-                
-                stats[category].forEach(entry => {
-                    tableHTML += `<tr>
-                        <td>${entry.Rank}</td>
-                        <td>${entry.Player}</td>
-                        <td>${entry[category]}</td>
-                    </tr>`;
-                });
-
-                tableHTML += "</table>";
-                container.innerHTML += tableHTML;
-            });
-        } catch (error) {
-            console.error("Error loading stats:", error);
-        }
-    }
-
-    document.addEventListener("DOMContentLoaded", loadBaseballStats);
-</script>
-    
 </body>
 </html>
