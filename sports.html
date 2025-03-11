@@ -85,5 +85,36 @@
                 .catch(error => console.error("Error loading baseball stats:", error));
         });
     </script>
+    
+    <script>
+    async function loadBaseballStats() {
+        try {
+            const response = await fetch('mlb_leader_stats_table.json');
+            const stats = await response.json();
+            const container = document.getElementById("baseball-stats");
+            container.innerHTML = ""; // Clear previous content
+
+            Object.keys(stats).forEach(category => {
+                let tableHTML = `<h3>${category}</h3><table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
+                
+                stats[category].forEach(entry => {
+                    tableHTML += `<tr>
+                        <td>${entry.Rank}</td>
+                        <td>${entry.Player}</td>
+                        <td>${entry[category]}</td>
+                    </tr>`;
+                });
+
+                tableHTML += "</table>";
+                container.innerHTML += tableHTML;
+            });
+        } catch (error) {
+            console.error("Error loading stats:", error);
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", loadBaseballStats);
+</script>
+    
 </body>
 </html>
