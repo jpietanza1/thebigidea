@@ -6,38 +6,39 @@
     <title>Sports Stats</title>
     <script src="header.js" defer></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
-        .container { margin-top: 50px; padding: 20px; width: 80%; background: white; margin: 50px auto; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
-        .tab-container { margin-bottom: 20px; }
-        .tab { display: inline-block; padding: 10px 20px; cursor: pointer; background-color: #ddd; margin: 5px; border-radius: 5px; }
-        .tab.active { background-color: #333; color: white; }
-        .content { display: none; }
-        .content.active { display: block; }
- /* CSS Grid to display two tables side by side and then fill in with another pair of tables */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
+    .container { margin-top: 50px; padding: 20px; width: 80%; background: white; margin: 50px auto; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+    .tab-container { margin-bottom: 20px; }
+    .tab { display: inline-block; padding: 10px 20px; cursor: pointer; background-color: #ddd; margin: 5px; border-radius: 5px; }
+    .tab.active { background-color: #333; color: white; }
+    .content { display: none; }
+    .content.active { display: block; }
+
+    /* CSS Grid to display two tables side by side and then fill in with another pair of tables */
     .tables-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
         gap: 20px; /* Space between the tables */
         margin-top: 20px;
     }
-    .table-container {
-        border-collapse: collapse;
-    }
+
+    /* Style for each table's wrapper */
     .table-wrapper {
         text-align: left;
     }
-    .table-container {
-        border-collapse: collapse;
-    }
+
+    /* Table style */
     table { width: 100%; border-collapse: collapse; margin-top: 10px; }
     th, td { border: 1px solid black; padding: 10px; text-align: center; }
     th { background-color: #333; color: white; }
+
+    /* Title style */
     h3 {
         margin-bottom: 10px;
         font-size: 1.2em;
     }
-    </style>
+</style>
 </head>
 <body>
     <div id="header-container"></div>
