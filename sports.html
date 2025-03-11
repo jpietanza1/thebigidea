@@ -20,7 +20,6 @@
     </style>
 </head>
 <body>
-
     <div id="header-container"></div>
 
     <div class="container">
@@ -34,13 +33,7 @@
         
         <div id="baseball" class="content active">
             <h2>Baseball Stats</h2>
-            <div id="baseball-stats">
-             <!-- Batting Average -->
-             <!-- On Base Percentage -->
-             <!-- Slugging -->
-             <!-- Home Runs -->
-             <!-- Stolen Bases -->
-             </div>
+            <div id="baseball-stats"></div>
         </div>
         
         <div id="football" class="content">
@@ -71,6 +64,25 @@
                     document.getElementById(target).classList.add("active");
                 });
             });
+
+            // Fetch baseball stats from JSON
+            fetch('mlb_leader_stats_table.json')
+                .then(response => response.json())
+                .then(data => {
+                    let statsContainer = document.getElementById("baseball-stats");
+                    statsContainer.innerHTML = ""; // Clear existing content
+                    
+                    for (let category in data) {
+                        let tableHTML = `<h3>${category}</h3>`;
+                        tableHTML += `<table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
+                        data[category].forEach(row => {
+                            tableHTML += `<tr><td>${row.Rank}</td><td>${row.Player}</td><td>${row[category]}</td></tr>`;
+                        });
+                        tableHTML += `</table>`;
+                        statsContainer.innerHTML += tableHTML;
+                    }
+                })
+                .catch(error => console.error("Error loading baseball stats:", error));
         });
     </script>
 </body>
