@@ -27,17 +27,20 @@ jobs:
           pip install webdriver-manager selenium
 
       - name: Run MLB Scraper
-        run: python scraper.py
+        run: python scraper_nba.py
 
       - name: Run NFL Scraper
         run: python scraper_nfl.py
+
+      - name: Run NBA Scraper
+        run: python scraper_nba.py
 
       - name: Commit and Push Updated JSON
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add mlb_leader_stats_table.json nfl_leader_stats_table.json  # Add both JSON files
-          git commit -m "Automated update: MLB and NFL stats JSON"
+          git add mlb_leader_stats_table.json nfl_leader_stats_table.json nba_leader_stats_table.json # Add JSON files
+          git commit -m "Automated update: MLB, NBA, NFL stats JSON"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
