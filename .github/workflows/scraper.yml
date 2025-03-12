@@ -27,7 +27,7 @@ jobs:
           pip install webdriver-manager selenium
 
       - name: Run MLB Scraper
-        run: python scraper_nba.py
+        run: python scraper_mlb.py
 
       - name: Run NFL Scraper
         run: python scraper_nfl.py
