@@ -78,12 +78,14 @@
 
     <script>
         document.getElementById("postForm").addEventListener("submit", function(event) {
-            event.preventDefault();
+            event.preventDefault();  // Prevent the default form submission
 
+            // Get values from the form
             let title = document.getElementById("postTitle").value.trim();
             let link = document.getElementById("postLink").value.trim();
             let description = document.getElementById("postDescription").value.trim();
 
+            // Check that title and description are filled out
             if (title && description) {
                 let newPost = {
                     title: title,
@@ -92,13 +94,22 @@
                     timestamp: new Date().toISOString()
                 };
 
+                // Retrieve existing posts from localStorage or initialize an empty array
                 let storedPosts = JSON.parse(localStorage.getItem("posts")) || [];
+                
+                // Add the new post to the array
                 storedPosts.push(newPost);
+                
+                // Store the updated posts array in localStorage
                 localStorage.setItem("posts", JSON.stringify(storedPosts));
 
+                // Provide feedback to the user
                 alert("Your post has been submitted successfully!");
-                window.location.href = "catalog.html"; // Redirect to catalog page
+
+                // Redirect to catalog page where posts are displayed
+                window.location.href = "catalog.html"; 
             } else {
+                // If the title or description is missing, show an alert
                 alert("Please fill out all required fields.");
             }
         });
