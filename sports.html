@@ -15,11 +15,11 @@
     .content { display: none; }
     .content.active { display: block; }
 
-    /* CSS Grid to display two tables side by side and then fill in with another pair of tables */
+    /* CSS Grid to display two tables side by side */
     .tables-container {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two columns */
-        gap: 20px; /* Space between tables */
+        gap: 20px;
         margin-top: 20px;
     }
 
@@ -69,15 +69,14 @@
         
         <div id="baseball" class="content active">
             <h2>Baseball Stats</h2>
-            <div id="baseball-stats" class="tables-container">
-                <!-- Tables will be injected here by JavaScript -->
-            </div>
+            <div id="baseball-stats" class="tables-container"></div>
         </div>
         
         <div id="football" class="content">
-            <h2>Football</h2>
-            <div id="football-stats" class="tables-container">
+            <h2>Football Stats</h2>
+            <div id="football-stats" class="tables-container"></div>
         </div>
+
         <div id="basketball" class="content">
             <h2>Basketball</h2>
             <p>Coming soon...</p>
@@ -103,65 +102,39 @@
                 });
             });
 
-            // Fetch baseball stats from JSON
-            fetch('mlb_leader_stats_table.json')
-                .then(response => response.json())
-                .then(data => {
-                    let statsContainer = document.getElementById("baseball-stats");
-                    statsContainer.innerHTML = ""; // Clear existing content
-                    
-                    for (let category in data) {
-                        let tableHTML = `<div class="table-wrapper"><h3>${category}</h3>`;
-                        tableHTML += `<table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
+            function loadStats(jsonFile, containerId) {
+                fetch(jsonFile)
+                    .then(response => response.json())
+                    .then(data => {
+                        let statsContainer = document.getElementById(containerId);
+                        statsContainer.innerHTML = ""; // Clear existing content
                         
-                        let previousRank = null;
-                        let rankCounter = 1; // Track rank number
-                        
-                        data[category].forEach((row, index) => {
-                            if (index > 0 && row[category] === data[category][index - 1][category]) {
-                                // If current value is the same as the previous one, maintain the same rank
-                                rankCounter--;
-                            }
+                        for (let category in data) {
+                            let tableHTML = `<div class="table-wrapper"><h3>${category}</h3>`;
+                            tableHTML += `<table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
                             
-                            tableHTML += `<tr><td>${rankCounter}</td><td>${row.Player}</td><td>${row[category]}</td></tr>`;
-                            rankCounter++; // Increment rank for the next player
-                        });
-
-                        tableHTML += `</table></div>`;
-                        statsContainer.innerHTML += tableHTML;
-                    }
-                })
-                .catch(error => console.error("Error loading baseball stats:", error));
-        });
-         // Fetch football stats from JSON
-            fetch('nfl_leader_stats_table.json')
-                .then(response => response.json())
-                .then(data => {
-                    let statsContainer = document.getElementById("football-stats");
-                    statsContainer.innerHTML = ""; // Clear existing content
-                    
-                    for (let category in data) {
-                        let tableHTML = `<div class="table-wrapper"><h3>${category}</h3>`;
-                        tableHTML += `<table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
-                        
-                        let previousRank = null;
-                        let rankCounter = 1; // Track rank number
-                        
-                        data[category].forEach((row, index) => {
-                            if (index > 0 && row[category] === data[category][index - 1][category]) {
-                                // If current value is the same as the previous one, maintain the same rank
-                                rankCounter--;
-                            }
+                            let previousRank = null;
+                            let rankCounter = 1;
                             
-                            tableHTML += `<tr><td>${rankCounter}</td><td>${row.Player}</td><td>${row[category]}</td></tr>`;
-                            rankCounter++; // Increment rank for the next player
-                        });
+                            data[category].forEach((row, index) => {
+                                if (index > 0 && row[category] === data[category][index - 1][category]) {
+                                    rankCounter--;
+                                }
+                                
+                                tableHTML += `<tr><td>${rankCounter}</td><td>${row.Player}</td><td>${row[category]}</td></tr>`;
+                                rankCounter++;
+                            });
 
-                        tableHTML += `</table></div>`;
-                        statsContainer.innerHTML += tableHTML;
-                    }
-                })
-                .catch(error => console.error("Error loading football stats:", error));
+                            tableHTML += `</table></div>`;
+                            statsContainer.innerHTML += tableHTML;
+                        }
+                    })
+                    .catch(error => console.error(`Error loading ${jsonFile}:`, error));
+            }
+
+            // Load stats
+            loadStats('mlb_leader_stats_table.json', 'baseball-stats');
+            loadStats('nfl_leader_stats_table.json', 'football-stats');
         });
     </script>
 </body>
