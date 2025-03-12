@@ -76,7 +76,7 @@
         
         <div id="football" class="content">
             <h2>Football</h2>
-            <p>Coming soon...</p>
+            <div id="football-stats" class="tables-container">
         </div>
         <div id="basketball" class="content">
             <h2>Basketball</h2>
@@ -132,6 +132,36 @@
                     }
                 })
                 .catch(error => console.error("Error loading baseball stats:", error));
+        });
+         // Fetch football stats from JSON
+            fetch('nfl_leader_stats_table.json')
+                .then(response => response.json())
+                .then(data => {
+                    let statsContainer = document.getElementById("football-stats");
+                    statsContainer.innerHTML = ""; // Clear existing content
+                    
+                    for (let category in data) {
+                        let tableHTML = `<div class="table-wrapper"><h3>${category}</h3>`;
+                        tableHTML += `<table><tr><th>Rank</th><th>Player</th><th>${category}</th></tr>`;
+                        
+                        let previousRank = null;
+                        let rankCounter = 1; // Track rank number
+                        
+                        data[category].forEach((row, index) => {
+                            if (index > 0 && row[category] === data[category][index - 1][category]) {
+                                // If current value is the same as the previous one, maintain the same rank
+                                rankCounter--;
+                            }
+                            
+                            tableHTML += `<tr><td>${rankCounter}</td><td>${row.Player}</td><td>${row[category]}</td></tr>`;
+                            rankCounter++; // Increment rank for the next player
+                        });
+
+                        tableHTML += `</table></div>`;
+                        statsContainer.innerHTML += tableHTML;
+                    }
+                })
+                .catch(error => console.error("Error loading football stats:", error));
         });
     </script>
 </body>
