@@ -1,4 +1,4 @@
-name: Update MLB and NFL Stats
+name: Update Sports Stats
 
 on:
   schedule:
