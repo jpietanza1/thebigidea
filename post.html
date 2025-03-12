@@ -83,20 +83,12 @@
             let title = document.getElementById("postTitle").value.trim();
             let link = document.getElementById("postLink").value.trim();
             let description = document.getElementById("postDescription").value.trim();
-            let username = localStorage.getItem("loggedInUser") || "Anonymous"; // Auto-fill username
 
             if (title && description) {
-                // Validate URL only if a link is provided
-                if (link && !isValidUrl(link)) {
-                    alert("Please enter a valid URL for the link.");
-                    return;
-                }
-
                 let newPost = {
                     title: title,
-                    link: link, // Can be empty, but only valid URL if present
+                    link: link,
                     description: description,
-                    username: username, // Store username with post
                     timestamp: new Date().toISOString()
                 };
 
@@ -104,27 +96,12 @@
                 storedPosts.push(newPost);
                 localStorage.setItem("posts", JSON.stringify(storedPosts));
 
-                // Reset the form
-                document.getElementById("postForm").reset();
-
                 alert("Your post has been submitted successfully!");
-
-                // Redirect to catalog and ensure the new posts tab is active
-                window.location.href = "catalog.html?tab=newPosts";
+                window.location.href = "catalog.html"; // Redirect to catalog page
             } else {
                 alert("Please fill out all required fields.");
             }
         });
-
-        // Function to validate URL
-        function isValidUrl(url) {
-            try {
-                new URL(url);
-                return true;
-            } catch (e) {
-                return false;
-            }
-        }
     </script>
     
 </body>
