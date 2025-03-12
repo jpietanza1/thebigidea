@@ -80,21 +80,25 @@
         document.addEventListener("DOMContentLoaded", function() {
             const postForm = document.getElementById("postForm");
             const postTitle = document.getElementById("postTitle");
-            const postLink = document.getElementById("postLink"); // Correct reference to the link input
+            const postLink = document.getElementById("postLink");
             const postDescription = document.getElementById("postDescription");
 
             postForm.addEventListener("submit", function(event) {
                 event.preventDefault();  // Prevent the default form submission
 
                 let title = postTitle.value.trim();
-                let link = postLink.value.trim(); // Use postLink instead of linkElement
+                let link = postLink.value.trim();
                 let description = postDescription.value.trim();
 
-                if (title && description) {
+                // Get the logged-in username from localStorage
+                let loggedInUser = localStorage.getItem("loggedInUser");
+
+                if (title && description && loggedInUser) {
                     let newPost = {
                         title: title,
                         link: link,
                         description: description,
+                        username: loggedInUser, // Store the username with the post
                         timestamp: new Date().toISOString()
                     };
 
@@ -105,11 +109,11 @@
                     alert("Your post has been submitted successfully!");
                     window.location.href = "catalog.html"; 
                 } else {
-                    alert("Please fill out all required fields.");
+                    alert("Please fill out all required fields and make sure you're logged in.");
                 }
             });
         });
     </script>
-    
+
 </body>
 </html>
