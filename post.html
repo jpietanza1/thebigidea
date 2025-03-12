@@ -80,10 +80,21 @@
         document.getElementById("postForm").addEventListener("submit", function(event) {
             event.preventDefault();  // Prevent the default form submission
 
+            // Get the form elements
+            let titleElement = document.getElementById("postTitle");
+            let linkElement = document.getElementById("postLink");
+            let descriptionElement = document.getElementById("postDescription");
+
+            // Check if elements are found in the DOM
+            if (!titleElement || !descriptionElement) {
+                console.error("Form elements not found");
+                return;
+            }
+
             // Get values from the form
-            let title = document.getElementById("postTitle").value.trim();
-            let link = document.getElementById("postLink").value.trim();
-            let description = document.getElementById("postDescription").value.trim();
+            let title = titleElement.value.trim();
+            let link = linkElement.value.trim();
+            let description = descriptionElement.value.trim();
 
             // Check that title and description are filled out
             if (title && description) {
