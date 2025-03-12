@@ -139,7 +139,7 @@
                     return;
                 }
 
-                posts.reverse().forEach((post, index) => {
+                [...posts].reverse().forEach((post, index) => {
                     let postElement = document.createElement("div");
                     postElement.classList.add("post");
 
@@ -205,12 +205,11 @@
                 renderPosts(archivedPosts, true);
             });
 
-            // Automatically select the correct tab if redirected from post.html
             const urlParams = new URLSearchParams(window.location.search);
             if (urlParams.get("tab") === "newPosts") {
                 newPostsTab.click();
             } else {
-                renderPosts(storedPosts, false); // Default to new posts
+                renderPosts(storedPosts, false);
             }
         });
     </script>
