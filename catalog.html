@@ -130,7 +130,6 @@
 
             let storedPosts = JSON.parse(localStorage.getItem("posts")) || [];
             let archivedPosts = JSON.parse(localStorage.getItem("archivedPosts")) || [];
-            let loggedInUser = localStorage.getItem("loggedInUser"); 
 
             function renderPosts(posts, isArchived) {
                 postsContainer.innerHTML = "";
@@ -146,29 +145,28 @@
 
                     postElement.innerHTML = `
                         <h2>${post.title}</h2>
+                        <p><strong>Posted by:</strong> ${post.username || "Anonymous"}</p>
                         <p>${post.description}</p>
                         ${post.link ? `<a href="${post.link}" target="_blank">Read more</a>` : ""}
                         <p><small>Posted on ${new Date(post.timestamp).toLocaleString()}</small></p>
                     `;
 
-                    if (loggedInUser) {
-                        if (!isArchived) {
-                            let archiveButton = document.createElement("button");
-                            archiveButton.classList.add("archive-btn");
-                            archiveButton.textContent = "Archive";
-                            archiveButton.onclick = function() {
-                                archivePost(index);
-                            };
-                            postElement.appendChild(archiveButton);
-                        } else {
-                            let deleteButton = document.createElement("button");
-                            deleteButton.classList.add("delete-btn");
-                            deleteButton.textContent = "Delete";
-                            deleteButton.onclick = function() {
-                                deletePost(index);
-                            };
-                            postElement.appendChild(deleteButton);
-                        }
+                    if (!isArchived) {
+                        let archiveButton = document.createElement("button");
+                        archiveButton.classList.add("archive-btn");
+                        archiveButton.textContent = "Archive";
+                        archiveButton.onclick = function() {
+                            archivePost(index);
+                        };
+                        postElement.appendChild(archiveButton);
+                    } else {
+                        let deleteButton = document.createElement("button");
+                        deleteButton.classList.add("delete-btn");
+                        deleteButton.textContent = "Delete";
+                        deleteButton.onclick = function() {
+                            deletePost(index);
+                        };
+                        postElement.appendChild(deleteButton);
                     }
 
                     postsContainer.appendChild(postElement);
