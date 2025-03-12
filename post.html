@@ -86,9 +86,15 @@
             let username = localStorage.getItem("loggedInUser") || "Anonymous"; // Auto-fill username
 
             if (title && description) {
+                // Validate URL only if a link is provided
+                if (link && !isValidUrl(link)) {
+                    alert("Please enter a valid URL for the link.");
+                    return;
+                }
+
                 let newPost = {
                     title: title,
-                    link: link,
+                    link: link, // Can be empty, but only valid URL if present
                     description: description,
                     username: username, // Store username with post
                     timestamp: new Date().toISOString()
@@ -109,6 +115,16 @@
                 alert("Please fill out all required fields.");
             }
         });
+
+        // Function to validate URL
+        function isValidUrl(url) {
+            try {
+                new URL(url);
+                return true;
+            } catch (e) {
+                return false;
+            }
+        }
     </script>
     
 </body>
