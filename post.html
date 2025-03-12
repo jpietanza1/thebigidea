@@ -98,8 +98,13 @@
                 storedPosts.push(newPost);
                 localStorage.setItem("posts", JSON.stringify(storedPosts));
 
+                // Reset the form
+                document.getElementById("postForm").reset();
+
                 alert("Your post has been submitted successfully!");
-                window.location.href = "catalog.html"; // Redirect to catalog page
+
+                // Redirect to catalog and ensure the new posts tab is active
+                window.location.href = "catalog.html?tab=newPosts";
             } else {
                 alert("Please fill out all required fields.");
             }
