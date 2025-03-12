@@ -69,6 +69,7 @@
         <p>Share something interesting with the community.</p>
 
         <form id="postForm">
+            <input type="text" id="username" class="post-input" placeholder="Enter your name" required>
             <input type="text" id="postTitle" class="post-input" placeholder="Enter the title of your post" required>
             <input type="url" id="postLink" class="post-input" placeholder="Enter a website link (optional)">
             <textarea id="postDescription" class="post-input" placeholder="Write a short paragraph about your post" required></textarea>
@@ -80,12 +81,14 @@
         document.getElementById("postForm").addEventListener("submit", function(event) {
             event.preventDefault();
 
+            let username = document.getElementById("username").value.trim();
             let title = document.getElementById("postTitle").value.trim();
             let link = document.getElementById("postLink").value.trim();
             let description = document.getElementById("postDescription").value.trim();
 
-            if (title && description) {
+            if (username && title && description) {
                 let newPost = {
+                    username: username,
                     title: title,
                     link: link,
                     description: description,
