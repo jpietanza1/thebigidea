@@ -6,13 +6,57 @@
     <title>My Team</title>
     <script src="header.js" defer></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; text-align: center; }
-        .container { margin-top: 50px; padding: 20px; }
-        .welcome-message {
-            display: none;  /* Initially hidden */
-            font-weight: bold;
-            margin-top: 10px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            width: 60%;
+            background: white;
+            margin: 50px auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sport-section {
+            margin-bottom: 20px;
+        }
+
+        select {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .team-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .team-list li {
+            background: #ddd;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .remove-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .remove-btn:hover {
+            background: darkred;
         }
     </style>
 </head>
@@ -21,25 +65,131 @@
     <div id="header-container"></div>
 
     <div class="container">
-        <h1>Our Services</h1>
-        <p>Discover what we offer.</p>
+        <h1>My Team</h1>
+
+        <div class="sport-section">
+            <h2>Baseball</h2>
+            <select id="baseballPlayers">
+                <option value="">Select a player</option>
+            </select>
+            <button onclick="addPlayer('baseball')">Add</button>
+            <ul id="baseballTeam" class="team-list"></ul>
+        </div>
+
+        <div class="sport-section">
+            <h2>Football</h2>
+            <select id="footballPlayers">
+                <option value="">Select a player</option>
+            </select>
+            <button onclick="addPlayer('football')">Add</button>
+            <ul id="footballTeam" class="team-list"></ul>
+        </div>
+
+        <div class="sport-section">
+            <h2>Basketball</h2>
+            <select id="basketballPlayers">
+                <option value="">Select a player</option>
+            </select>
+            <button onclick="addPlayer('basketball')">Add</button>
+            <ul id="basketballTeam" class="team-list"></ul>
+        </div>
+
+        <div class="sport-section">
+            <h2>Soccer</h2>
+            <select id="soccerPlayers">
+                <option value="">Select a player</option>
+            </select>
+            <button onclick="addPlayer('soccer')">Add</button>
+            <ul id="soccerTeam" class="team-list"></ul>
+        </div>
     </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let user = localStorage.getItem("loggedInUser");
-            let headerContainer = document.getElementById("header-container");
+        const players = {
+            baseball: ["Babe Ruth", "Jackie Robinson", "Derek Jeter", "Mike Trout", "Barry Bonds"],
+            football: ["Tom Brady", "Jerry Rice", "Peyton Manning", "Emmitt Smith", "Patrick Mahomes"],
+            basketball: ["Michael Jordan", "LeBron James", "Kobe Bryant", "Shaquille O'Neal", "Stephen Curry"],
+            soccer: ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Zinedine Zidane", "Pelé"]
+        };
 
-            // Check if the user is logged in
-            if (!user) {
-                // If no user is logged in, redirect to login page
-                window.location.href = "login.html";  // Redirect to login page
-            } else {
-                // Show the welcome message if logged in
-                let welcomeMessage = `<span class="welcome-message">Welcome, ${user}!</span>`;
-                headerContainer.innerHTML += welcomeMessage;
-                document.querySelector(".welcome-message").style.display = "inline";  // Show welcome message
+        function populateDropdown(sport) {
+            let dropdown = document.getElementById(`${sport}Players`);
+            players[sport].forEach(player => {
+                let option = document.createElement("option");
+                option.value = player;
+                option.textContent = player;
+                dropdown.appendChild(option);
+            });
+        }
+
+        function loadTeams() {
+            ["baseball", "football", "basketball", "soccer"].forEach(sport => {
+                let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
+                team.forEach(player => addPlayerToUI(sport, player, false));
+            });
+        }
+
+        function addPlayer(sport) {
+            let dropdown = document.getElementById(`${sport}Players`);
+            let player = dropdown.value;
+
+            if (!player) {
+                alert("Please select a player.");
+                return;
             }
+
+            let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
+
+            if (team.length >= 5) {
+                alert("You can only select 5 players per sport.");
+                return;
+            }
+
+            if (team.includes(player)) {
+                alert("This player is already in your team.");
+                return;
+            }
+
+            team.push(player);
+            localStorage.setItem(`${sport}Team`, JSON.stringify(team));
+
+            addPlayerToUI(sport, player, true);
+        }
+
+        function addPlayerToUI(sport, player, saveToStorage) {
+            let teamList = document.getElementById(`${sport}Team`);
+            let listItem = document.createElement("li");
+
+            listItem.textContent = player;
+            let removeButton = document.createElement("button");
+            removeButton.textContent = "Remove";
+            removeButton.classList.add("remove-btn");
+            removeButton.onclick = function () {
+                removePlayer(sport, player);
+            };
+
+            listItem.appendChild(removeButton);
+            teamList.appendChild(listItem);
+
+            if (saveToStorage) {
+                let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
+                team.push(player);
+                localStorage.setItem(`${sport}Team`, JSON.stringify(team));
+            }
+        }
+
+        function removePlayer(sport, player) {
+            let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
+            team = team.filter(p => p !== player);
+            localStorage.setItem(`${sport}Team`, JSON.stringify(team));
+
+            document.getElementById(`${sport}Team`).innerHTML = "";
+            team.forEach(player => addPlayerToUI(sport, player, false));
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            ["baseball", "football", "basketball", "soccer"].forEach(populateDropdown);
+            loadTeams();
         });
     </script>
 
