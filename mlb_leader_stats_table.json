@@ -2,7 +2,67 @@
     "Batting Average": [
         {
             "Rank": "1.",
+            "Player": "Abreu \u2022 BOS",
+            "Batting Average": ".833"
+        },
+        {
+            "Rank": "2.",
+            "Player": "Polanco \u2022 SEA",
+            "Batting Average": ".667"
+        },
+        {
+            "Rank": "3.",
+            "Player": "Smith \u2022 ARI",
+            "Batting Average": ".600"
+        },
+        {
+            "Rank": "",
+            "Player": "Manzardo \u2022 CLE",
+            "Batting Average": ".750"
+        },
+        {
+            "Rank": "",
+            "Player": "McMahon \u2022 COL",
+            "Batting Average": "1.000"
+        },
+        {
+            "Rank": "",
+            "Player": "Margot \u2022 DET",
+            "Batting Average": ".600"
+        },
+        {
+            "Rank": "7.",
+            "Player": "Merrill \u2022 SDP",
+            "Batting Average": ".571"
+        },
+        {
+            "Rank": "8.",
+            "Player": "Thomas \u2022 ARI",
+            "Batting Average": ".750"
+        },
+        {
+            "Rank": "",
+            "Player": "Soderstrom \u2022 ATH",
+            "Batting Average": ".500"
+        },
+        {
+            "Rank": "",
+            "Player": "O'Neill \u2022 BAL",
+            "Batting Average": ".500"
+        },
+        {
+            "Rank": "",
             "Player": "Berti \u2022 CHC",
+            "Batting Average": ".500"
+        },
+        {
+            "Rank": "",
+            "Player": "Torkelson \u2022 DET",
+            "Batting Average": ".500"
+        },
+        {
+            "Rank": "",
+            "Player": "Betts \u2022 LAD",
             "Batting Average": ".500"
         },
         {
@@ -11,155 +71,557 @@
             "Batting Average": ".500"
         },
         {
-            "Rank": "3.",
-            "Player": "Ohtani \u2022 LAD",
-            "Batting Average": ".375"
-        },
-        {
-            "Rank": "4.",
-            "Player": "Amaya \u2022 CHC",
-            "Batting Average": ".333"
+            "Rank": "",
+            "Player": "Tat\u00eds \u2022 SDP",
+            "Batting Average": ".500"
         },
         {
             "Rank": "",
-            "Player": "Kelly \u2022 CHC",
-            "Batting Average": ".333"
-        },
-        {
-            "Rank": "",
-            "Player": "Swanson \u2022 CHC",
-            "Batting Average": ".333"
-        },
-        {
-            "Rank": "7.",
-            "Player": "Happ \u2022 CHC",
-            "Batting Average": ".286"
-        },
-        {
-            "Rank": "",
-            "Player": "Conforto \u2022 LAD",
-            "Batting Average": ".286"
-        },
-        {
-            "Rank": "9.",
-            "Player": "Edman \u2022 LAD",
-            "Batting Average": ".200"
-        },
-        {
-            "Rank": "",
-            "Player": "Pages \u2022 LAD",
-            "Batting Average": ".200"
+            "Player": "Wagner \u2022 TOR",
+            "Batting Average": ".500"
         }
     ],
     "On Base Percentage": [
         {
             "Rank": "1.",
-            "Player": "Smith \u2022 LAD",
-            "On Base Percentage": ".778"
+            "Player": "Abreu \u2022 BOS",
+            "On Base Percentage": ".875"
         },
         {
             "Rank": "2.",
+            "Player": "Torkelson \u2022 DET",
+            "On Base Percentage": ".700"
+        },
+        {
+            "Rank": "3.",
+            "Player": "Smith \u2022 LAD",
+            "On Base Percentage": ".692"
+        },
+        {
+            "Rank": "4.",
+            "Player": "Smith \u2022 ARI",
+            "On Base Percentage": ".667"
+        },
+        {
+            "Rank": "",
+            "Player": "Manzardo \u2022 CLE",
+            "On Base Percentage": ".800"
+        },
+        {
+            "Rank": "",
+            "Player": "McMahon \u2022 COL",
+            "On Base Percentage": "1.000"
+        },
+        {
+            "Rank": "",
+            "Player": "Polanco \u2022 SEA",
+            "On Base Percentage": ".667"
+        },
+        {
+            "Rank": "8.",
             "Player": "Berti \u2022 CHC",
             "On Base Percentage": ".571"
         },
         {
-            "Rank": "3.",
-            "Player": "Kelly \u2022 CHC",
-            "On Base Percentage": ".500"
-        },
-        {
             "Rank": "",
-            "Player": "Pages \u2022 LAD",
-            "On Base Percentage": ".500"
-        },
-        {
-            "Rank": "",
-            "Player": "Ohtani \u2022 LAD",
-            "On Base Percentage": ".500"
-        },
-        {
-            "Rank": "",
-            "Player": "Turner \u2022 CHC",
-            "On Base Percentage": ".500"
-        },
-        {
-            "Rank": "7.",
-            "Player": "Happ \u2022 CHC",
-            "On Base Percentage": ".444"
-        },
-        {
-            "Rank": "8.",
-            "Player": "Swanson \u2022 CHC",
-            "On Base Percentage": ".429"
-        },
-        {
-            "Rank": "9.",
-            "Player": "Conforto \u2022 LAD",
-            "On Base Percentage": ".375"
+            "Player": "McKinstry \u2022 DET",
+            "On Base Percentage": ".571"
         },
         {
             "Rank": "10.",
-            "Player": "Muncy \u2022 LAD",
-            "On Base Percentage": ".333"
+            "Player": "Olson \u2022 ATL",
+            "On Base Percentage": ".556"
         },
         {
             "Rank": "",
-            "Player": "Amaya \u2022 CHC",
-            "On Base Percentage": ".333"
+            "Player": "Ozuna \u2022 ATL",
+            "On Base Percentage": ".556"
+        },
+        {
+            "Rank": "",
+            "Player": "O'Neill \u2022 BAL",
+            "On Base Percentage": ".556"
+        },
+        {
+            "Rank": "",
+            "Player": "Rutschman \u2022 BAL",
+            "On Base Percentage": ".556"
+        },
+        {
+            "Rank": "",
+            "Player": "Betts \u2022 LAD",
+            "On Base Percentage": ".556"
+        },
+        {
+            "Rank": "",
+            "Player": "Soto \u2022 NYM",
+            "On Base Percentage": ".556"
         }
     ],
     "Slugging": [
         {
             "Rank": "1.",
-            "Player": "Ohtani \u2022 LAD",
-            "Slugging": ".875"
+            "Player": "Abreu \u2022 BOS",
+            "Slugging": "1.833"
         },
         {
             "Rank": "2.",
-            "Player": "Smith \u2022 LAD",
-            "Slugging": ".750"
+            "Player": "Manzardo \u2022 CLE",
+            "Slugging": "2.250"
         },
         {
             "Rank": "3.",
-            "Player": "Amaya \u2022 CHC",
-            "Slugging": ".667"
+            "Player": "Su\u00e1rez \u2022 ARI",
+            "Slugging": "1.714"
         },
         {
             "Rank": "4.",
-            "Player": "Berti \u2022 CHC",
-            "Slugging": ".500"
+            "Player": "Soderstrom \u2022 ATH",
+            "Slugging": "1.375"
+        },
+        {
+            "Rank": "5.",
+            "Player": "Heim \u2022 TEX",
+            "Slugging": "2.667"
+        },
+        {
+            "Rank": "6.",
+            "Player": "Rutschman \u2022 BAL",
+            "Slugging": "1.286"
+        },
+        {
+            "Rank": "7.",
+            "Player": "Betts \u2022 LAD",
+            "Slugging": "1.250"
+        },
+        {
+            "Rank": "8.",
+            "Player": "Dingler \u2022 DET",
+            "Slugging": "1.400"
         },
         {
             "Rank": "",
-            "Player": "Swanson \u2022 CHC",
-            "Slugging": ".500"
+            "Player": "Torkelson \u2022 DET",
+            "Slugging": "1.167"
+        },
+        {
+            "Rank": "",
+            "Player": "Polanco \u2022 SEA",
+            "Slugging": "1.167"
+        }
+    ],
+    "Home Runs": [
+        {
+            "Rank": "1.",
+            "Player": "Su\u00e1rez \u2022 ARI",
+            "Home Runs": "3"
+        },
+        {
+            "Rank": "2.",
+            "Player": "Ohtani \u2022 LAD",
+            "Home Runs": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Abreu \u2022 BOS",
+            "Home Runs": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Rutschman \u2022 BAL",
+            "Home Runs": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Betts \u2022 LAD",
+            "Home Runs": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Mullins \u2022 BAL",
+            "Home Runs": "2"
         },
         {
             "Rank": "",
             "Player": "Edman \u2022 LAD",
-            "Slugging": ".500"
+            "Home Runs": "2"
         },
         {
             "Rank": "",
-            "Player": "Hern\u00e1ndez \u2022 LAD",
-            "Slugging": ".500"
+            "Player": "Heim \u2022 TEX",
+            "Home Runs": "2"
         },
         {
-            "Rank": "8.",
-            "Player": "Conforto \u2022 LAD",
-            "Slugging": ".429"
-        },
-        {
-            "Rank": "9.",
-            "Player": "Pages \u2022 LAD",
-            "Slugging": ".400"
+            "Rank": "",
+            "Player": "Soderstrom \u2022 ATH",
+            "Home Runs": "2"
         },
         {
             "Rank": "10.",
-            "Player": "Kelly \u2022 CHC",
-            "Slugging": ".333"
+            "Player": "Ruiz \u2022 WSN",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Pasquantino \u2022 KCR",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Benintendi \u2022 CHW",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Muncy \u2022 ATH",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Rooker \u2022 ATH",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Ur\u00edas \u2022 ATH",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Albies \u2022 ATL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Kelenic \u2022 ATL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Riley \u2022 ATL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Holliday \u2022 BAL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "O'Neill \u2022 BAL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Westburg \u2022 BAL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Happ \u2022 CHC",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Lopez \u2022 MIA",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Slater \u2022 CHW",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Sosa \u2022 CHW",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Manzardo \u2022 CLE",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Dingler \u2022 DET",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Torkelson \u2022 DET",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Torres \u2022 DET",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Cronenworth \u2022 SDP",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Cruz \u2022 PIT",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Tat\u00eds \u2022 SDP",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Schwarber \u2022 PHI",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Harper \u2022 PHI",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Wells \u2022 NYY",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Volpe \u2022 NYY",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Soto \u2022 NYM",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Bader \u2022 MIN",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Capra \u2022 MIL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Gonzales \u2022 PIT",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Gim\u00e9nez \u2022 TOR",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Sheets \u2022 SDP",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Freeman \u2022 LAD",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Arozarena \u2022 SEA",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Polanco \u2022 SEA",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Flores \u2022 SFG",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Ramos \u2022 SFG",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Arenado \u2022 STL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Nootbaar \u2022 STL",
+            "Home Runs": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Misner \u2022 TBR",
+            "Home Runs": "1"
         }
     ],
-    "Home Runs": [],
-    "Stolen Bases": []
+    "Stolen Bases": [
+        {
+            "Rank": "1.",
+            "Player": "Hayes \u2022 PIT",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Cruz \u2022 PIT",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Pham \u2022 PIT",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Machado \u2022 SDP",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Tat\u00eds \u2022 SDP",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Beck \u2022 COL",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Berti \u2022 CHC",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Story \u2022 BOS",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "",
+            "Player": "Duran \u2022 BOS",
+            "Stolen Bases": "2"
+        },
+        {
+            "Rank": "10.",
+            "Player": "Keirsey \u2022 MIN",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Busch \u2022 CHC",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Bauers \u2022 MIL",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Myers \u2022 MIA",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Witt \u2022 KCR",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Blanco \u2022 KCR",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Torres \u2022 DET",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Torkelson \u2022 DET",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Tucker \u2022 CHC",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Swanson \u2022 CHC",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Crow-Armstrong \u2022 CHC",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Stott \u2022 PHI",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Kiner-Falefa \u2022 PIT",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Young \u2022 WSN",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Reynolds \u2022 PIT",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Bogaerts \u2022 SDP",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Perdomo \u2022 ARI",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Garc\u00eda \u2022 WSN",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Bliss \u2022 SEA",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Garc\u00eda \u2022 TEX",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Taveras \u2022 TEX",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Crews \u2022 WSN",
+            "Stolen Bases": "1"
+        },
+        {
+            "Rank": "",
+            "Player": "Springer \u2022 TOR",
+            "Stolen Bases": "1"
+        }
+    ]
 }
