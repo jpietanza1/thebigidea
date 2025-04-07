@@ -69,12 +69,22 @@
 
         <div class="sport-section">
             <h2>Baseball</h2>
-            <select id="baseballPlayers">
-                <option value="">Select a player</option>
-            </select>
-            <button onclick="addPlayer('baseball')">Add</button>
+            <div>
+                <label for="positionPlayers">Position Players:</label>
+                <select id="positionPlayers">
+                    <option value="">Select a player</option>
+                </select>
+                <button onclick="addPlayer('baseball', 'batter')">Add</button>
+            </div>
+            <div>
+                <label for="pitchers">Pitchers:</label>
+                <select id="pitchers">
+                    <option value="">Select a player</option>
+                </select>
+                <button onclick="addPlayer('baseball', 'pitcher')">Add</button>
+            </div>
             <ul id="baseballTeam" class="team-list"></ul>
-        </div>        
+        </div>               
 
         <div class="sport-section">
             <h2>Football</h2>
@@ -116,23 +126,23 @@
                 fetch("MLB_pitcher_ERA+.json").then(res => res.json()),
                 fetch("MLB_position_player_Rbat+.json").then(res => res.json())
             ]);
-    
-            const dropdown = document.getElementById("baseballPlayers");
-    
-            const addGroup = (label, list, type) => {
-                const optGroup = document.createElement("optgroup");
-                optGroup.label = label;
-                list.forEach(player => {
-                    const option = document.createElement("option");
-                    option.value = JSON.stringify({ name: player.Player, type }); // save type for validation
-                    option.textContent = `${player.Player} (${label})`;
-                    optGroup.appendChild(option);
-                });
-                dropdown.appendChild(optGroup);
-            };
-    
-            addGroup("Pitchers", pitchers, "pitcher");
-            addGroup("Position Players", batters, "batter");
+
+            const pitcherDropdown = document.getElementById("pitchers");
+            const batterDropdown = document.getElementById("positionPlayers");
+
+            pitchers.forEach(player => {
+                const option = document.createElement("option");
+                option.value = JSON.stringify({ name: player.Player, type: "pitcher" });
+                option.textContent = player.Player;
+                pitcherDropdown.appendChild(option);
+            });
+
+            batters.forEach(player => {
+                const option = document.createElement("option");
+                option.value = JSON.stringify({ name: player.Player, type: "batter" });
+                option.textContent = player.Player;
+                batterDropdown.appendChild(option);
+            });
         }
     
         function populateDropdown(sport) {
@@ -156,57 +166,68 @@
             });
         }
     
-        function addPlayer(sport) {
-            const dropdown = document.getElementById(`${sport}Players`);
-            const selectedValue = dropdown.value;
-    
-            if (!selectedValue) {
-                alert("Please select a player.");
-                return;
-            }
-    
-            let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
-    
+        function addPlayer(sport, type = null) {
+            let dropdown, selectedValue;
+
             if (sport === "baseball") {
-                const { name, type } = JSON.parse(selectedValue);
-    
+                dropdown = document.getElementById(type === "pitcher" ? "pitchers" : "positionPlayers");
+                selectedValue = dropdown.value;
+
+                if (!selectedValue) {
+                    alert("Please select a player.");
+                    return;
+                }
+
+                const { name } = JSON.parse(selectedValue);
+                let team = JSON.parse(localStorage.getItem("baseballTeam")) || [];
+
                 const pitcherCount = team.filter(p => p.type === "pitcher").length;
                 const batterCount = team.filter(p => p.type === "batter").length;
-    
+
                 if (team.find(p => p.name === name)) {
                     alert("This player is already in your team.");
                     return;
                 }
-    
+
                 if (type === "pitcher" && pitcherCount >= 2) {
                     alert("You can only select 2 pitchers.");
                     return;
                 }
-    
+
                 if (type === "batter" && batterCount >= 2) {
                     alert("You can only select 2 position players.");
                     return;
                 }
-    
-                team.push({ name, type });
+
+                const player = { name, type };
+                team.push(player);
                 localStorage.setItem("baseballTeam", JSON.stringify(team));
-                addPlayerToUI("baseball", { name, type }, false);
+                addPlayerToUI("baseball", player, false);
             } else {
-                const player = selectedValue;
-    
+                // Non-baseball (same as before)
+                dropdown = document.getElementById(`${sport}Players`);
+                selectedValue = dropdown.value;
+
+                if (!selectedValue) {
+                    alert("Please select a player.");
+                    return;
+                }
+
+                let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
+
                 if (team.length >= 5) {
                     alert("You can only select 5 players per sport.");
                     return;
                 }
-    
-                if (team.includes(player)) {
+
+                if (team.includes(selectedValue)) {
                     alert("This player is already in your team.");
                     return;
                 }
-    
-                team.push(player);
+
+                team.push(selectedValue);
                 localStorage.setItem(`${sport}Team`, JSON.stringify(team));
-                addPlayerToUI(sport, player, true);
+                addPlayerToUI(sport, selectedValue, true);
             }
         }
     
