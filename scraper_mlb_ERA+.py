@@ -36,10 +36,18 @@ time.sleep(2)
 driver.execute_script("window.scrollBy(0, -200);")
 time.sleep(2)
 
-# Sort by ERA+
+# Sort by Rbat+ using WebDriverWait
 try:
-    driver.find_element(By.CSS_SELECTOR, 'th[aria-label="ERA+"]').click()
-    time.sleep(3)
+    # Wait until the 'ERA+' header is clickable
+    era_header = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, 'th[aria-label="ERA+"]'))
+    )
+    era_header.click()
+    time.sleep(2)  # Wait for sort to apply
+
+    # Optional: Click again if you want to ensure descending order
+    # era_header.click()
+    # time.sleep(2)
 except Exception as e:
     print("Could not click ERA+ header:", e)
 
