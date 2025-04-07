@@ -1,10 +1,8 @@
 import time
-import pandas as pd
+import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Setup Selenium WebDriver
@@ -41,16 +39,19 @@ for tr in table.find_elements(By.XPATH, ".//tbody/tr[not(contains(@class, 'thead
     td = tr.find_elements(By.TAG_NAME, "td")  # Rest of the row
 
     if th and len(td) >= 1:
-        col1 = th[0].text  # First column
-        col2 = td[0].text  # Second column
-        data.append({"Column1": col1, "Column2": col2})
+        col1 = th[0].text.strip()  # First column
+        col2 = td[0].text.strip()  # Second column
+        data.append({"Rank": col1, "Player": col2})
 
 print(f"Total rows scraped: {len(data)}")
 
-# Save to JSON
+# Save to JSON without pandas
 if data:
-    df = pd.DataFrame(data)
-    df.to_json("MLB_position_player_Rbat+.json", orient="records", indent=2)
+    with open("MLB_position_player_Rbat+.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
     print("Data saved to MLB_position_player_Rbat+.json")
 else:
-    print("No data found.") 
+    print("No data found.")
+
+# Close browser
+driver.quit()
