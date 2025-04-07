@@ -123,7 +123,7 @@
     
         async function loadBaseballPlayers() {
             const [pitchers, batters] = await Promise.all([
-                fetch("MLB_pitcher_ERA_plus.json").then(res => res.json()),
+                fetch("MLB_pitcher_ERA+.json").then(res => res.json()),
                 fetch("MLB_position_player_Rbat+.json").then(res => res.json())
             ]);
 
