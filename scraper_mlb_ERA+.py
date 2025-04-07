@@ -1,5 +1,5 @@
 import time
-import pandas as pd
+import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -17,14 +17,14 @@ driver.get(url)
 # Wait for the page to load
 time.sleep(5)
 
-# Scroll and click on 'Rbat+' to sort
+# Scroll and click on 'ERA+' to sort
 table_location = driver.find_element(By.ID, "players_standard_pitching")
 driver.execute_script("arguments[0].scrollIntoView();", table_location)
 time.sleep(2)
 driver.execute_script("window.scrollBy(0, -200);")
 time.sleep(2)
 
-# Sort by Rbat+
+# Sort by ERA+
 try:
     driver.find_element(By.CSS_SELECTOR, 'th[aria-label="ERA+"]').click()
     time.sleep(3)
@@ -37,20 +37,23 @@ table = driver.find_element(By.ID, "players_standard_pitching")
 # Extract only the first two columns from table rows
 data = []
 for tr in table.find_elements(By.XPATH, ".//tbody/tr[not(contains(@class, 'thead'))]"):
-    th = tr.find_elements(By.TAG_NAME, "th")  # First column (usually Rank)
+    th = tr.find_elements(By.TAG_NAME, "th")  # First column (usually Rank or Player)
     td = tr.find_elements(By.TAG_NAME, "td")  # Rest of the row
 
     if th and len(td) >= 1:
-        col1 = th[0].text  # First column
-        col2 = td[0].text  # Second column
+        col1 = th[0].text.strip()  # First column
+        col2 = td[0].text.strip()  # Second column
         data.append({"Column1": col1, "Column2": col2})
 
 print(f"Total rows scraped: {len(data)}")
 
-# Save to JSON
+# Save to JSON without pandas
 if data:
-    df = pd.DataFrame(data)
-    df.to_json("MLB_pitcher_ERA+.json", orient="records", indent=2)
+    with open("MLB_pitcher_ERA+.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
     print("Data saved to MLB_pitcher_ERA+.json")
 else:
     print("No data found.")
+
+# Close browser
+driver.quit()
