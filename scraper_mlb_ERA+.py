@@ -19,6 +19,9 @@ chrome_options.add_argument("--headless")  # Run in headless mode (no UI)
 chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration (necessary in headless mode)
 chrome_options.add_argument("--no-sandbox")  # Avoid sandboxing issues in some environments
 
+# Initialize WebDriver with the specified options
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
 # Navigate to the webpage
 url = "https://www.baseball-reference.com/leagues/majors/2025-standard-pitching.shtml"
 driver.get(url)
