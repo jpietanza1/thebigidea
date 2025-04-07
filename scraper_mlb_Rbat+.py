@@ -63,7 +63,8 @@ for tr in table.find_elements(By.XPATH, ".//tbody/tr[not(contains(@class, 'thead
     if th and len(td) >= 1:
         col1 = th[0].text.strip()  # First column
         col2 = td[0].text.strip()  # Second column
-        data.append({"Rank": col1, "Player": col2})
+        if col1 and col2: #Only takes filled columns
+            data.append({"Rank": col1, "Player": col2})
 
 print(f"Total rows scraped: {len(data)}")
 
