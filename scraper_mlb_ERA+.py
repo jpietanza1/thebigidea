@@ -71,7 +71,7 @@ print(f"Total rows scraped: {len(data)}")
 if data:
     with open("MLB_pitcher_ERA+.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print("Data saved to MLB_pitcher_ERA_plus.json")
+    print("Data saved to MLB_pitcher_ERA+.json")
 else:
     print("No data found.")
 
