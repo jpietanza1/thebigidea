@@ -49,13 +49,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add mlb_leader_stats_table.json 
-            nfl_leader_stats_table.json 
-            nba_leader_stats_table.json 
-            MLB_position_player_Rbat+.json 
-            MLB_pitcher_ERA+.json 
-            NFL_QB_players.json 
-            NFL_RB_players.json 
-            NFL_WR_players.json 
+          git add nfl_leader_stats_table.json 
+          git add nba_leader_stats_table.json 
+          git add MLB_position_player_Rbat+.json 
+          git add MLB_pitcher_ERA+.json 
+          git add NFL_QB_players.json 
+          git add NFL_RB_players.json 
+          git add NFL_WR_players.json 
               # Add JSON files
           git commit -m "Automated update: MLB, NBA, NFL stats JSON"
           git push
