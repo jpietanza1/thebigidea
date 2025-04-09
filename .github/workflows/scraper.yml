@@ -53,9 +53,9 @@ jobs:
           git add nba_leader_stats_table.json 
           git add MLB_position_player_Rbat+.json 
           git add MLB_pitcher_ERA+.json 
-          git add NFL_QB_players.json 
-          git add NFL_RB_players.json 
-          git add NFL_WR_players.json 
+          git add NFL_QB_Players.json 
+          git add NFL_RB_Players.json 
+          git add NFL_WR_Players.json 
               # Add JSON files
           git commit -m "Automated update: MLB, NBA, NFL stats JSON"
           git push
