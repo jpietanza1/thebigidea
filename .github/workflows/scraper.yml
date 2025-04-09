@@ -42,7 +42,7 @@ jobs:
         run: python scraper_mlb_ERA+.py
 
       - name: Run NFL Player Scraper
-        run: python scraper_NFL_FantRank
+        run: python scraper_NFL_FantRank.py
 
       - name: Commit and Push Updated JSON
         run: |
