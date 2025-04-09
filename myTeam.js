@@ -13,17 +13,17 @@ async function loadBaseballPlayers() {
     const pitcherDropdown = document.getElementById("pitchers");
     const batterDropdown = document.getElementById("positionPlayers");
 
-    pitchers.forEach(player => {
+    pitchers.forEach((player, index) => {
         const option = document.createElement("option");
         option.value = JSON.stringify({ name: player.Player, type: "pitcher" });
-        option.textContent = player.Player;
+        option.textContent = `${index + 1}. ${player.Player}`;
         pitcherDropdown.appendChild(option);
     });
 
-    batters.forEach(player => {
+    batters.forEach((player, index) => {
         const option = document.createElement("option");
         option.value = JSON.stringify({ name: player.Player, type: "batter" });
-        option.textContent = player.Player;
+        option.textContent = `${index + 1}. ${player.Player}`;
         batterDropdown.appendChild(option);
     });
 }
