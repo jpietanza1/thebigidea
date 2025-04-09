@@ -22,7 +22,7 @@ chrome_options.add_argument("--no-sandbox")  # Avoid sandboxing issues in some e
 # Initialize WebDriver with the specified options
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
-# Open the NFL Leaders page directly
+# Open the NBA Leaders page directly
 leaders_url = "https://www.basketball-reference.com/leagues/NBA_2025_leaders.html"
 driver.get(leaders_url)
 print("Navigated to the NBA Leaders page.")
@@ -58,66 +58,74 @@ stats = {stat_name: [] for stat_name in div_ids.keys()}
 
 # Scrape each stat from the corresponding div
 for stat_name, div_id in div_ids.items():
-    try:
-        # Locate the div by ID
-        stats_div = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.ID, div_id))
-        )
-        print(f"Located the {stat_name} stats container by div ID: {div_id}")
-
-        # Scroll into view BEFORE clicking button
-        driver.execute_script("arguments[0].scrollIntoView();", stats_div)
-        time.sleep(1)  # Allow scroll to finish
-
-        # Look for a button inside the div and click it if present
+    retries = 3  # Number of retries in case of failure
+    while retries > 0:
         try:
-            button = stats_div.find_element(By.TAG_NAME, "button")
-            button.click()
-            print(f"Clicked the button for {stat_name} to expand data.")
-            time.sleep(2)  # Allow content to load
-        except Exception:
-            print(f"No button found for {stat_name}, continuing.")
+            # Locate the div by ID with an increased timeout if needed
+            stats_div = WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.ID, div_id))
+            )
+            print(f"Located the {stat_name} stats container by div ID: {div_id}")
 
-        # Wait for the tbody to load completely
-        tbody = WebDriverWait(stats_div, 5).until(
-            EC.presence_of_element_located((By.TAG_NAME, 'tbody'))
-        )
+            # Scroll into view before interacting with the div
+            driver.execute_script("arguments[0].scrollIntoView();", stats_div)
+            time.sleep(1)  # Allow scroll to finish
 
-        # Ensure all rows have loaded before extracting
-        WebDriverWait(tbody, 5).until(
-            lambda d: len(tbody.find_elements(By.TAG_NAME, "tr")) >= 10
-        )
-
-        # Extract ALL rows within tbody
-        rows = tbody.find_elements(By.TAG_NAME, "tr")
-
-        print(f"Found {len(rows)} rows for {stat_name}")
-
-        # Extract data for each row
-        for row in rows:
+            # Look for a button inside the div and click it if present
             try:
-                # Find all columns (td elements) in the row
-                cells = row.find_elements(By.TAG_NAME, 'td')
+                button = stats_div.find_element(By.TAG_NAME, "button")
+                button.click()
+                print(f"Clicked the button for {stat_name} to expand data.")
+                time.sleep(2)  # Allow content to load
+            except Exception:
+                print(f"No button found for {stat_name}, continuing.")
 
-                # Ensure the row has at least 3 columns (rank, player, stat)
-                if len(cells) >= 3:
-                    rank = cells[0].text.strip()
-                    player_name = cells[1].text.strip()
-                    stat_value = cells[2].text.strip()
+            # Wait for the tbody to load completely
+            tbody = WebDriverWait(stats_div, 10).until(
+                EC.presence_of_element_located((By.TAG_NAME, 'tbody'))
+            )
 
-                    # Add player data to the corresponding stat list in the dictionary
-                    stats[stat_name].append({
-                        "Rank": rank,
-                        "Player": player_name,
-                        stat_name: stat_value
-                    })
+            # Ensure all rows have loaded before extracting
+            WebDriverWait(tbody, 10).until(
+                lambda d: len(tbody.find_elements(By.TAG_NAME, "tr")) >= 10
+            )
 
-            except Exception as e:
-                print(f"Error processing row in {stat_name}: {e}")
-                continue  # Skip problematic rows
+            # Extract ALL rows within tbody
+            rows = tbody.find_elements(By.TAG_NAME, "tr")
+            print(f"Found {len(rows)} rows for {stat_name}")
 
-    except Exception as e:
-        print(f"Failed to find the stats div for {stat_name} with ID {div_id}: {e}")
+            # Extract data for each row
+            for row in rows:
+                try:
+                    # Find all columns (td elements) in the row
+                    cells = row.find_elements(By.TAG_NAME, 'td')
+
+                    # Ensure the row has at least 3 columns (rank, player, stat)
+                    if len(cells) >= 3:
+                        rank = cells[0].text.strip()
+                        player_name = cells[1].text.strip()
+                        stat_value = cells[2].text.strip()
+
+                        # Add player data to the corresponding stat list in the dictionary
+                        stats[stat_name].append({
+                            "Rank": rank,
+                            "Player": player_name,
+                            stat_name: stat_value
+                        })
+
+                except Exception as e:
+                    print(f"Error processing row in {stat_name}: {e}")
+                    continue  # Skip problematic rows
+
+            break  # Exit retry loop if successful
+
+        except Exception as e:
+            retries -= 1
+            print(f"Failed to process {stat_name} (remaining retries: {retries}): {e}")
+            time.sleep(5)  # Wait before retrying
+
+    if retries == 0:
+        print(f"Failed to scrape data for {stat_name} after multiple attempts.")
 
 # Close the driver after scraping
 driver.quit()
