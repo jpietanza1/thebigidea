@@ -1,0 +1,1257 @@
+[
+  {
+    "player": "Ja'Marr Chase*+",
+    "fantpos": "WR",
+    "posrank": "1"
+  },
+  {
+    "player": "Justin Jefferson*+",
+    "fantpos": "WR",
+    "posrank": "2"
+  },
+  {
+    "player": "Amon-Ra St. Brown*+",
+    "fantpos": "WR",
+    "posrank": "3"
+  },
+  {
+    "player": "Brian Thomas*",
+    "fantpos": "WR",
+    "posrank": "4"
+  },
+  {
+    "player": "Terry McLaurin*",
+    "fantpos": "WR",
+    "posrank": "5"
+  },
+  {
+    "player": "Drake London",
+    "fantpos": "WR",
+    "posrank": "6"
+  },
+  {
+    "player": "Mike Evans*",
+    "fantpos": "WR",
+    "posrank": "7"
+  },
+  {
+    "player": "Malik Nabers*",
+    "fantpos": "WR",
+    "posrank": "8"
+  },
+  {
+    "player": "CeeDee Lamb*",
+    "fantpos": "WR",
+    "posrank": "9"
+  },
+  {
+    "player": "Courtland Sutton",
+    "fantpos": "WR",
+    "posrank": "10"
+  },
+  {
+    "player": "Ladd McConkey",
+    "fantpos": "WR",
+    "posrank": "11"
+  },
+  {
+    "player": "Davante Adams",
+    "fantpos": "WR",
+    "posrank": "12"
+  },
+  {
+    "player": "Jameson Williams",
+    "fantpos": "WR",
+    "posrank": "13"
+  },
+  {
+    "player": "Jaxon Smith-Njigba*",
+    "fantpos": "WR",
+    "posrank": "14"
+  },
+  {
+    "player": "Jerry Jeudy*",
+    "fantpos": "WR",
+    "posrank": "15"
+  },
+  {
+    "player": "Garrett Wilson",
+    "fantpos": "WR",
+    "posrank": "16"
+  },
+  {
+    "player": "Jordan Addison",
+    "fantpos": "WR",
+    "posrank": "18"
+  },
+  {
+    "player": "A.J. Brown",
+    "fantpos": "WR",
+    "posrank": "17"
+  },
+  {
+    "player": "Tee Higgins",
+    "fantpos": "WR",
+    "posrank": "19"
+  },
+  {
+    "player": "Nico Collins*",
+    "fantpos": "WR",
+    "posrank": "20"
+  },
+  {
+    "player": "Jayden Reed",
+    "fantpos": "WR",
+    "posrank": "21"
+  },
+  {
+    "player": "D.J. Moore",
+    "fantpos": "WR",
+    "posrank": "22"
+  },
+  {
+    "player": "Tyreek Hill",
+    "fantpos": "WR",
+    "posrank": "23"
+  },
+  {
+    "player": "Zay Flowers*",
+    "fantpos": "WR",
+    "posrank": "24"
+  },
+  {
+    "player": "Marvin Harrison Jr.",
+    "fantpos": "WR",
+    "posrank": "26"
+  },
+  {
+    "player": "Calvin Ridley",
+    "fantpos": "WR",
+    "posrank": "25"
+  },
+  {
+    "player": "Jauan Jennings",
+    "fantpos": "WR",
+    "posrank": "27"
+  },
+  {
+    "player": "DeVonta Smith",
+    "fantpos": "WR",
+    "posrank": "28"
+  },
+  {
+    "player": "Jakobi Meyers",
+    "fantpos": "WR",
+    "posrank": "29"
+  },
+  {
+    "player": "Rashod Bateman",
+    "fantpos": "WR",
+    "posrank": "30"
+  },
+  {
+    "player": "Darnell Mooney",
+    "fantpos": "WR",
+    "posrank": "31"
+  },
+  {
+    "player": "Puka Nacua",
+    "fantpos": "WR",
+    "posrank": "33"
+  },
+  {
+    "player": "Xavier Worthy",
+    "fantpos": "WR",
+    "posrank": "32"
+  },
+  {
+    "player": "D.K. Metcalf",
+    "fantpos": "WR",
+    "posrank": "34"
+  },
+  {
+    "player": "Alec Pierce",
+    "fantpos": "WR",
+    "posrank": "35"
+  },
+  {
+    "player": "Quentin Johnston",
+    "fantpos": "WR",
+    "posrank": "36"
+  },
+  {
+    "player": "Keenan Allen",
+    "fantpos": "WR",
+    "posrank": "37"
+  },
+  {
+    "player": "Josh Downs",
+    "fantpos": "WR",
+    "posrank": "38"
+  },
+  {
+    "player": "Cooper Kupp",
+    "fantpos": "WR",
+    "posrank": "39"
+  },
+  {
+    "player": "Khalil Shakir",
+    "fantpos": "WR",
+    "posrank": "40"
+  },
+  {
+    "player": "George Pickens",
+    "fantpos": "WR",
+    "posrank": "41"
+  },
+  {
+    "player": "Nick Westbrook-Ikhine",
+    "fantpos": "WR",
+    "posrank": "42"
+  },
+  {
+    "player": "Deebo Samuel",
+    "fantpos": "WR",
+    "posrank": "44"
+  },
+  {
+    "player": "Jalen Tolbert",
+    "fantpos": "WR",
+    "posrank": "43"
+  },
+  {
+    "player": "Jalen McMillan",
+    "fantpos": "WR",
+    "posrank": "45"
+  },
+  {
+    "player": "Michael Pittman Jr.",
+    "fantpos": "WR",
+    "posrank": "46"
+  },
+  {
+    "player": "Demarcus Robinson",
+    "fantpos": "WR",
+    "posrank": "47"
+  },
+  {
+    "player": "Adam Thielen",
+    "fantpos": "WR",
+    "posrank": "49"
+  },
+  {
+    "player": "Jaylen Waddle",
+    "fantpos": "WR",
+    "posrank": "48"
+  },
+  {
+    "player": "DeAndre Hopkins",
+    "fantpos": "WR",
+    "posrank": "50"
+  },
+  {
+    "player": "Marvin Mims*+",
+    "fantpos": "WR",
+    "posrank": "52"
+  },
+  {
+    "player": "Rome Odunze",
+    "fantpos": "WR",
+    "posrank": "51"
+  },
+  {
+    "player": "Wan'Dale Robinson",
+    "fantpos": "WR",
+    "posrank": "53"
+  },
+  {
+    "player": "Tank Dell",
+    "fantpos": "WR",
+    "posrank": "54"
+  },
+  {
+    "player": "Allen Lazard",
+    "fantpos": "WR",
+    "posrank": "55"
+  },
+  {
+    "player": "Chris Godwin",
+    "fantpos": "WR",
+    "posrank": "56"
+  },
+  {
+    "player": "Romeo Doubs",
+    "fantpos": "WR",
+    "posrank": "57"
+  },
+  {
+    "player": "Andrei Iosivas",
+    "fantpos": "WR",
+    "posrank": "58"
+  },
+  {
+    "player": "Calvin Austin III",
+    "fantpos": "WR",
+    "posrank": "59"
+  },
+  {
+    "player": "Keon Coleman",
+    "fantpos": "WR",
+    "posrank": "60"
+  },
+  {
+    "player": "Demario Douglas",
+    "fantpos": "WR",
+    "posrank": "62"
+  },
+  {
+    "player": "Tre Tucker",
+    "fantpos": "WR",
+    "posrank": "61"
+  },
+  {
+    "player": "Kayshon Boutte",
+    "fantpos": "WR",
+    "posrank": "63"
+  },
+  {
+    "player": "Amari Cooper",
+    "fantpos": "WR",
+    "posrank": "64"
+  },
+  {
+    "player": "Ray-Ray McCloud",
+    "fantpos": "WR",
+    "posrank": "65"
+  },
+  {
+    "player": "Michael Wilson",
+    "fantpos": "WR",
+    "posrank": "66"
+  },
+  {
+    "player": "Xavier Legette",
+    "fantpos": "WR",
+    "posrank": "68"
+  },
+  {
+    "player": "Christian Watson",
+    "fantpos": "WR",
+    "posrank": "67"
+  },
+  {
+    "player": "Stefon Diggs",
+    "fantpos": "WR",
+    "posrank": "70"
+  },
+  {
+    "player": "Jalen Nailor",
+    "fantpos": "WR",
+    "posrank": "69"
+  },
+  {
+    "player": "KaVontae Turpin*+",
+    "fantpos": "WR",
+    "posrank": "71"
+  },
+  {
+    "player": "Tyler Lockett",
+    "fantpos": "WR",
+    "posrank": "72"
+  },
+  {
+    "player": "Dontayvion Wicks",
+    "fantpos": "WR",
+    "posrank": "73"
+  },
+  {
+    "player": "Darius Slayton",
+    "fantpos": "WR",
+    "posrank": "74"
+  },
+  {
+    "player": "Mack Hollins",
+    "fantpos": "WR",
+    "posrank": "76"
+  },
+  {
+    "player": "Josh Palmer",
+    "fantpos": "WR",
+    "posrank": "75"
+  },
+  {
+    "player": "Olamide Zaccheaus",
+    "fantpos": "WR",
+    "posrank": "77"
+  },
+  {
+    "player": "Marquez Valdes-Scantling",
+    "fantpos": "WR",
+    "posrank": "78"
+  },
+  {
+    "player": "Devaughn Vele",
+    "fantpos": "WR",
+    "posrank": "79"
+  },
+  {
+    "player": "Parker Washington",
+    "fantpos": "WR",
+    "posrank": "80"
+  },
+  {
+    "player": "Ricky Pearsall",
+    "fantpos": "WR",
+    "posrank": "81"
+  },
+  {
+    "player": "Jalen Coker",
+    "fantpos": "WR",
+    "posrank": "82"
+  },
+  {
+    "player": "Elijah Moore",
+    "fantpos": "WR",
+    "posrank": "83"
+  },
+  {
+    "player": "Rashid Shaheed",
+    "fantpos": "WR",
+    "posrank": "84"
+  },
+  {
+    "player": "Tim Patrick",
+    "fantpos": "WR",
+    "posrank": "85"
+  },
+  {
+    "player": "Tutu Atwell",
+    "fantpos": "WR",
+    "posrank": "86"
+  },
+  {
+    "player": "Diontae Johnson",
+    "fantpos": "WR",
+    "posrank": "87"
+  },
+  {
+    "player": "Greg Dortch",
+    "fantpos": "WR",
+    "posrank": "88"
+  },
+  {
+    "player": "David Moore",
+    "fantpos": "WR",
+    "posrank": "89"
+  },
+  {
+    "player": "Noah Brown",
+    "fantpos": "WR",
+    "posrank": "91"
+  },
+  {
+    "player": "Cedric Tillman",
+    "fantpos": "WR",
+    "posrank": "90"
+  },
+  {
+    "player": "Sterling Shepard",
+    "fantpos": "WR",
+    "posrank": "92"
+  },
+  {
+    "player": "Chris Olave",
+    "fantpos": "WR",
+    "posrank": "93"
+  },
+  {
+    "player": "Brandin Cooks",
+    "fantpos": "WR",
+    "posrank": "95"
+  },
+  {
+    "player": "Christian Kirk",
+    "fantpos": "WR",
+    "posrank": "94"
+  },
+  {
+    "player": "Rashee Rice",
+    "fantpos": "WR",
+    "posrank": "96"
+  },
+  {
+    "player": "Justin Watson",
+    "fantpos": "WR",
+    "posrank": "97"
+  },
+  {
+    "player": "Van Jefferson",
+    "fantpos": "WR",
+    "posrank": "98"
+  },
+  {
+    "player": "Kalif Raymond",
+    "fantpos": "WR",
+    "posrank": "99"
+  },
+  {
+    "player": "Tyler Boyd",
+    "fantpos": "WR",
+    "posrank": "100"
+  },
+  {
+    "player": "Troy Franklin",
+    "fantpos": "WR",
+    "posrank": "101"
+  },
+  {
+    "player": "Brandon Aiyuk",
+    "fantpos": "WR",
+    "posrank": "102"
+  },
+  {
+    "player": "Kendrick Bourne",
+    "fantpos": "WR",
+    "posrank": "104"
+  },
+  {
+    "player": "Dyami Brown",
+    "fantpos": "WR",
+    "posrank": "103"
+  },
+  {
+    "player": "Mike Williams",
+    "fantpos": "WR",
+    "posrank": "105"
+  },
+  {
+    "player": "Nelson Agholor",
+    "fantpos": "WR",
+    "posrank": "106"
+  },
+  {
+    "player": "Tyler Johnson",
+    "fantpos": "WR",
+    "posrank": "107"
+  },
+  {
+    "player": "JuJu Smith-Schuster",
+    "fantpos": "WR",
+    "posrank": "108"
+  },
+  {
+    "player": "Gabriel Davis",
+    "fantpos": "WR",
+    "posrank": "109"
+  },
+  {
+    "player": "Lil'Jordan Humphrey",
+    "fantpos": "WR",
+    "posrank": "110"
+  },
+  {
+    "player": "Curtis Samuel",
+    "fantpos": "WR",
+    "posrank": "111"
+  },
+  {
+    "player": "John Metchie",
+    "fantpos": "WR",
+    "posrank": "112"
+  },
+  {
+    "player": "Adonai Mitchell",
+    "fantpos": "WR",
+    "posrank": "114"
+  },
+  {
+    "player": "DJ Turner",
+    "fantpos": "WR",
+    "posrank": "113"
+  },
+  {
+    "player": "Jordan Whittington",
+    "fantpos": "WR",
+    "posrank": "115"
+  },
+  {
+    "player": "Cedrick Wilson Jr.",
+    "fantpos": "WR",
+    "posrank": "116"
+  },
+  {
+    "player": "Malik Washington",
+    "fantpos": "WR",
+    "posrank": "117"
+  },
+  {
+    "player": "Derius Davis",
+    "fantpos": "WR",
+    "posrank": "118"
+  },
+  {
+    "player": "KhaDarel Hodge*",
+    "fantpos": "WR",
+    "posrank": "121"
+  },
+  {
+    "player": "Ryan Miller",
+    "fantpos": "WR",
+    "posrank": "122"
+  },
+  {
+    "player": "Josh Reynolds",
+    "fantpos": "WR",
+    "posrank": "119"
+  },
+  {
+    "player": "Tylan Wallace",
+    "fantpos": "WR",
+    "posrank": "120"
+  },
+  {
+    "player": "Jalen Brooks",
+    "fantpos": "WR",
+    "posrank": "123"
+  },
+  {
+    "player": "Jahan Dotson",
+    "fantpos": "WR",
+    "posrank": "125"
+  },
+  {
+    "player": "Trey Palmer",
+    "fantpos": "WR",
+    "posrank": "124"
+  },
+  {
+    "player": "Malik Heath",
+    "fantpos": "WR",
+    "posrank": "126"
+  },
+  {
+    "player": "Mecole Hardman",
+    "fantpos": "WR",
+    "posrank": "127"
+  },
+  {
+    "player": "Ja'Lynn Polk",
+    "fantpos": "WR",
+    "posrank": "128"
+  },
+  {
+    "player": "Dante Pettis",
+    "fantpos": "WR",
+    "posrank": "129"
+  },
+  {
+    "player": "Bub Means",
+    "fantpos": "WR",
+    "posrank": "131"
+  },
+  {
+    "player": "Robert Woods",
+    "fantpos": "WR",
+    "posrank": "130"
+  },
+  {
+    "player": "Jake Bobo",
+    "fantpos": "WR",
+    "posrank": "135"
+  },
+  {
+    "player": "Jamison Crowder",
+    "fantpos": "WR",
+    "posrank": "132"
+  },
+  {
+    "player": "Ashton Dulin",
+    "fantpos": "WR",
+    "posrank": "133"
+  },
+  {
+    "player": "Luke McCaffrey",
+    "fantpos": "WR",
+    "posrank": "134"
+  },
+  {
+    "player": "Kevin Austin",
+    "fantpos": "WR",
+    "posrank": "136"
+  },
+  {
+    "player": "Bo Melton",
+    "fantpos": "WR",
+    "posrank": "138"
+  },
+  {
+    "player": "Jonathan Mingo",
+    "fantpos": "WR",
+    "posrank": "137"
+  },
+  {
+    "player": "Trent Sherfield",
+    "fantpos": "WR",
+    "posrank": "139"
+  },
+  {
+    "player": "Tyrell Shavers",
+    "fantpos": "WR",
+    "posrank": "140"
+  },
+  {
+    "player": "Xavier Hutchinson",
+    "fantpos": "WR",
+    "posrank": "142"
+  },
+  {
+    "player": "Rakim Jarrett",
+    "fantpos": "WR",
+    "posrank": "141"
+  },
+  {
+    "player": "K.J. Osborn",
+    "fantpos": "WR",
+    "posrank": "143"
+  },
+  {
+    "player": "Jermaine Burton",
+    "fantpos": "WR",
+    "posrank": "145"
+  },
+  {
+    "player": "Simi Fehoko",
+    "fantpos": "WR",
+    "posrank": "147"
+  },
+  {
+    "player": "Tay Martin",
+    "fantpos": "WR",
+    "posrank": "144"
+  },
+  {
+    "player": "Ainias Smith",
+    "fantpos": "WR",
+    "posrank": "146"
+  },
+  {
+    "player": "Bryce Oliver",
+    "fantpos": "WR",
+    "posrank": "150"
+  },
+  {
+    "player": "Mason Tipton",
+    "fantpos": "WR",
+    "posrank": "148"
+  },
+  {
+    "player": "Johnny Wilson",
+    "fantpos": "WR",
+    "posrank": "149"
+  },
+  {
+    "player": "Marquise Brown",
+    "fantpos": "WR",
+    "posrank": "151"
+  },
+  {
+    "player": "Parris Campbell",
+    "fantpos": "WR",
+    "posrank": "153"
+  },
+  {
+    "player": "DJ Chark",
+    "fantpos": "WR",
+    "posrank": "152"
+  },
+  {
+    "player": "Chris Conley",
+    "fantpos": "WR",
+    "posrank": "161"
+  },
+  {
+    "player": "Devin Duvernay",
+    "fantpos": "WR",
+    "posrank": "156"
+  },
+  {
+    "player": "Ryan Flournoy",
+    "fantpos": "WR",
+    "posrank": "157"
+  },
+  {
+    "player": "Xavier Gipson",
+    "fantpos": "WR",
+    "posrank": "154"
+  },
+  {
+    "player": "Zay Jones",
+    "fantpos": "WR",
+    "posrank": "155"
+  },
+  {
+    "player": "Jalen Reagor",
+    "fantpos": "WR",
+    "posrank": "160"
+  },
+  {
+    "player": "Devontez Walker",
+    "fantpos": "WR",
+    "posrank": "158"
+  },
+  {
+    "player": "Kristian Wilkerson",
+    "fantpos": "WR",
+    "posrank": "159"
+  },
+  {
+    "player": "Jacob Cowing",
+    "fantpos": "WR",
+    "posrank": "165"
+  },
+  {
+    "player": "River Cracraft",
+    "fantpos": "WR",
+    "posrank": "166"
+  },
+  {
+    "player": "Scott Miller",
+    "fantpos": "WR",
+    "posrank": "163"
+  },
+  {
+    "player": "Brandon Powell",
+    "fantpos": "WR",
+    "posrank": "162"
+  },
+  {
+    "player": "Ben Skowronek",
+    "fantpos": "WR",
+    "posrank": "164"
+  },
+  {
+    "player": "Michael Woods II",
+    "fantpos": "WR",
+    "posrank": "167"
+  },
+  {
+    "player": "Odell Beckham Jr.",
+    "fantpos": "WR",
+    "posrank": "171"
+  },
+  {
+    "player": "Jalin Hyatt",
+    "fantpos": "WR",
+    "posrank": "168"
+  },
+  {
+    "player": "Laviska Shenault Jr.",
+    "fantpos": "WR",
+    "posrank": "170"
+  },
+  {
+    "player": "Ihmir Smith-Marsette",
+    "fantpos": "WR",
+    "posrank": "169"
+  },
+  {
+    "player": "DeAndre Carter",
+    "fantpos": "WR",
+    "posrank": "172"
+  },
+  {
+    "player": "Charlie Jones",
+    "fantpos": "WR",
+    "posrank": "175"
+  },
+  {
+    "player": "Nikko Remigio",
+    "fantpos": "WR",
+    "posrank": "173"
+  },
+  {
+    "player": "Tyquan Thornton",
+    "fantpos": "WR",
+    "posrank": "174"
+  },
+  {
+    "player": "Treylon Burks",
+    "fantpos": "WR",
+    "posrank": "182"
+  },
+  {
+    "player": "Dan Chisena",
+    "fantpos": "WR",
+    "posrank": "181"
+  },
+  {
+    "player": "D'Wayne Eskridge",
+    "fantpos": "WR",
+    "posrank": "176"
+  },
+  {
+    "player": "Tim Jones",
+    "fantpos": "WR",
+    "posrank": "179"
+  },
+  {
+    "player": "Terrace Marshall Jr.",
+    "fantpos": "WR",
+    "posrank": "180"
+  },
+  {
+    "player": "Xavier Smith",
+    "fantpos": "WR",
+    "posrank": "178"
+  },
+  {
+    "player": "Cody White",
+    "fantpos": "WR",
+    "posrank": "177"
+  },
+  {
+    "player": "Alex Bachman",
+    "fantpos": "WR",
+    "posrank": "184"
+  },
+  {
+    "player": "David Bell",
+    "fantpos": "WR",
+    "posrank": "186"
+  },
+  {
+    "player": "Britain Covey",
+    "fantpos": "WR",
+    "posrank": "183"
+  },
+  {
+    "player": "Allen Robinson",
+    "fantpos": "WR",
+    "posrank": "185"
+  },
+  {
+    "player": "Deven Thompkins",
+    "fantpos": "WR",
+    "posrank": "187"
+  },
+  {
+    "player": "Ronnie Bell",
+    "fantpos": "WR",
+    "posrank": "189"
+  },
+  {
+    "player": "Chris Blair",
+    "fantpos": "WR",
+    "posrank": "193"
+  },
+  {
+    "player": "Malachi Corley",
+    "fantpos": "WR",
+    "posrank": "190"
+  },
+  {
+    "player": "Anthony Gould",
+    "fantpos": "WR",
+    "posrank": "188"
+  },
+  {
+    "player": "Trenton Irwin",
+    "fantpos": "WR",
+    "posrank": "196"
+  },
+  {
+    "player": "Mason Kinsey",
+    "fantpos": "WR",
+    "posrank": "194"
+  },
+  {
+    "player": "Anthony Miller",
+    "fantpos": "WR",
+    "posrank": "195"
+  },
+  {
+    "player": "Jamari Thrash",
+    "fantpos": "WR",
+    "posrank": "191"
+  },
+  {
+    "player": "Austin Trammell",
+    "fantpos": "WR",
+    "posrank": "192"
+  },
+  {
+    "player": "Robbie Chosen",
+    "fantpos": "WR",
+    "posrank": "211"
+  },
+  {
+    "player": "Javon Baker",
+    "fantpos": "WR",
+    "posrank": "198"
+  },
+  {
+    "player": "Jaelon Darden",
+    "fantpos": "WR",
+    "posrank": "207"
+  },
+  {
+    "player": "Grant Dubose",
+    "fantpos": "WR",
+    "posrank": "200"
+  },
+  {
+    "player": "Isaiah Hodgins",
+    "fantpos": "WR",
+    "posrank": "199"
+  },
+  {
+    "player": "Brandon Johnson",
+    "fantpos": "WR",
+    "posrank": "204"
+  },
+  {
+    "player": "Collin Johnson",
+    "fantpos": "WR",
+    "posrank": "208"
+  },
+  {
+    "player": "Kameron Johnson",
+    "fantpos": "WR",
+    "posrank": "201"
+  },
+  {
+    "player": "Ramel Keyton",
+    "fantpos": "WR",
+    "posrank": "206"
+  },
+  {
+    "player": "Tyreik McAllister",
+    "fantpos": "WR",
+    "posrank": "202"
+  },
+  {
+    "player": "Kendric Pryor",
+    "fantpos": "WR",
+    "posrank": "205"
+  },
+  {
+    "player": "John Ross",
+    "fantpos": "WR",
+    "posrank": "209"
+  },
+  {
+    "player": "Tyler Scott",
+    "fantpos": "WR",
+    "posrank": "212"
+  },
+  {
+    "player": "Trent Taylor",
+    "fantpos": "WR",
+    "posrank": "203"
+  },
+  {
+    "player": "Casey Washington",
+    "fantpos": "WR",
+    "posrank": "197"
+  },
+  {
+    "player": "Isaiah Williams",
+    "fantpos": "WR",
+    "posrank": "210"
+  },
+  {
+    "player": "Maurice Alexander",
+    "fantpos": "WR",
+    "posrank": "214"
+  },
+  {
+    "player": "Braxton Berrios",
+    "fantpos": "WR",
+    "posrank": "215"
+  },
+  {
+    "player": "Marquez Callaway",
+    "fantpos": "WR",
+    "posrank": "216"
+  },
+  {
+    "player": "Joshua Cephus",
+    "fantpos": "WR",
+    "posrank": "217"
+  },
+  {
+    "player": "Irvin Charles",
+    "fantpos": "WR",
+    "posrank": "218"
+  },
+  {
+    "player": "Elijah Cooks",
+    "fantpos": "WR",
+    "posrank": "219"
+  },
+  {
+    "player": "Kaden Davis",
+    "fantpos": "WR",
+    "posrank": "220"
+  },
+  {
+    "player": "Alex Erickson",
+    "fantpos": "WR",
+    "posrank": "221"
+  },
+  {
+    "player": "Erik Ezukanma",
+    "fantpos": "WR",
+    "posrank": "222"
+  },
+  {
+    "player": "Dez Fitzpatrick",
+    "fantpos": "WR",
+    "posrank": "223"
+  },
+  {
+    "player": "Bryce Ford-Wheaton",
+    "fantpos": "WR",
+    "posrank": "224"
+  },
+  {
+    "player": "Deonte Harty",
+    "fantpos": "WR",
+    "posrank": "225"
+  },
+  {
+    "player": "Jermaine Jackson",
+    "fantpos": "WR",
+    "posrank": "245"
+  },
+  {
+    "player": "Trishton Jackson",
+    "fantpos": "WR",
+    "posrank": "226"
+  },
+  {
+    "player": "Jaylen Johnson",
+    "fantpos": "WR",
+    "posrank": "227"
+  },
+  {
+    "player": "Velus Jones Jr.",
+    "fantpos": "WR",
+    "posrank": "246"
+  },
+  {
+    "player": "Tom Kennedy",
+    "fantpos": "WR",
+    "posrank": "228"
+  },
+  {
+    "player": "Chris Moore",
+    "fantpos": "WR",
+    "posrank": "229"
+  },
+  {
+    "player": "Chris Moore",
+    "fantpos": "WR",
+    "posrank": "229"
+  },
+  {
+    "player": "Skyy Moore",
+    "fantpos": "WR",
+    "posrank": "230"
+  },
+  {
+    "player": "Jalen Moreno-Cropper",
+    "fantpos": "WR",
+    "posrank": "231"
+  },
+  {
+    "player": "Zach Pascal",
+    "fantpos": "WR",
+    "posrank": "232"
+  },
+  {
+    "player": "James Proche",
+    "fantpos": "WR",
+    "posrank": "213"
+  },
+  {
+    "player": "Brenden Rice",
+    "fantpos": "WR",
+    "posrank": "233"
+  },
+  {
+    "player": "Justyn Ross",
+    "fantpos": "WR",
+    "posrank": "234"
+  },
+  {
+    "player": "Brandon Smith",
+    "fantpos": "WR",
+    "posrank": "235"
+  },
+  {
+    "player": "Equanimeous St. Brown",
+    "fantpos": "WR",
+    "posrank": "236"
+  },
+  {
+    "player": "Cody Thompson",
+    "fantpos": "WR",
+    "posrank": "237"
+  },
+  {
+    "player": "Laquon Treadwell",
+    "fantpos": "WR",
+    "posrank": "238"
+  },
+  {
+    "player": "Brycen Tremayne",
+    "fantpos": "WR",
+    "posrank": "247"
+  },
+  {
+    "player": "Jalen Virgil",
+    "fantpos": "WR",
+    "posrank": "239"
+  },
+  {
+    "player": "Montrell Washington",
+    "fantpos": "WR",
+    "posrank": "240"
+  },
+  {
+    "player": "Jared Wayne",
+    "fantpos": "WR",
+    "posrank": "241"
+  },
+  {
+    "player": "Xavier Weaver",
+    "fantpos": "WR",
+    "posrank": "242"
+  },
+  {
+    "player": "Roman Wilson",
+    "fantpos": "WR",
+    "posrank": "243"
+  },
+  {
+    "player": "Dareke Young",
+    "fantpos": "WR",
+    "posrank": "244"
+  },
+  {
+    "player": "Steven Sims",
+    "fantpos": "WR",
+    "posrank": "248"
+  },
+  {
+    "player": "Kadarius Toney",
+    "fantpos": "WR",
+    "posrank": "249"
+  },
+  {
+    "player": "Jha'Quan Jackson",
+    "fantpos": "WR",
+    "posrank": "250"
+  }
+]

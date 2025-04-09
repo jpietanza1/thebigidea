@@ -1,317 +1,397 @@
-	
-0	
-player	"Lamar Jackson*+"
-fantpos	"QB"
-posrank	"1"
-1	
-player	"Josh Allen*"
-fantpos	"QB"
-posrank	"2"
-2	
-player	"Joe Burrow*"
-fantpos	"QB"
-posrank	"3"
-3	
-player	"Baker Mayfield*"
-fantpos	"QB"
-posrank	"4"
-4	
-player	"Jayden Daniels*"
-fantpos	"QB"
-posrank	"5"
-5	
-player	"Jared Goff*"
-fantpos	"QB"
-posrank	"6"
-6	
-player	"Bo Nix"
-fantpos	"QB"
-posrank	"7"
-7	
-player	"Jalen Hurts"
-fantpos	"QB"
-posrank	"8"
-8	
-player	"Sam Darnold*"
-fantpos	"QB"
-posrank	"9"
-9	
-player	"Kyler Murray"
-fantpos	"QB"
-posrank	"10"
-10	
-player	"Justin Herbert"
-fantpos	"QB"
-posrank	"11"
-11	
-player	"Patrick Mahomes"
-fantpos	"QB"
-posrank	"12"
-12	
-player	"Brock Purdy"
-fantpos	"QB"
-posrank	"13"
-13	
-player	"Geno Smith"
-fantpos	"QB"
-posrank	"14"
-14	
-player	"Aaron Rodgers"
-fantpos	"QB"
-posrank	"15"
-15	
-player	"Caleb Williams"
-fantpos	"QB"
-posrank	"16"
-16	
-player	"Jordan Love"
-fantpos	"QB"
-posrank	"17"
-17	
-player	"C.J. Stroud"
-fantpos	"QB"
-posrank	"18"
-18	
-player	"Matthew Stafford"
-fantpos	"QB"
-posrank	"19"
-19	
-player	"Bryce Young"
-fantpos	"QB"
-posrank	"20"
-20	
-player	"Tua Tagovailoa"
-fantpos	"QB"
-posrank	"21"
-21	
-player	"Drake Maye*"
-fantpos	"QB"
-posrank	"22"
-22	
-player	"Kirk Cousins"
-fantpos	"QB"
-posrank	"23"
-23	
-player	"Russell Wilson*"
-fantpos	"QB"
-posrank	"24"
-24	
-player	"Anthony Richardson"
-fantpos	"QB"
-posrank	"25"
-25	
-player	"Derek Carr"
-fantpos	"QB"
-posrank	"26"
-26	
-player	"Trevor Lawrence"
-fantpos	"QB"
-posrank	"27"
-27	
-player	"Daniel Jones"
-fantpos	"QB"
-posrank	"28"
-28	
-player	"Jameis Winston"
-fantpos	"QB"
-posrank	"29"
-29	
-player	"Will Levis"
-fantpos	"QB"
-posrank	"30"
-30	
-player	"Justin Fields"
-fantpos	"QB"
-posrank	"31"
-31	
-player	"Dak Prescott"
-fantpos	"QB"
-posrank	"32"
-32	
-player	"Cooper Rush"
-fantpos	"QB"
-posrank	"33"
-33	
-player	"Joe Flacco"
-fantpos	"QB"
-posrank	"34"
-34	
-player	"Mac Jones"
-fantpos	"QB"
-posrank	"36"
-35	
-player	"Gardner Minshew II"
-fantpos	"QB"
-posrank	"35"
-36	
-player	"Mason Rudolph"
-fantpos	"QB"
-posrank	"37"
-37	
-player	"Aidan O'Connell"
-fantpos	"QB"
-posrank	"38"
-38	
-player	"Drew Lock"
-fantpos	"QB"
-posrank	"39"
-39	
-player	"Deshaun Watson"
-fantpos	"QB"
-posrank	"40"
-40	
-player	"Spencer Rattler"
-fantpos	"QB"
-posrank	"41"
-41	
-player	"Tyler Huntley"
-fantpos	"QB"
-posrank	"42"
-42	
-player	"Andy Dalton"
-fantpos	"QB"
-posrank	"43"
-43	
-player	"Malik Willis"
-fantpos	"QB"
-posrank	"44"
-44	
-player	"Marcus Mariota"
-fantpos	"QB"
-posrank	"45"
-45	
-player	"Jacoby Brissett"
-fantpos	"QB"
-posrank	"46"
-46	
-player	"Michael Penix"
-fantpos	"QB"
-posrank	"47"
-47	
-player	"Joshua Dobbs"
-fantpos	"QB"
-posrank	"48"
-48	
-player	"Tanner McKee"
-fantpos	"QB"
-posrank	"49"
-49	
-player	"Kenny Pickett"
-fantpos	"QB"
-posrank	"50"
-50	
-player	"Desmond Ridder"
-fantpos	"QB"
-posrank	"51"
-51	
-player	"Jimmy Garoppolo"
-fantpos	"QB"
-posrank	"53"
-52	
-player	"Tyrod Taylor"
-fantpos	"QB"
-posrank	"52"
-53	
-player	"Joe Milton"
-fantpos	"QB"
-posrank	"54"
-54	
-player	"Dorian Thompson-Robinson"
-fantpos	"QB"
-posrank	"55"
-55	
-player	"Mitchell Trubisky"
-fantpos	"QB"
-posrank	"56"
-56	
-player	"Tim Boyle"
-fantpos	"QB"
-posrank	"57"
-57	
-player	"Tommy DeVito"
-fantpos	"QB"
-posrank	"58"
-58	
-player	"Jake Haener"
-fantpos	"QB"
-posrank	"59"
-59	
-player	"Trey Lance"
-fantpos	"QB"
-posrank	"60"
-60	
-player	"Davis Mills"
-fantpos	"QB"
-posrank	"61"
-61	
-player	"Skylar Thompson"
-fantpos	"QB"
-posrank	"62"
-62	
-player	"Bailey Zappe"
-fantpos	"QB"
-posrank	"63"
-63	
-player	"Brandon Allen"
-fantpos	"QB"
-posrank	"64"
-64	
-player	"Carson Wentz"
-fantpos	"QB"
-posrank	"65"
-65	
-player	"Taylor Heinicke"
-fantpos	"QB"
-posrank	"66"
-66	
-player	"Hendon Hooker"
-fantpos	"QB"
-posrank	"67"
-67	
-player	"Kyle Allen"
-fantpos	"QB"
-posrank	"71"
-68	
-player	"Josh Johnson"
-fantpos	"QB"
-posrank	"70"
-69	
-player	"Nick Mullens"
-fantpos	"QB"
-posrank	"68"
-70	
-player	"Chris Oladokun"
-fantpos	"QB"
-posrank	"72"
-71	
-player	"Jarrett Stidham"
-fantpos	"QB"
-posrank	"73"
-72	
-player	"Mike White"
-fantpos	"QB"
-posrank	"69"
-73	
-player	"Tyson Bagent"
-fantpos	"QB"
-posrank	"77"
-74	
-player	"Jake Browning"
-fantpos	"QB"
-posrank	"76"
-75	
-player	"Jeff Driskel"
-fantpos	"QB"
-posrank	"74"
-76	
-player	"Kyle Trask"
-fantpos	"QB"
-posrank	"75"
-77	
-player	"Sam Howell"
-fantpos	"QB"
-posrank	"78"
-78	
-player	"Clayton Tune"
-fantpos	"QB"
-posrank	"79"
+[
+  {
+    "player": "Lamar Jackson*+",
+    "fantpos": "QB",
+    "posrank": "1"
+  },
+  {
+    "player": "Josh Allen*",
+    "fantpos": "QB",
+    "posrank": "2"
+  },
+  {
+    "player": "Joe Burrow*",
+    "fantpos": "QB",
+    "posrank": "3"
+  },
+  {
+    "player": "Baker Mayfield*",
+    "fantpos": "QB",
+    "posrank": "4"
+  },
+  {
+    "player": "Jayden Daniels*",
+    "fantpos": "QB",
+    "posrank": "5"
+  },
+  {
+    "player": "Jared Goff*",
+    "fantpos": "QB",
+    "posrank": "6"
+  },
+  {
+    "player": "Bo Nix",
+    "fantpos": "QB",
+    "posrank": "7"
+  },
+  {
+    "player": "Jalen Hurts",
+    "fantpos": "QB",
+    "posrank": "8"
+  },
+  {
+    "player": "Sam Darnold*",
+    "fantpos": "QB",
+    "posrank": "9"
+  },
+  {
+    "player": "Kyler Murray",
+    "fantpos": "QB",
+    "posrank": "10"
+  },
+  {
+    "player": "Justin Herbert",
+    "fantpos": "QB",
+    "posrank": "11"
+  },
+  {
+    "player": "Patrick Mahomes",
+    "fantpos": "QB",
+    "posrank": "12"
+  },
+  {
+    "player": "Brock Purdy",
+    "fantpos": "QB",
+    "posrank": "13"
+  },
+  {
+    "player": "Geno Smith",
+    "fantpos": "QB",
+    "posrank": "14"
+  },
+  {
+    "player": "Aaron Rodgers",
+    "fantpos": "QB",
+    "posrank": "15"
+  },
+  {
+    "player": "Caleb Williams",
+    "fantpos": "QB",
+    "posrank": "16"
+  },
+  {
+    "player": "Jordan Love",
+    "fantpos": "QB",
+    "posrank": "17"
+  },
+  {
+    "player": "C.J. Stroud",
+    "fantpos": "QB",
+    "posrank": "18"
+  },
+  {
+    "player": "Matthew Stafford",
+    "fantpos": "QB",
+    "posrank": "19"
+  },
+  {
+    "player": "Bryce Young",
+    "fantpos": "QB",
+    "posrank": "20"
+  },
+  {
+    "player": "Tua Tagovailoa",
+    "fantpos": "QB",
+    "posrank": "21"
+  },
+  {
+    "player": "Drake Maye*",
+    "fantpos": "QB",
+    "posrank": "22"
+  },
+  {
+    "player": "Kirk Cousins",
+    "fantpos": "QB",
+    "posrank": "23"
+  },
+  {
+    "player": "Russell Wilson*",
+    "fantpos": "QB",
+    "posrank": "24"
+  },
+  {
+    "player": "Anthony Richardson",
+    "fantpos": "QB",
+    "posrank": "25"
+  },
+  {
+    "player": "Derek Carr",
+    "fantpos": "QB",
+    "posrank": "26"
+  },
+  {
+    "player": "Trevor Lawrence",
+    "fantpos": "QB",
+    "posrank": "27"
+  },
+  {
+    "player": "Daniel Jones",
+    "fantpos": "QB",
+    "posrank": "28"
+  },
+  {
+    "player": "Jameis Winston",
+    "fantpos": "QB",
+    "posrank": "29"
+  },
+  {
+    "player": "Will Levis",
+    "fantpos": "QB",
+    "posrank": "30"
+  },
+  {
+    "player": "Justin Fields",
+    "fantpos": "QB",
+    "posrank": "31"
+  },
+  {
+    "player": "Dak Prescott",
+    "fantpos": "QB",
+    "posrank": "32"
+  },
+  {
+    "player": "Cooper Rush",
+    "fantpos": "QB",
+    "posrank": "33"
+  },
+  {
+    "player": "Joe Flacco",
+    "fantpos": "QB",
+    "posrank": "34"
+  },
+  {
+    "player": "Mac Jones",
+    "fantpos": "QB",
+    "posrank": "36"
+  },
+  {
+    "player": "Gardner Minshew II",
+    "fantpos": "QB",
+    "posrank": "35"
+  },
+  {
+    "player": "Mason Rudolph",
+    "fantpos": "QB",
+    "posrank": "37"
+  },
+  {
+    "player": "Aidan O'Connell",
+    "fantpos": "QB",
+    "posrank": "38"
+  },
+  {
+    "player": "Drew Lock",
+    "fantpos": "QB",
+    "posrank": "39"
+  },
+  {
+    "player": "Deshaun Watson",
+    "fantpos": "QB",
+    "posrank": "40"
+  },
+  {
+    "player": "Spencer Rattler",
+    "fantpos": "QB",
+    "posrank": "41"
+  },
+  {
+    "player": "Tyler Huntley",
+    "fantpos": "QB",
+    "posrank": "42"
+  },
+  {
+    "player": "Andy Dalton",
+    "fantpos": "QB",
+    "posrank": "43"
+  },
+  {
+    "player": "Malik Willis",
+    "fantpos": "QB",
+    "posrank": "44"
+  },
+  {
+    "player": "Marcus Mariota",
+    "fantpos": "QB",
+    "posrank": "45"
+  },
+  {
+    "player": "Jacoby Brissett",
+    "fantpos": "QB",
+    "posrank": "46"
+  },
+  {
+    "player": "Michael Penix",
+    "fantpos": "QB",
+    "posrank": "47"
+  },
+  {
+    "player": "Joshua Dobbs",
+    "fantpos": "QB",
+    "posrank": "48"
+  },
+  {
+    "player": "Tanner McKee",
+    "fantpos": "QB",
+    "posrank": "49"
+  },
+  {
+    "player": "Kenny Pickett",
+    "fantpos": "QB",
+    "posrank": "50"
+  },
+  {
+    "player": "Desmond Ridder",
+    "fantpos": "QB",
+    "posrank": "51"
+  },
+  {
+    "player": "Jimmy Garoppolo",
+    "fantpos": "QB",
+    "posrank": "53"
+  },
+  {
+    "player": "Tyrod Taylor",
+    "fantpos": "QB",
+    "posrank": "52"
+  },
+  {
+    "player": "Joe Milton",
+    "fantpos": "QB",
+    "posrank": "54"
+  },
+  {
+    "player": "Dorian Thompson-Robinson",
+    "fantpos": "QB",
+    "posrank": "55"
+  },
+  {
+    "player": "Mitchell Trubisky",
+    "fantpos": "QB",
+    "posrank": "56"
+  },
+  {
+    "player": "Tim Boyle",
+    "fantpos": "QB",
+    "posrank": "57"
+  },
+  {
+    "player": "Tommy DeVito",
+    "fantpos": "QB",
+    "posrank": "58"
+  },
+  {
+    "player": "Jake Haener",
+    "fantpos": "QB",
+    "posrank": "59"
+  },
+  {
+    "player": "Trey Lance",
+    "fantpos": "QB",
+    "posrank": "60"
+  },
+  {
+    "player": "Davis Mills",
+    "fantpos": "QB",
+    "posrank": "61"
+  },
+  {
+    "player": "Skylar Thompson",
+    "fantpos": "QB",
+    "posrank": "62"
+  },
+  {
+    "player": "Bailey Zappe",
+    "fantpos": "QB",
+    "posrank": "63"
+  },
+  {
+    "player": "Brandon Allen",
+    "fantpos": "QB",
+    "posrank": "64"
+  },
+  {
+    "player": "Carson Wentz",
+    "fantpos": "QB",
+    "posrank": "65"
+  },
+  {
+    "player": "Taylor Heinicke",
+    "fantpos": "QB",
+    "posrank": "66"
+  },
+  {
+    "player": "Hendon Hooker",
+    "fantpos": "QB",
+    "posrank": "67"
+  },
+  {
+    "player": "Kyle Allen",
+    "fantpos": "QB",
+    "posrank": "71"
+  },
+  {
+    "player": "Josh Johnson",
+    "fantpos": "QB",
+    "posrank": "70"
+  },
+  {
+    "player": "Nick Mullens",
+    "fantpos": "QB",
+    "posrank": "68"
+  },
+  {
+    "player": "Chris Oladokun",
+    "fantpos": "QB",
+    "posrank": "72"
+  },
+  {
+    "player": "Jarrett Stidham",
+    "fantpos": "QB",
+    "posrank": "73"
+  },
+  {
+    "player": "Mike White",
+    "fantpos": "QB",
+    "posrank": "69"
+  },
+  {
+    "player": "Tyson Bagent",
+    "fantpos": "QB",
+    "posrank": "77"
+  },
+  {
+    "player": "Jake Browning",
+    "fantpos": "QB",
+    "posrank": "76"
+  },
+  {
+    "player": "Jeff Driskel",
+    "fantpos": "QB",
+    "posrank": "74"
+  },
+  {
+    "player": "Kyle Trask",
+    "fantpos": "QB",
+    "posrank": "75"
+  },
+  {
+    "player": "Sam Howell",
+    "fantpos": "QB",
+    "posrank": "78"
+  },
+  {
+    "player": "Clayton Tune",
+    "fantpos": "QB",
+    "posrank": "79"
+  }
+]
