@@ -34,9 +34,9 @@ async function loadFootballPlayers() {
         fetch("NFL_WR_Players.json").then(res => res.json())
     ]);
 
-    const qbDropdown = document.getElementById("QBs");
-    const rbDropdown = document.getElementById("RBs");
-    const wrDropdown = document.getElementById("WRs");
+    const qbDropdown = document.getElementById("qbPlayers");
+    const rbDropdown = document.getElementById("rbPlayers");
+    const wrDropdown = document.getElementById("wrPlayers");
 
     qbs.forEach(player => {
         const option = document.createElement("option");
@@ -141,9 +141,9 @@ function addPlayer(sport, type = null) {
         const { name } = JSON.parse(selectedValue);
         let team = JSON.parse(localStorage.getItem("footballTeam")) || [];
 
-        const qbCount = team.filter(p => p.type === "QB").length;
-        const rbCount = team.filter(p => p.type === "RB").length;
-        const wrCount = team.filter(p => p.type === "WR").length;
+        const qbCount = team.filter(p => p.type === "qbPlayers").length;
+        const rbCount = team.filter(p => p.type === "rbPlayers").length;
+        const wrCount = team.filter(p => p.type === "wrPlayers").length;
 
         if (team.find(p => p.name === name)) {
             alert("This player is already in your team.");
