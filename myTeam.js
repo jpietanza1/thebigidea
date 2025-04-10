@@ -121,7 +121,16 @@ function addPlayer(sport, type = null) {
         localStorage.setItem("baseballTeam", JSON.stringify(team));
         addPlayerToUI("baseball", player, false);
     } else if (sport === "football") {
-        dropdown = document.getElementById(type);
+        let selectedType;
+        // Corrected dropdown access for football players
+        if (type === "QB") {
+            dropdown = document.getElementById("QBs");
+        } else if (type === "RB") {
+            dropdown = document.getElementById("RBs");
+        } else if (type === "WR") {
+            dropdown = document.getElementById("WRs");
+        }
+
         selectedValue = dropdown.value;
 
         if (!selectedValue) {
