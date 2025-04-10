@@ -1,31 +1,31 @@
 [
   {
-    "Player": "Lamar Jackson*+",
-    "FantPos": "QB",
-    "PosRank": "1"
+    "player": "Lamar Jackson",
+    "fantpos": "QB",
+    "posrank": "1"
   },
   {
-    "player": "Josh Allen*",
+    "player": "Josh Allen",
     "fantpos": "QB",
     "posrank": "2"
   },
   {
-    "player": "Joe Burrow*",
+    "player": "Joe Burrow",
     "fantpos": "QB",
     "posrank": "3"
   },
   {
-    "player": "Baker Mayfield*",
+    "player": "Baker Mayfield",
     "fantpos": "QB",
     "posrank": "4"
   },
   {
-    "player": "Jayden Daniels*",
+    "player": "Jayden Daniels",
     "fantpos": "QB",
     "posrank": "5"
   },
   {
-    "player": "Jared Goff*",
+    "player": "Jared Goff",
     "fantpos": "QB",
     "posrank": "6"
   },
@@ -40,7 +40,7 @@
     "posrank": "8"
   },
   {
-    "player": "Sam Darnold*",
+    "player": "Sam Darnold",
     "fantpos": "QB",
     "posrank": "9"
   },
@@ -105,7 +105,7 @@
     "posrank": "21"
   },
   {
-    "player": "Drake Maye*",
+    "player": "Drake Maye",
     "fantpos": "QB",
     "posrank": "22"
   },
@@ -115,7 +115,7 @@
     "posrank": "23"
   },
   {
-    "player": "Russell Wilson*",
+    "player": "Russell Wilson",
     "fantpos": "QB",
     "posrank": "24"
   },

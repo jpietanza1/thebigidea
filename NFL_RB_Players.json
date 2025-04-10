@@ -1,26 +1,26 @@
 [
   {
-    "Player": "Saquon Barkley*+",
-    "FantPos": "RB",
-    "PosRank": "1"
+    "player": "Saquon Barkley",
+    "fantpos": "RB",
+    "posrank": "1"
   },
   {
-    "player": "Derrick Henry*",
+    "player": "Derrick Henry",
     "fantpos": "RB",
     "posrank": "2"
   },
   {
-    "player": "Jahmyr Gibbs*",
+    "player": "Jahmyr Gibbs",
     "fantpos": "RB",
     "posrank": "3"
   },
   {
-    "player": "Bijan Robinson*",
+    "player": "Bijan Robinson",
     "fantpos": "RB",
     "posrank": "4"
   },
   {
-    "player": "Josh Jacobs*",
+    "player": "Josh Jacobs",
     "fantpos": "RB",
     "posrank": "5"
   },
@@ -30,12 +30,12 @@
     "posrank": "6"
   },
   {
-    "player": "James Cook*",
+    "player": "James Cook",
     "fantpos": "RB",
     "posrank": "7"
   },
   {
-    "player": "Jonathan Taylor*",
+    "player": "Jonathan Taylor",
     "fantpos": "RB",
     "posrank": "8"
   },
@@ -50,7 +50,7 @@
     "posrank": "10"
   },
   {
-    "player": "Joe Mixon*",
+    "player": "Joe Mixon",
     "fantpos": "RB",
     "posrank": "11"
   },
