@@ -88,10 +88,27 @@
 
         <div class="sport-section">
             <h2>Football</h2>
-            <select id="footballPlayers">
-                <option value="">Select a player</option>
-            </select>
-            <button onclick="addPlayer('football')">Add</button>
+            <div>
+                <label for="qbPlayers">QB:</label>
+                <select id="qbPlayers">
+                    <option value="">Select a player</option>
+                </select>
+                <button onclick="addPlayer('football', 'QB')">Add</button>
+            </div>
+            <div>
+                <label for="rbPlayers">RB:</label>
+                <select id="rbPlayers">
+                    <option value="">Select a player</option>
+                </select>
+                <button onclick="addPlayer('football', 'RB')">Add</button>
+            </div>
+            <div>
+                <label for="wrPlayers">WR:</label>
+                <select id="wrPlayers">
+                    <option value="">Select a player</option>
+                </select>
+                <button onclick="addPlayer('football', 'WR')">Add</button>
+            </div>
             <ul id="footballTeam" class="team-list"></ul>
         </div>
 
