@@ -34,38 +34,40 @@ async function loadFootballPlayers() {
         fetch("NFL_WR_Players.json").then(res => res.json())
     ]);
 
-    console.log('QBs:', qbs);  // Log QB data
-    console.log('RBs:', rbs);  // Log RB data
-    console.log('WRs:', wrs);  // Log WR data
-
     const qbDropdown = document.getElementById("qbPlayers");
     const rbDropdown = document.getElementById("rbPlayers");
     const wrDropdown = document.getElementById("wrPlayers");
 
     qbs.forEach(player => {
         const option = document.createElement("option");
-        const playerName = player.Player || "Unknown Player";
-        const playerPosRank = player.PosRank || "N/A";  // Use PosRank here
-        option.value = JSON.stringify({ name: playerName, type: "QB", rank: playerPosRank });
-        option.textContent = `${playerPosRank}. ${playerName}`;
+        option.value = JSON.stringify({
+            name: player.Player || "Unknown Player",
+            type: "QB",
+            rank: player.PosRank || "N/A"
+        });
+        option.textContent = `${player.PosRank || "N/A"}. ${player.Player || "Unknown Player"}`;
         qbDropdown.appendChild(option);
     });
 
     rbs.forEach(player => {
         const option = document.createElement("option");
-        const playerName = player.Player || "Unknown Player";
-        const playerPosRank = player.PosRank || "N/A";  // Use PosRank here
-        option.value = JSON.stringify({ name: playerName, type: "RB", rank: playerPosRank });
-        option.textContent = `${playerPosRank}. ${playerName}`;
+        option.value = JSON.stringify({
+            name: player.Player || "Unknown Player",
+            type: "RB",
+            rank: player.PosRank || "N/A"
+        });
+        option.textContent = `${player.PosRank || "N/A"}. ${player.Player || "Unknown Player"}`;
         rbDropdown.appendChild(option);
     });
 
     wrs.forEach(player => {
         const option = document.createElement("option");
-        const playerName = player.Player || "Unknown Player";
-        const playerPosRank = player.PosRank || "N/A";  // Use PosRank here
-        option.value = JSON.stringify({ name: playerName, type: "WR", rank: playerPosRank });
-        option.textContent = `${playerPosRank}. ${playerName}`;
+        option.value = JSON.stringify({
+            name: player.Player || "Unknown Player",
+            type: "WR",
+            rank: player.PosRank || "N/A"
+        });
+        option.textContent = `${player.PosRank || "N/A"}. ${player.Player || "Unknown Player"}`;
         wrDropdown.appendChild(option);
     });
 }
