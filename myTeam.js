@@ -15,14 +15,14 @@ async function loadBaseballPlayers() {
     pitchers.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({ name: player.Player, type: "pitcher", rank: player.Rank });
-        option.textContent = `${player.Rank} ${player.Player}`;
+        option.textContent = `${player.Rank}. ${player.Player}`;
         pitcherDropdown.appendChild(option);
     });
 
     batters.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({ name: player.Player, type: "batter", rank: player.Rank });
-        option.textContent = `${player.Rank} ${player.Player}`;
+        option.textContent = `${player.Rank}. ${player.Player}`;
         batterDropdown.appendChild(option);
     });
 }
@@ -41,33 +41,33 @@ async function loadFootballPlayers() {
     qbs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({
-            name: player.Player || "Unknown Player",
+            name: player.Player,
             type: "QB",
-            rank: player.PosRank || "N/A"
+            rank: player.PosRank
         });
-        option.textContent = `${player.PosRank || "N/A"}. ${player.Player || "Unknown Player"}`;
+        option.textContent = `${player.PosRank}. ${player.Player}`;
         qbDropdown.appendChild(option);
     });
 
     rbs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({
-            name: player.Player || "Unknown Player",
+            name: player.Player,
             type: "RB",
-            rank: player.PosRank || "N/A"
+            rank: player.PosRank
         });
-        option.textContent = `${player.PosRank || "N/A"}. ${player.Player || "Unknown Player"}`;
+        option.textContent = `${player.PosRank}. ${player.Player}`;
         rbDropdown.appendChild(option);
     });
 
     wrs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({
-            name: player.Player || "Unknown Player",
+            name: player.Player,
             type: "WR",
-            rank: player.PosRank || "N/A"
+            rank: player.PosRank
         });
-        option.textContent = `${player.PosRank || "N/A"}. ${player.Player || "Unknown Player"}`;
+        option.textContent = `${player.PosRank}. ${player.Player}`;
         wrDropdown.appendChild(option);
     });
 }
