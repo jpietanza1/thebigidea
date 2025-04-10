@@ -36,18 +36,13 @@ time.sleep(2)
 driver.execute_script("window.scrollBy(0, -200);")
 time.sleep(2)
 
-# Sort by Rbat+ using WebDriverWait
+# Sort by ERA+ using WebDriverWait
 try:
-    # Wait until the 'ERA+' header is clickable
     era_header = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.CSS_SELECTOR, 'th[aria-label="ERA+"]'))
     )
     era_header.click()
-    time.sleep(2)  # Wait for sort to apply
-
-    # Optional: Click again if you want to ensure descending order
-    # era_header.click()
-    # time.sleep(2)
+    time.sleep(2)
 except Exception as e:
     print("Could not click ERA+ header:", e)
 
@@ -62,13 +57,17 @@ for tr in table.find_elements(By.XPATH, ".//tbody/tr[not(contains(@class, 'thead
 
     if th and len(td) >= 1:
         col1 = th[0].text.strip()  # First column
-        col2 = td[0].text.strip()  # Second column
-        if col1 and col2: #Only takes filled columns
-            data.append({"Rank": col1, "Player": col2})
+        col2 = td[0].text.strip()  # Second column (player name)
+
+        # Clean up player name by removing * and +
+        col2_cleaned = col2.replace("*", "").replace("+", "")
+
+        if col1 and col2_cleaned:  # Only takes filled columns
+            data.append({"Rank": col1, "Player": col2_cleaned})
 
 print(f"Total rows scraped: {len(data)}")
 
-# Save to JSON without pandas
+# Save to JSON
 if data:
     with open("MLB_pitcher_ERA+.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
