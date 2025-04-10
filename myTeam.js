@@ -41,33 +41,33 @@ async function loadFootballPlayers() {
     qbs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({
-            name: player.Player,
+            name: player.player,
             type: "QB",
-            rank: player.PosRank
+            rank: player.posrank
         });
-        option.textContent = `${player.PosRank}. ${player.Player}`;
+        option.textContent = `${player.posrank}. ${player.player}`;
         qbDropdown.appendChild(option);
     });
 
     rbs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({
-            name: player.Player,
+            name: player.player,
             type: "RB",
-            rank: player.PosRank
+            rank: player.posrank
         });
-        option.textContent = `${player.PosRank}. ${player.Player}`;
+        option.textContent = `${player.posrank}. ${player.player}`;
         rbDropdown.appendChild(option);
     });
 
     wrs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({
-            name: player.Player,
+            name: player.player,
             type: "WR",
-            rank: player.PosRank
+            rank: player.posrank
         });
-        option.textContent = `${player.PosRank}. ${player.Player}`;
+        option.textContent = `${player.posrank}. ${player.player}`;
         wrDropdown.appendChild(option);
     });
 }
