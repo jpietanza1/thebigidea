@@ -40,7 +40,7 @@ table = driver.find_element(By.ID, "fantasy")
 # Step 1: Dynamically build a map of column names to their indexes by checking if they contain the target text
 header_cells = table.find_elements(By.XPATH, ".//thead/tr[2]/th")
 column_indexes = {}
-target_columns = ["player", "fantpos", "posrank"]
+target_columns = ["Player", "FantPos", "PosRank"]
 
 for idx, cell in enumerate(header_cells):
     header_text = cell.text.strip().lower()
