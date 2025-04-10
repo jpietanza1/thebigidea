@@ -27,32 +27,32 @@ async function loadBaseballPlayers() {
     });
 }
 
-async function loadFooballPlayers() {
-    const [pitchers, batters] = await Promise.all([
+async function loadFootballPlayers() {
+    const [qbs, rbs, wrs] = await Promise.all([
         fetch("NFL_QB_Players.json").then(res => res.json()),
-        fetch("NFL_RB_Players.json").then(res => res.json())
+        fetch("NFL_RB_Players.json").then(res => res.json()),
         fetch("NFL_WR_Players.json").then(res => res.json())
-
     ]);
 
     const qbDropdown = document.getElementById("QBs");
     const rbDropdown = document.getElementById("RBs");
     const wrDropdown = document.getElementById("WRs");
 
-    QBs.forEach(player => {
+    qbs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({ name: player.Player, type: "QB", rank: player.Rank });
         option.textContent = `${player.Rank}. ${player.Player}`;
         qbDropdown.appendChild(option);
     });
 
-    RBs.forEach(player => {
+    rbs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({ name: player.Player, type: "RB", rank: player.Rank });
         option.textContent = `${player.Rank}. ${player.Player}`;
         rbDropdown.appendChild(option);
     });
-    WRs.forEach(player => {
+
+    wrs.forEach(player => {
         const option = document.createElement("option");
         option.value = JSON.stringify({ name: player.Player, type: "WR", rank: player.Rank });
         option.textContent = `${player.Rank}. ${player.Player}`;
@@ -65,7 +65,7 @@ function populateDropdown(sport) {
         loadBaseballPlayers();
     } else if (sport === "football") {
         loadFootballPlayers();
-    }else {
+    } else {
         const dropdown = document.getElementById(`${sport}Players`);
         players[sport].forEach(player => {
             const option = document.createElement("option");
@@ -78,7 +78,7 @@ function populateDropdown(sport) {
 
 function loadTeams() {
     ["baseball", "football", "basketball", "soccer"].forEach(sport => {
-        let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
+        const team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
         team.forEach(player => addPlayerToUI(sport, player, false));
     });
 }
@@ -121,7 +121,7 @@ function addPlayer(sport, type = null) {
         localStorage.setItem("baseballTeam", JSON.stringify(team));
         addPlayerToUI("baseball", player, false);
     } else if (sport === "football") {
-        dropdown = document.getElementById(type === "QB" ? "QB" : "RB" : "WR");
+        dropdown = document.getElementById(type);
         selectedValue = dropdown.value;
 
         if (!selectedValue) {
@@ -148,19 +148,18 @@ function addPlayer(sport, type = null) {
 
         if (type === "RB" && rbCount >= 2) {
             alert("You can only select 2 RBs.");
-            return;   
+            return;
         }
 
         if (type === "WR" && wrCount >= 2) {
             alert("You can only select 2 WRs.");
-            return;   
+            return;
         }
 
         const player = { name, type };
         team.push(player);
         localStorage.setItem("footballTeam", JSON.stringify(team));
         addPlayerToUI("football", player, false);
-
     } else {
         dropdown = document.getElementById(`${sport}Players`);
         selectedValue = dropdown.value;
@@ -205,12 +204,7 @@ function addPlayerToUI(sport, player, saveToStorage) {
     listItem.appendChild(removeButton);
     teamList.appendChild(listItem);
 
-    if (saveToStorage && sport !== "baseball") {
-        const team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
-        team.push(player);
-        localStorage.setItem(`${sport}Team`, JSON.stringify(team));
-    }
-    else if (saveToStorage && sport !== "football") {
+    if (saveToStorage) {
         const team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
         team.push(player);
         localStorage.setItem(`${sport}Team`, JSON.stringify(team));
@@ -220,13 +214,7 @@ function addPlayerToUI(sport, player, saveToStorage) {
 function removePlayer(sport, player) {
     let team = JSON.parse(localStorage.getItem(`${sport}Team`)) || [];
 
-    if (sport === "baseball") {
-        team = team.filter(p => p.name !== player.name);
-    } else if (sport ==="football") {
-        team =team.filter(p => p.name !== player.name);
-    } else {
-        team = team.filter(p => p !== player);
-    }
+    team = team.filter(p => p.name !== player.name);
 
     localStorage.setItem(`${sport}Team`, JSON.stringify(team));
     document.getElementById(`${sport}Team`).innerHTML = "";
