@@ -34,28 +34,38 @@ async function loadFootballPlayers() {
         fetch("NFL_WR_Players.json").then(res => res.json())
     ]);
 
+    console.log('QBs:', qbs);  // Log QB data
+    console.log('RBs:', rbs);  // Log RB data
+    console.log('WRs:', wrs);  // Log WR data
+
     const qbDropdown = document.getElementById("qbPlayers");
     const rbDropdown = document.getElementById("rbPlayers");
     const wrDropdown = document.getElementById("wrPlayers");
 
     qbs.forEach(player => {
         const option = document.createElement("option");
-        option.value = JSON.stringify({ name: player.Player, type: "QB", rank: player.Rank });
-        option.textContent = `${player.Rank}. ${player.Player}`;
+        const playerName = player.Player || "Unknown Player";
+        const playerRank = player.Rank || "N/A";
+        option.value = JSON.stringify({ name: playerName, type: "QB", rank: playerRank });
+        option.textContent = `${playerRank}. ${playerName}`;
         qbDropdown.appendChild(option);
     });
 
     rbs.forEach(player => {
         const option = document.createElement("option");
-        option.value = JSON.stringify({ name: player.Player, type: "RB", rank: player.Rank });
-        option.textContent = `${player.Rank}. ${player.Player}`;
+        const playerName = player.Player || "Unknown Player";
+        const playerRank = player.Rank || "N/A";
+        option.value = JSON.stringify({ name: playerName, type: "RB", rank: playerRank });
+        option.textContent = `${playerRank}. ${playerName}`;
         rbDropdown.appendChild(option);
     });
 
     wrs.forEach(player => {
         const option = document.createElement("option");
-        option.value = JSON.stringify({ name: player.Player, type: "WR", rank: player.Rank });
-        option.textContent = `${player.Rank}. ${player.Player}`;
+        const playerName = player.Player || "Unknown Player";
+        const playerRank = player.Rank || "N/A";
+        option.value = JSON.stringify({ name: playerName, type: "WR", rank: playerRank });
+        option.textContent = `${playerRank}. ${playerName}`;
         wrDropdown.appendChild(option);
     });
 }
@@ -122,13 +132,12 @@ function addPlayer(sport, type = null) {
         addPlayerToUI("baseball", player, false);
     } else if (sport === "football") {
         let selectedType;
-        // Corrected dropdown access for football players
         if (type === "QB") {
-            dropdown = document.getElementById("QBs");
+            dropdown = document.getElementById("qbPlayers");
         } else if (type === "RB") {
-            dropdown = document.getElementById("RBs");
+            dropdown = document.getElementById("rbPlayers");
         } else if (type === "WR") {
-            dropdown = document.getElementById("WRs");
+            dropdown = document.getElementById("wrPlayers");
         }
 
         selectedValue = dropdown.value;
@@ -141,9 +150,9 @@ function addPlayer(sport, type = null) {
         const { name } = JSON.parse(selectedValue);
         let team = JSON.parse(localStorage.getItem("footballTeam")) || [];
 
-        const qbCount = team.filter(p => p.type === "qbPlayers").length;
-        const rbCount = team.filter(p => p.type === "rbPlayers").length;
-        const wrCount = team.filter(p => p.type === "wrPlayers").length;
+        const qbCount = team.filter(p => p.type === "QB").length;
+        const rbCount = team.filter(p => p.type === "RB").length;
+        const wrCount = team.filter(p => p.type === "WR").length;
 
         if (team.find(p => p.name === name)) {
             alert("This player is already in your team.");
