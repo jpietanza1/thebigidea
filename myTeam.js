@@ -45,27 +45,27 @@ async function loadFootballPlayers() {
     qbs.forEach(player => {
         const option = document.createElement("option");
         const playerName = player.Player || "Unknown Player";
-        const playerRank = player.Rank || "N/A";
-        option.value = JSON.stringify({ name: playerName, type: "QB", rank: playerRank });
-        option.textContent = `${playerRank}. ${playerName}`;
+        const playerPosRank = player.PosRank || "N/A";  // Use PosRank here
+        option.value = JSON.stringify({ name: playerName, type: "QB", rank: playerPosRank });
+        option.textContent = `${playerPosRank}. ${playerName}`;
         qbDropdown.appendChild(option);
     });
 
     rbs.forEach(player => {
         const option = document.createElement("option");
         const playerName = player.Player || "Unknown Player";
-        const playerRank = player.Rank || "N/A";
-        option.value = JSON.stringify({ name: playerName, type: "RB", rank: playerRank });
-        option.textContent = `${playerRank}. ${playerName}`;
+        const playerPosRank = player.PosRank || "N/A";  // Use PosRank here
+        option.value = JSON.stringify({ name: playerName, type: "RB", rank: playerPosRank });
+        option.textContent = `${playerPosRank}. ${playerName}`;
         rbDropdown.appendChild(option);
     });
 
     wrs.forEach(player => {
         const option = document.createElement("option");
         const playerName = player.Player || "Unknown Player";
-        const playerRank = player.Rank || "N/A";
-        option.value = JSON.stringify({ name: playerName, type: "WR", rank: playerRank });
-        option.textContent = `${playerRank}. ${playerName}`;
+        const playerPosRank = player.PosRank || "N/A";  // Use PosRank here
+        option.value = JSON.stringify({ name: playerName, type: "WR", rank: playerPosRank });
+        option.textContent = `${playerPosRank}. ${playerName}`;
         wrDropdown.appendChild(option);
     });
 }
