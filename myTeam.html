@@ -58,6 +58,20 @@
         .remove-btn:hover {
             background: darkred;
         }
+
+        .remove-all-btn {
+            margin-top: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .remove-all-btn:hover {
+            background-color: #333;
+        }
     </style>
 </head>
 <body>
@@ -84,6 +98,7 @@
                 <button onclick="addPlayer('baseball', 'pitcher')">Add</button>
             </div>
             <ul id="baseballTeam" class="team-list"></ul>
+            <button class="remove-all-btn" onclick="removeAllPlayers('baseball')">Remove All Baseball Players</button>
         </div>               
 
         <div class="sport-section">
@@ -110,6 +125,7 @@
                 <button onclick="addPlayer('football', 'WR')">Add</button>
             </div>
             <ul id="footballTeam" class="team-list"></ul>
+            <button class="remove-all-btn" onclick="removeAllPlayers('football')">Remove All Football Players</button>
         </div>
 
         <div class="sport-section">
@@ -119,6 +135,7 @@
             </select>
             <button onclick="addPlayer('basketball')">Add</button>
             <ul id="basketballTeam" class="team-list"></ul>
+            <button class="remove-all-btn" onclick="removeAllPlayers('basketball')">Remove All Basketball Players</button>
         </div>
 
         <div class="sport-section">
@@ -128,6 +145,7 @@
             </select>
             <button onclick="addPlayer('soccer')">Add</button>
             <ul id="soccerTeam" class="team-list"></ul>
+            <button class="remove-all-btn" onclick="removeAllPlayers('soccer')">Remove All Soccer Players</button>
         </div>
     </div>
 
