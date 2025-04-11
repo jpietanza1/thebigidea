@@ -242,6 +242,13 @@ function removePlayer(sport, player) {
     team.forEach(p => addPlayerToUI(sport, p, false));
 }
 
+function removeAllPlayers(sport) {
+    if (confirm(`Are you sure you want to remove all ${sport} players?`)) {
+        localStorage.removeItem(`${sport}Team`);
+        document.getElementById(`${sport}Team`).innerHTML = "";
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     ["baseball", "football", "basketball", "soccer"].forEach(populateDropdown);
     loadTeams();
