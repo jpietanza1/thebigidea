@@ -107,7 +107,7 @@ function addPlayer(sport, type = null) {
             return;
         }
 
-        const { name } = JSON.parse(selectedValue);
+        const { name, rank } = JSON.parse(selectedValue);
         let team = JSON.parse(localStorage.getItem("baseballTeam")) || [];
 
         const pitcherCount = team.filter(p => p.type === "pitcher").length;
@@ -128,7 +128,7 @@ function addPlayer(sport, type = null) {
             return;
         }
 
-        const player = { name, type };
+        const player = { name, type, rank };
         team.push(player);
         localStorage.setItem("baseballTeam", JSON.stringify(team));
         addPlayerToUI("baseball", player, false);
@@ -149,7 +149,7 @@ function addPlayer(sport, type = null) {
             return;
         }
 
-        const { name } = JSON.parse(selectedValue);
+        const { name, rank } = JSON.parse(selectedValue);
         let team = JSON.parse(localStorage.getItem("footballTeam")) || [];
 
         const qbCount = team.filter(p => p.type === "QB").length;
@@ -176,7 +176,7 @@ function addPlayer(sport, type = null) {
             return;
         }
 
-        const player = { name, type };
+        const player = { name, type, rank };
         team.push(player);
         localStorage.setItem("footballTeam", JSON.stringify(team));
         addPlayerToUI("football", player, false);
@@ -212,7 +212,7 @@ function addPlayerToUI(sport, player, saveToStorage) {
     const listItem = document.createElement("li");
     const playerName = typeof player === "string" ? player : player.name;
 
-    listItem.textContent = playerName;
+    listItem.textContent = player.rank ? `${player.rank}. ${playerName}` : playerName;
 
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
