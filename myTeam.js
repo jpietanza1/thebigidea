@@ -209,6 +209,8 @@ function addPlayer(sport, type = null) {
 }
 
 function addPlayerToUI(sport, player, saveToStorage) {
+    const teamList = document.getElementById(`${sport}Team`); 
+    const listItem = document.createElement("li");
     const playerName = typeof player === "string" ? player : player.name;
     const playerRank = typeof player === "object" && player.rank ? `${player.rank}. ` : "";
     listItem.textContent = `${playerRank}${playerName}`;
