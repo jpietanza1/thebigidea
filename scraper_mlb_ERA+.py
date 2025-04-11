@@ -60,7 +60,7 @@ for tr in table.find_elements(By.XPATH, ".//tbody/tr[not(contains(@class, 'thead
         col2 = td[0].text.strip()  # Second column (player name)
 
         # Clean up player name by removing * and +
-        col2_cleaned = col2.replace("*", "").replace("+", "")
+        col2_cleaned = col2.replace("*", "").replace("+", "").replace("#", "")
 
         if col1 and col2_cleaned:  # Only takes filled columns
             data.append({"Rank": col1, "Player": col2_cleaned})
