@@ -8,7 +8,7 @@
         {
             "Rank": "2.",
             "Player": "Anthony Edwards \u2022 MIN",
-            "Points": "2081"
+            "Points": "2125"
         },
         {
             "Rank": "3.",
@@ -18,7 +18,7 @@
         {
             "Rank": "4.",
             "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Points": "1976"
+            "Points": "2004"
         },
         {
             "Rank": "5.",
@@ -38,22 +38,22 @@
         {
             "Rank": "8.",
             "Player": "Trae Young \u2022 ATL",
-            "Points": "1781"
+            "Points": "1805"
         },
         {
             "Rank": "9.",
             "Player": "Cade Cunningham \u2022 DET",
-            "Points": "1758"
+            "Points": "1794"
         },
         {
             "Rank": "10.",
-            "Player": "James Harden \u2022 LAC",
-            "Points": "1740"
+            "Player": "Karl-Anthony Towns \u2022 NYK",
+            "Points": "1759"
         },
         {
             "Rank": "11.",
-            "Player": "Karl-Anthony Towns \u2022 NYK",
-            "Points": "1734"
+            "Player": "James Harden \u2022 LAC",
+            "Points": "1740"
         },
         {
             "Rank": "12.",
@@ -88,7 +88,7 @@
         {
             "Rank": "18.",
             "Player": "Jalen Brunson \u2022 NYK",
-            "Points": "1648"
+            "Points": "1663"
         },
         {
             "Rank": "19.",
@@ -98,7 +98,7 @@
         {
             "Rank": "20.",
             "Player": "Jaren Jackson Jr. \u2022 MEM",
-            "Points": "1600"
+            "Points": "1623"
         }
     ],
     "Points per Game": [
@@ -120,7 +120,7 @@
         {
             "Rank": "4.",
             "Player": "Anthony Edwards \u2022 MIN",
-            "Points per Game": "27.4"
+            "Points per Game": "27.6"
         },
         {
             "Rank": "5.",
@@ -134,13 +134,13 @@
         },
         {
             "Rank": "7.",
-            "Player": "Jalen Brunson \u2022 NYK",
-            "Points per Game": "26.2"
+            "Player": "Cade Cunningham \u2022 DET",
+            "Points per Game": "26.0"
         },
         {
             "Rank": "8.",
-            "Player": "Cade Cunningham \u2022 DET",
-            "Points per Game": "25.9"
+            "Player": "Jalen Brunson \u2022 NYK",
+            "Points per Game": "26.0"
         },
         {
             "Rank": "9.",
@@ -217,7 +217,7 @@
         {
             "Rank": "3.",
             "Player": "Karl-Anthony Towns \u2022 NYK",
-            "Total Rebounds": "910"
+            "Total Rebounds": "920"
         },
         {
             "Rank": "4.",
@@ -226,28 +226,28 @@
         },
         {
             "Rank": "5.",
+            "Player": "Jalen Duren \u2022 DET",
+            "Total Rebounds": "790"
+        },
+        {
+            "Rank": "6.",
+            "Player": "Giannis Antetokounmpo \u2022 MIL",
+            "Total Rebounds": "787"
+        },
+        {
+            "Rank": "7.",
+            "Player": "Jarrett Allen \u2022 CLE",
+            "Total Rebounds": "785"
+        },
+        {
+            "Rank": "8.",
             "Player": "Alperen \u015eeng\u00fcn \u2022 HOU",
             "Total Rebounds": "781"
         },
         {
-            "Rank": "6.",
-            "Player": "Jalen Duren \u2022 DET",
-            "Total Rebounds": "777"
-        },
-        {
-            "Rank": "7.",
-            "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Total Rebounds": "776"
-        },
-        {
-            "Rank": "8.",
-            "Player": "Jarrett Allen \u2022 CLE",
-            "Total Rebounds": "775"
-        },
-        {
             "Rank": "9.",
             "Player": "Rudy Gobert \u2022 MIN",
-            "Total Rebounds": "748"
+            "Total Rebounds": "756"
         },
         {
             "Rank": "10.",
@@ -271,13 +271,13 @@
         },
         {
             "Rank": "14.",
-            "Player": "Evan Mobley \u2022 CLE",
-            "Total Rebounds": "649"
+            "Player": "Onyeka Okongwu \u2022 ATL",
+            "Total Rebounds": "652"
         },
         {
             "Rank": "15.",
-            "Player": "Onyeka Okongwu \u2022 ATL",
-            "Total Rebounds": "637"
+            "Player": "Evan Mobley \u2022 CLE",
+            "Total Rebounds": "649"
         },
         {
             "Rank": "16.",
@@ -313,12 +313,12 @@
         },
         {
             "Rank": "2.",
-            "Player": "Karl-Anthony Towns \u2022 NYK",
+            "Player": "Nikola Joki\u0107 \u2022 DEN",
             "Rebounds per Game": "12.8"
         },
         {
             "Rank": "3.",
-            "Player": "Nikola Joki\u0107 \u2022 DEN",
+            "Player": "Karl-Anthony Towns \u2022 NYK",
             "Rebounds per Game": "12.8"
         },
         {
@@ -389,7 +389,7 @@
         {
             "Rank": "17.",
             "Player": "Onyeka Okongwu \u2022 ATL",
-            "Rebounds per Game": "8.8"
+            "Rebounds per Game": "8.9"
         },
         {
             "Rank": "18.",
@@ -416,10 +416,10 @@
         {
             "Rank": "2.",
             "Player": "Jalen Duren \u2022 DET",
-            "Offensive Rebounds": "266"
+            "Offensive Rebounds": "271"
         },
         {
-            "Rank": "",
+            "Rank": "3.",
             "Player": "Walker Kessler \u2022 UTA",
             "Offensive Rebounds": "266"
         },
@@ -446,22 +446,22 @@
         {
             "Rank": "8.",
             "Player": "Zach Edey \u2022 MEM",
-            "Offensive Rebounds": "225"
+            "Offensive Rebounds": "229"
         },
         {
             "Rank": "9.",
             "Player": "Onyeka Okongwu \u2022 ATL",
-            "Offensive Rebounds": "218"
+            "Offensive Rebounds": "219"
         },
         {
             "Rank": "10.",
             "Player": "Jarrett Allen \u2022 CLE",
-            "Offensive Rebounds": "210"
+            "Offensive Rebounds": "213"
         },
         {
             "Rank": "11.",
             "Player": "Karl-Anthony Towns \u2022 NYK",
-            "Offensive Rebounds": "208"
+            "Offensive Rebounds": "212"
         },
         {
             "Rank": "12.",
@@ -513,7 +513,7 @@
         {
             "Rank": "1.",
             "Player": "Karl-Anthony Towns \u2022 NYK",
-            "Defensive Rebounds": "702"
+            "Defensive Rebounds": "708"
         },
         {
             "Rank": "2.",
@@ -533,22 +533,22 @@
         {
             "Rank": "5.",
             "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Defensive Rebounds": "632"
+            "Defensive Rebounds": "641"
         },
         {
             "Rank": "6.",
+            "Player": "Jarrett Allen \u2022 CLE",
+            "Defensive Rebounds": "572"
+        },
+        {
+            "Rank": "7.",
             "Player": "Jayson Tatum \u2022 BOS",
             "Defensive Rebounds": "568"
         },
         {
-            "Rank": "7.",
+            "Rank": "8.",
             "Player": "Josh Hart \u2022 NYK",
             "Defensive Rebounds": "567"
-        },
-        {
-            "Rank": "8.",
-            "Player": "Jarrett Allen \u2022 CLE",
-            "Defensive Rebounds": "565"
         },
         {
             "Rank": "9.",
@@ -568,12 +568,12 @@
         {
             "Rank": "12.",
             "Player": "Jalen Duren \u2022 DET",
-            "Defensive Rebounds": "511"
+            "Defensive Rebounds": "519"
         },
         {
             "Rank": "13.",
             "Player": "Rudy Gobert \u2022 MIN",
-            "Defensive Rebounds": "494"
+            "Defensive Rebounds": "502"
         },
         {
             "Rank": "14.",
@@ -607,15 +607,15 @@
         },
         {
             "Rank": "20.",
-            "Player": "Jonas Valan\u010di\u016bnas \u2022 TOT",
-            "Defensive Rebounds": "427"
+            "Player": "Onyeka Okongwu \u2022 ATL",
+            "Defensive Rebounds": "433"
         }
     ],
     "Assists": [
         {
             "Rank": "1.",
             "Player": "Trae Young \u2022 ATL",
-            "Assists": "857"
+            "Assists": "869"
         },
         {
             "Rank": "2.",
@@ -624,18 +624,18 @@
         },
         {
             "Rank": "3.",
+            "Player": "Tyrese Haliburton \u2022 IND",
+            "Assists": "673"
+        },
+        {
+            "Rank": "4.",
             "Player": "James Harden \u2022 LAC",
             "Assists": "667"
         },
         {
-            "Rank": "4.",
-            "Player": "Tyrese Haliburton \u2022 IND",
-            "Assists": "663"
-        },
-        {
             "Rank": "5.",
             "Player": "Cade Cunningham \u2022 DET",
-            "Assists": "618"
+            "Assists": "626"
         },
         {
             "Rank": "6.",
@@ -670,7 +670,7 @@
         {
             "Rank": "12.",
             "Player": "Jalen Brunson \u2022 NYK",
-            "Assists": "468"
+            "Assists": "473"
         },
         {
             "Rank": "13.",
@@ -704,13 +704,13 @@
         },
         {
             "Rank": "19.",
-            "Player": "Austin Reaves \u2022 LAL",
-            "Assists": "415"
+            "Player": "Giannis Antetokounmpo \u2022 MIL",
+            "Assists": "418"
         },
         {
             "Rank": "20.",
-            "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Assists": "413"
+            "Player": "Austin Reaves \u2022 LAL",
+            "Assists": "415"
         }
     ],
     "Assists per Game": [
@@ -782,7 +782,7 @@
         {
             "Rank": "14.",
             "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Assists per Game": "6.4"
+            "Assists per Game": "6.3"
         },
         {
             "Rank": "15.",
@@ -819,7 +819,7 @@
         {
             "Rank": "1.",
             "Player": "Dyson Daniels \u2022 ATL",
-            "Steals": "223"
+            "Steals": "226"
         },
         {
             "Rank": "2.",
@@ -874,7 +874,7 @@
         {
             "Rank": "12.",
             "Player": "Jaden McDaniels \u2022 MIN",
-            "Steals": "106"
+            "Steals": "107"
         },
         {
             "Rank": "13.",
@@ -889,7 +889,7 @@
         {
             "Rank": "15.",
             "Player": "Scotty Pippen Jr. \u2022 MEM",
-            "Steals": "102"
+            "Steals": "103"
         },
         {
             "Rank": "16.",
@@ -1006,7 +1006,7 @@
         {
             "Rank": "17.",
             "Player": "Tyrese Haliburton \u2022 IND",
-            "Steals per Game": "1.5"
+            "Steals per Game": "1.4"
         },
         {
             "Rank": "18.",
@@ -1033,12 +1033,12 @@
         {
             "Rank": "2.",
             "Player": "Brook Lopez \u2022 MIL",
-            "Blocks": "144"
+            "Blocks": "145"
         },
         {
             "Rank": "3.",
             "Player": "Myles Turner \u2022 IND",
-            "Blocks": "139"
+            "Blocks": "143"
         },
         {
             "Rank": "4.",
@@ -1067,27 +1067,27 @@
         },
         {
             "Rank": "9.",
+            "Player": "Isaiah Stewart \u2022 DET",
+            "Blocks": "101"
+        },
+        {
+            "Rank": "10.",
             "Player": "Alex Sarr \u2022 WAS",
             "Blocks": "100"
         },
         {
             "Rank": "",
-            "Player": "Isaiah Stewart \u2022 DET",
+            "Player": "Nic Claxton \u2022 BRK",
             "Blocks": "100"
         },
         {
-            "Rank": "11.",
-            "Player": "Nic Claxton \u2022 BRK",
+            "Rank": "12.",
+            "Player": "Daniel Gafford \u2022 DAL",
             "Blocks": "99"
         },
         {
             "Rank": "",
             "Player": "Rudy Gobert \u2022 MIN",
-            "Blocks": "99"
-        },
-        {
-            "Rank": "",
-            "Player": "Daniel Gafford \u2022 DAL",
             "Blocks": "99"
         },
         {
@@ -1112,18 +1112,18 @@
         },
         {
             "Rank": "18.",
+            "Player": "Jalen Duren \u2022 DET",
+            "Blocks": "88"
+        },
+        {
+            "Rank": "",
             "Player": "Amen Thompson \u2022 HOU",
             "Blocks": "88"
         },
         {
-            "Rank": "19.",
-            "Player": "Jalen Duren \u2022 DET",
-            "Blocks": "87"
-        },
-        {
             "Rank": "20.",
             "Player": "Zach Edey \u2022 MEM",
-            "Blocks": "82"
+            "Blocks": "83"
         }
     ],
     "Blocks per Game": [
@@ -1154,18 +1154,18 @@
         },
         {
             "Rank": "6.",
-            "Player": "Jaren Jackson Jr. \u2022 MEM",
+            "Player": "Alex Sarr \u2022 WAS",
             "Blocks per Game": "1.5"
         },
         {
             "Rank": "7.",
-            "Player": "Alex Sarr \u2022 WAS",
+            "Player": "Jaren Jackson Jr. \u2022 MEM",
             "Blocks per Game": "1.5"
         },
         {
             "Rank": "8.",
             "Player": "Nic Claxton \u2022 BRK",
-            "Blocks per Game": "1.5"
+            "Blocks per Game": "1.4"
         },
         {
             "Rank": "9.",
@@ -1232,17 +1232,17 @@
         {
             "Rank": "1.",
             "Player": "Jarrett Allen \u2022 CLE",
-            "Field Goal Percentage": ".711"
+            "Field Goal Percentage": ".708"
         },
         {
             "Rank": "2.",
             "Player": "Jalen Duren \u2022 DET",
-            "Field Goal Percentage": ".690"
+            "Field Goal Percentage": ".695"
         },
         {
             "Rank": "3.",
             "Player": "Rudy Gobert \u2022 MIN",
-            "Field Goal Percentage": ".667"
+            "Field Goal Percentage": ".671"
         },
         {
             "Rank": "4.",
@@ -1257,7 +1257,7 @@
         {
             "Rank": "6.",
             "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Field Goal Percentage": ".602"
+            "Field Goal Percentage": ".603"
         },
         {
             "Rank": "7.",
@@ -1277,17 +1277,17 @@
         {
             "Rank": "10.",
             "Player": "Onyeka Okongwu \u2022 ATL",
-            "Field Goal Percentage": ".569"
+            "Field Goal Percentage": ".570"
         },
         {
             "Rank": "11.",
-            "Player": "Evan Mobley \u2022 CLE",
+            "Player": "Nic Claxton \u2022 BRK",
             "Field Goal Percentage": ".560"
         },
         {
             "Rank": "12.",
-            "Player": "Nic Claxton \u2022 BRK",
-            "Field Goal Percentage": ".559"
+            "Player": "Evan Mobley \u2022 CLE",
+            "Field Goal Percentage": ".560"
         },
         {
             "Rank": "13.",
@@ -1301,12 +1301,12 @@
         },
         {
             "Rank": "15.",
-            "Player": "Nikola Vu\u010devi\u0107 \u2022 CHI",
+            "Player": "Obi Toppin \u2022 IND",
             "Field Goal Percentage": ".533"
         },
         {
             "Rank": "16.",
-            "Player": "Obi Toppin \u2022 IND",
+            "Player": "Nikola Vu\u010devi\u0107 \u2022 CHI",
             "Field Goal Percentage": ".533"
         },
         {
@@ -1338,13 +1338,13 @@
         },
         {
             "Rank": "2.",
-            "Player": "Harrison Barnes \u2022 SAS",
-            "3 Point Field Goal Percentage": ".438"
+            "Player": "Ty Jerome \u2022 CLE",
+            "3 Point Field Goal Percentage": ".439"
         },
         {
             "Rank": "3.",
-            "Player": "Keon Ellis \u2022 SAC",
-            "3 Point Field Goal Percentage": ".436"
+            "Player": "Harrison Barnes \u2022 SAS",
+            "3 Point Field Goal Percentage": ".438"
         },
         {
             "Rank": "4.",
@@ -1353,17 +1353,17 @@
         },
         {
             "Rank": "5.",
-            "Player": "Nicolas Batum \u2022 LAC",
-            "3 Point Field Goal Percentage": ".433"
+            "Player": "Keon Ellis \u2022 SAC",
+            "3 Point Field Goal Percentage": ".436"
         },
         {
             "Rank": "6.",
-            "Player": "Ty Jerome \u2022 CLE",
-            "3 Point Field Goal Percentage": ".433"
+            "Player": "Vit Krejci \u2022 ATL",
+            "3 Point Field Goal Percentage": ".436"
         },
         {
             "Rank": "7.",
-            "Player": "Vit Krejci \u2022 ATL",
+            "Player": "Nicolas Batum \u2022 LAC",
             "3 Point Field Goal Percentage": ".433"
         },
         {
@@ -1379,12 +1379,12 @@
         {
             "Rank": "10.",
             "Player": "Aaron Nesmith \u2022 IND",
-            "3 Point Field Goal Percentage": ".428"
+            "3 Point Field Goal Percentage": ".430"
         },
         {
             "Rank": "11.",
             "Player": "A.J. Green \u2022 MIL",
-            "3 Point Field Goal Percentage": ".426"
+            "3 Point Field Goal Percentage": ".424"
         },
         {
             "Rank": "12.",
@@ -1392,14 +1392,14 @@
             "3 Point Field Goal Percentage": ".421"
         },
         {
-            "Rank": "",
-            "Player": "Karl-Anthony Towns \u2022 NYK",
+            "Rank": "13.",
+            "Player": "Brice Sensabaugh \u2022 UTA",
             "3 Point Field Goal Percentage": ".421"
         },
         {
             "Rank": "14.",
-            "Player": "Brice Sensabaugh \u2022 UTA",
-            "3 Point Field Goal Percentage": ".421"
+            "Player": "Karl-Anthony Towns \u2022 NYK",
+            "3 Point Field Goal Percentage": ".420"
         },
         {
             "Rank": "15.",
@@ -1413,8 +1413,8 @@
         },
         {
             "Rank": "17.",
-            "Player": "Mike Conley \u2022 MIN",
-            "3 Point Field Goal Percentage": ".419"
+            "Player": "Gary Trent Jr. \u2022 MIL",
+            "3 Point Field Goal Percentage": ".417"
         },
         {
             "Rank": "18.",
@@ -1428,30 +1428,30 @@
         },
         {
             "Rank": "20.",
-            "Player": "Gary Trent Jr. \u2022 MIL",
-            "3 Point Field Goal Percentage": ".415"
+            "Player": "Tyus Jones \u2022 PHO",
+            "3 Point Field Goal Percentage": ".414"
         }
     ],
     "2 Point Field Goal Percentage": [
         {
             "Rank": "1.",
             "Player": "Jarrett Allen \u2022 CLE",
-            "2 Point Field Goal Percentage": ".715"
+            "2 Point Field Goal Percentage": ".712"
         },
         {
             "Rank": "2.",
             "Player": "Obi Toppin \u2022 IND",
-            "2 Point Field Goal Percentage": ".699"
+            "2 Point Field Goal Percentage": ".702"
         },
         {
             "Rank": "3.",
             "Player": "Jalen Duren \u2022 DET",
-            "2 Point Field Goal Percentage": ".690"
+            "2 Point Field Goal Percentage": ".695"
         },
         {
             "Rank": "4.",
             "Player": "Rudy Gobert \u2022 MIN",
-            "2 Point Field Goal Percentage": ".667"
+            "2 Point Field Goal Percentage": ".671"
         },
         {
             "Rank": "5.",
@@ -1461,12 +1461,12 @@
         {
             "Rank": "6.",
             "Player": "Brook Lopez \u2022 MIL",
-            "2 Point Field Goal Percentage": ".640"
+            "2 Point Field Goal Percentage": ".639"
         },
         {
             "Rank": "7.",
             "Player": "Onyeka Okongwu \u2022 ATL",
-            "2 Point Field Goal Percentage": ".634"
+            "2 Point Field Goal Percentage": ".635"
         },
         {
             "Rank": "8.",
@@ -1526,7 +1526,7 @@
         {
             "Rank": "19.",
             "Player": "Santi Aldama \u2022 MEM",
-            "2 Point Field Goal Percentage": ".599"
+            "2 Point Field Goal Percentage": ".598"
         },
         {
             "Rank": "20.",
@@ -1548,7 +1548,7 @@
         {
             "Rank": "3.",
             "Player": "Trae Young \u2022 ATL",
-            "Free Throw": "474"
+            "Free Throw": "481"
         },
         {
             "Rank": "4.",
@@ -1558,12 +1558,12 @@
         {
             "Rank": "5.",
             "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Free Throw": "421"
+            "Free Throw": "426"
         },
         {
             "Rank": "6.",
             "Player": "Anthony Edwards \u2022 MIN",
-            "Free Throw": "398"
+            "Free Throw": "409"
         },
         {
             "Rank": "7.",
@@ -1572,13 +1572,13 @@
         },
         {
             "Rank": "8.",
-            "Player": "Damian Lillard \u2022 MIL",
+            "Player": "Jalen Brunson \u2022 NYK",
             "Free Throw": "362"
         },
         {
-            "Rank": "9.",
-            "Player": "Jalen Brunson \u2022 NYK",
-            "Free Throw": "360"
+            "Rank": "",
+            "Player": "Damian Lillard \u2022 MIL",
+            "Free Throw": "362"
         },
         {
             "Rank": "10.",
@@ -1593,7 +1593,7 @@
         {
             "Rank": "12.",
             "Player": "Karl-Anthony Towns \u2022 NYK",
-            "Free Throw": "334"
+            "Free Throw": "339"
         },
         {
             "Rank": "13.",
@@ -1607,13 +1607,13 @@
         },
         {
             "Rank": "15.",
-            "Player": "Cade Cunningham \u2022 DET",
-            "Free Throw": "308"
+            "Player": "Jaren Jackson Jr. \u2022 MEM",
+            "Free Throw": "311"
         },
         {
-            "Rank": "",
-            "Player": "Jaren Jackson Jr. \u2022 MEM",
-            "Free Throw": "308"
+            "Rank": "16.",
+            "Player": "Cade Cunningham \u2022 DET",
+            "Free Throw": "310"
         },
         {
             "Rank": "17.",
@@ -1640,7 +1640,7 @@
         {
             "Rank": "1.",
             "Player": "Trae Young \u2022 ATL",
-            "Turnovers": "348"
+            "Turnovers": "352"
         },
         {
             "Rank": "2.",
@@ -1650,7 +1650,7 @@
         {
             "Rank": "3.",
             "Player": "Cade Cunningham \u2022 DET",
-            "Turnovers": "301"
+            "Turnovers": "305"
         },
         {
             "Rank": "4.",
@@ -1660,7 +1660,7 @@
         {
             "Rank": "5.",
             "Player": "Anthony Edwards \u2022 MIN",
-            "Turnovers": "242"
+            "Turnovers": "247"
         },
         {
             "Rank": "6.",
@@ -1734,8 +1734,8 @@
         },
         {
             "Rank": "20.",
-            "Player": "Stephen Curry \u2022 GSW",
-            "Turnovers": "191"
+            "Player": "Karl-Anthony Towns \u2022 NYK",
+            "Turnovers": "192"
         }
     ],
     "Player Efficiency Rating": [
@@ -1752,7 +1752,7 @@
         {
             "Rank": "3.",
             "Player": "Giannis Antetokounmpo \u2022 MIL",
-            "Player Efficiency Rating": "30.3"
+            "Player Efficiency Rating": "30.4"
         },
         {
             "Rank": "4.",
@@ -1762,7 +1762,7 @@
         {
             "Rank": "5.",
             "Player": "Victor Wembanyama \u2022 SAS",
-            "Player Efficiency Rating": "24.2"
+            "Player Efficiency Rating": "24.1"
         },
         {
             "Rank": "6.",
@@ -1772,7 +1772,7 @@
         {
             "Rank": "7.",
             "Player": "Karl-Anthony Towns \u2022 NYK",
-            "Player Efficiency Rating": "23.5"
+            "Player Efficiency Rating": "23.4"
         },
         {
             "Rank": "8.",
@@ -1802,11 +1802,11 @@
         {
             "Rank": "13.",
             "Player": "Jarrett Allen \u2022 CLE",
-            "Player Efficiency Rating": "22.2"
+            "Player Efficiency Rating": "22.1"
         },
         {
             "Rank": "14.",
-            "Player": "Jalen Brunson \u2022 NYK",
+            "Player": "Tyrese Haliburton \u2022 IND",
             "Player Efficiency Rating": "21.8"
         },
         {
@@ -1816,18 +1816,18 @@
         },
         {
             "Rank": "16.",
-            "Player": "Tyrese Haliburton \u2022 IND",
-            "Player Efficiency Rating": "21.7"
+            "Player": "Jalen Duren \u2022 DET",
+            "Player Efficiency Rating": "21.6"
         },
         {
             "Rank": "17.",
-            "Player": "Stephen Curry \u2022 GSW",
+            "Player": "Jalen Brunson \u2022 NYK",
             "Player Efficiency Rating": "21.6"
         },
         {
             "Rank": "18.",
-            "Player": "Jalen Duren \u2022 DET",
-            "Player Efficiency Rating": "21.4"
+            "Player": "Stephen Curry \u2022 GSW",
+            "Player Efficiency Rating": "21.6"
         },
         {
             "Rank": "19.",
@@ -1874,7 +1874,7 @@
         {
             "Rank": "7.",
             "Player": "Tyrese Haliburton \u2022 IND",
-            "Box Plus/Minus": "5.7"
+            "Box Plus/Minus": "5.8"
         },
         {
             "Rank": "8.",
@@ -1913,17 +1913,17 @@
         },
         {
             "Rank": "15.",
-            "Player": "Jarrett Allen \u2022 CLE",
+            "Player": "Anthony Edwards \u2022 MIN",
             "Box Plus/Minus": "4.2"
         },
         {
             "Rank": "16.",
-            "Player": "James Harden \u2022 LAC",
-            "Box Plus/Minus": "4.1"
+            "Player": "Jarrett Allen \u2022 CLE",
+            "Box Plus/Minus": "4.2"
         },
         {
             "Rank": "17.",
-            "Player": "Anthony Edwards \u2022 MIN",
+            "Player": "James Harden \u2022 LAC",
             "Box Plus/Minus": "4.1"
         },
         {
