@@ -201,18 +201,17 @@ function addPlayer(sport, type = null) {
             return;
         }
 
-        team.push(selectedValue);
+        const player = { name: selectedValue, rank: null };
+        team.push(player);
         localStorage.setItem(`${sport}Team`, JSON.stringify(team));
-        addPlayerToUI(sport, selectedValue, true);
+        addPlayerToUI(sport, player, true);
     }
 }
 
 function addPlayerToUI(sport, player, saveToStorage) {
-    const teamList = document.getElementById(`${sport}Team`);
-    const listItem = document.createElement("li");
     const playerName = typeof player === "string" ? player : player.name;
-
-    listItem.textContent = player.rank ? `${player.rank}. ${playerName}` : playerName;
+    const playerRank = typeof player === "object" && player.rank ? `${player.rank}. ` : "";
+    listItem.textContent = `${playerRank}${playerName}`;
 
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
