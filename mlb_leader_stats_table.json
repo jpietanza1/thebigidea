@@ -3,7 +3,7 @@
         {
             "Rank": "1.",
             "Player": "Judge \u2022 NYY",
-            "Batting Average": ".409"
+            "Batting Average": ".414"
         },
         {
             "Rank": "2.",
@@ -13,7 +13,7 @@
         {
             "Rank": "3.",
             "Player": "Goldschmidt \u2022 NYY",
-            "Batting Average": ".349"
+            "Batting Average": ".350"
         },
         {
             "Rank": "4.",
@@ -27,60 +27,65 @@
         },
         {
             "Rank": "6.",
-            "Player": "Kwan \u2022 CLE",
+            "Player": "Machado \u2022 SDP",
             "Batting Average": ".331"
         },
         {
             "Rank": "7.",
-            "Player": "Machado \u2022 SDP",
-            "Batting Average": ".324"
+            "Player": "Kwan \u2022 CLE",
+            "Batting Average": ".329"
         },
         {
             "Rank": "8.",
-            "Player": "Alonso \u2022 NYM",
-            "Batting Average": ".320"
+            "Player": "Witt \u2022 KCR",
+            "Batting Average": ".319"
         },
         {
             "Rank": "9.",
-            "Player": "Tat\u00eds \u2022 SDP",
-            "Batting Average": ".320"
+            "Player": "Alonso \u2022 NYM",
+            "Batting Average": ".318"
         },
         {
             "Rank": "10.",
-            "Player": "Donovan \u2022 STL",
-            "Batting Average": ".318"
+            "Player": "Tat\u00eds \u2022 SDP",
+            "Batting Average": ".316"
+        },
+        {
+            "Rank": "",
+            "Player": "Smith \u2022 TEX",
+            "Batting Average": ".316"
         }
     ],
     "On Base Percentage": [
         {
             "Rank": "1.",
             "Player": "Judge \u2022 NYY",
-            "On Base Percentage": ".494"
+            "On Base Percentage": ".500"
         },
         {
             "Rank": "2.",
             "Player": "Smith \u2022 ARI",
-            "On Base Percentage": ".447"
+            "On Base Percentage": ".433"
         },
         {
-            "Rank": "3.",
+            "Rank": "",
             "Player": "Freeman \u2022 LAD",
             "On Base Percentage": ".437"
         },
         {
             "Rank": "4.",
-            "Player": "Alonso \u2022 NYM",
-            "On Base Percentage": ".434"
-        },
-        {
-            "Rank": "5.",
             "Player": "Aranda \u2022 TBR",
             "On Base Percentage": ".429"
         },
         {
+            "Rank": "5.",
+            "Player": "Alonso \u2022 NYM",
+            "On Base Percentage": ".428"
+        },
+        {
             "Rank": "6.",
             "Player": "Ozuna \u2022 ATL",
-            "On Base Percentage": ".420"
+            "On Base Percentage": ".428"
         },
         {
             "Rank": "7.",
@@ -89,25 +94,25 @@
         },
         {
             "Rank": "8.",
-            "Player": "Bart \u2022 PIT",
-            "On Base Percentage": ".411"
-        },
-        {
-            "Rank": "9.",
             "Player": "Ohtani \u2022 LAD",
             "On Base Percentage": ".410"
         },
         {
+            "Rank": "9.",
+            "Player": "Devers \u2022 BOS",
+            "On Base Percentage": ".407"
+        },
+        {
             "Rank": "10.",
-            "Player": "Schwarber \u2022 PHI",
-            "On Base Percentage": ".404"
+            "Player": "Bart \u2022 PIT",
+            "On Base Percentage": ".406"
         }
     ],
     "Slugging": [
         {
             "Rank": "1.",
             "Player": "Judge \u2022 NYY",
-            "Slugging": ".779"
+            "Slugging": ".783"
         },
         {
             "Rank": "2.",
@@ -121,38 +126,38 @@
         },
         {
             "Rank": "4.",
-            "Player": "Alonso \u2022 NYM",
-            "Slugging": ".613"
+            "Player": "Grisham \u2022 NYY",
+            "Slugging": ".663"
         },
         {
             "Rank": "5.",
+            "Player": "Carroll \u2022 ARI",
+            "Slugging": ".609"
+        },
+        {
+            "Rank": "6.",
+            "Player": "Alonso \u2022 NYM",
+            "Slugging": ".604"
+        },
+        {
+            "Rank": "7.",
             "Player": "Hern\u00e1ndez \u2022 LAD",
             "Slugging": ".600"
         },
         {
-            "Rank": "6.",
-            "Player": "Schwarber \u2022 PHI",
-            "Slugging": ".593"
-        },
-        {
-            "Rank": "7.",
-            "Player": "Polanco \u2022 SEA",
-            "Slugging": ".653"
-        },
-        {
             "Rank": "8.",
-            "Player": "Carroll \u2022 ARI",
-            "Slugging": ".573"
+            "Player": "Polanco \u2022 SEA",
+            "Slugging": ".673"
         },
         {
             "Rank": "9.",
-            "Player": "Rice \u2022 NYY",
-            "Slugging": ".569"
+            "Player": "Schwarber \u2022 PHI",
+            "Slugging": ".584"
         },
         {
             "Rank": "10.",
-            "Player": "Bregman \u2022 BOS",
-            "Slugging": ".567"
+            "Player": "Abreu \u2022 BOS",
+            "Slugging": ".564"
         }
     ],
     "Home Runs": [
@@ -168,6 +173,16 @@
         },
         {
             "Rank": "3.",
+            "Player": "Carroll \u2022 ARI",
+            "Home Runs": "13"
+        },
+        {
+            "Rank": "",
+            "Player": "Raleigh \u2022 SEA",
+            "Home Runs": "13"
+        },
+        {
+            "Rank": "5.",
             "Player": "Su\u00e1rez \u2022 ARI",
             "Home Runs": "12"
         },
@@ -178,27 +193,32 @@
         },
         {
             "Rank": "",
-            "Player": "Raleigh \u2022 SEA",
+            "Player": "Grisham \u2022 NYY",
             "Home Runs": "12"
         },
         {
-            "Rank": "6.",
-            "Player": "Carroll \u2022 ARI",
+            "Rank": "8.",
+            "Player": "Abreu \u2022 BOS",
             "Home Runs": "11"
         },
         {
-            "Rank": "7.",
+            "Rank": "",
+            "Player": "Wood \u2022 WSN",
+            "Home Runs": "11"
+        },
+        {
+            "Rank": "10.",
             "Player": "Rooker \u2022 ATH",
             "Home Runs": "10"
         },
         {
             "Rank": "",
-            "Player": "Abreu \u2022 BOS",
+            "Player": "Crow-Armstrong \u2022 CHC",
             "Home Runs": "10"
         },
         {
             "Rank": "",
-            "Player": "Crow-Armstrong \u2022 CHC",
+            "Player": "Suzuki \u2022 CHC",
             "Home Runs": "10"
         },
         {
@@ -213,12 +233,12 @@
         },
         {
             "Rank": "",
-            "Player": "Grisham \u2022 NYY",
+            "Player": "Tat\u00eds \u2022 SDP",
             "Home Runs": "10"
         },
         {
             "Rank": "",
-            "Player": "Wood \u2022 WSN",
+            "Player": "Polanco \u2022 SEA",
             "Home Runs": "10"
         }
     ],
@@ -227,6 +247,16 @@
             "Rank": "1.",
             "Player": "Cruz \u2022 PIT",
             "Stolen Bases": "16"
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
         },
         {
             "Rank": "",
