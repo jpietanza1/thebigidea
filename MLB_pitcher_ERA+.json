@@ -41,11 +41,11 @@
   },
   {
     "Rank": "11",
-    "Player": "Drew Rasmussen"
+    "Player": "Freddy Peralta"
   },
   {
     "Rank": "12",
-    "Player": "Freddy Peralta"
+    "Player": "Drew Rasmussen"
   },
   {
     "Rank": "13",
@@ -85,11 +85,11 @@
   },
   {
     "Rank": "22",
-    "Player": "Carlos Rodón"
+    "Player": "Yusei Kikuchi"
   },
   {
     "Rank": "23",
-    "Player": "Yusei Kikuchi"
+    "Player": "Carlos Rodón"
   },
   {
     "Rank": "24",
@@ -113,11 +113,11 @@
   },
   {
     "Rank": "29",
-    "Player": "Chad Patrick"
+    "Player": "Ryan Pepiot"
   },
   {
     "Rank": "30",
-    "Player": "Michael Wacha"
+    "Player": "Chad Patrick"
   },
   {
     "Rank": "31",
@@ -125,39 +125,39 @@
   },
   {
     "Rank": "32",
-    "Player": "Nick Pivetta"
+    "Player": "Michael Wacha"
   },
   {
     "Rank": "33",
-    "Player": "Nick Lodolo"
+    "Player": "Nick Pivetta"
   },
   {
     "Rank": "34",
-    "Player": "Ryan Pepiot"
+    "Player": "Nick Lodolo"
   },
   {
     "Rank": "35",
-    "Player": "Nick Martinez"
+    "Player": "José Soriano"
   },
   {
     "Rank": "36",
-    "Player": "Tomoyuki Sugano"
+    "Player": "Nick Martinez"
   },
   {
     "Rank": "37",
-    "Player": "Chris Bassitt"
+    "Player": "Tomoyuki Sugano"
   },
   {
     "Rank": "38",
-    "Player": "Erick Fedde"
+    "Player": "Chris Bassitt"
   },
   {
     "Rank": "39",
-    "Player": "Luis Castillo"
+    "Player": "Erick Fedde"
   },
   {
     "Rank": "40",
-    "Player": "José Berríos"
+    "Player": "Luis Castillo"
   },
   {
     "Rank": "41",
@@ -165,15 +165,15 @@
   },
   {
     "Rank": "42",
-    "Player": "Davis Martin"
+    "Player": "José Berríos"
   },
   {
     "Rank": "43",
-    "Player": "Bryan Woo"
+    "Player": "Davis Martin"
   },
   {
     "Rank": "44",
-    "Player": "Tanner Bibee"
+    "Player": "Bryan Woo"
   },
   {
     "Rank": "45",
@@ -181,7 +181,7 @@
   },
   {
     "Rank": "46",
-    "Player": "José Soriano"
+    "Player": "Tanner Bibee"
   },
   {
     "Rank": "47",
@@ -205,11 +205,11 @@
   },
   {
     "Rank": "52",
-    "Player": "Jack Flaherty"
+    "Player": "Jesús Luzardo"
   },
   {
     "Rank": "53",
-    "Player": "Jesús Luzardo"
+    "Player": "Jack Flaherty"
   },
   {
     "Rank": "54",
@@ -221,11 +221,11 @@
   },
   {
     "Rank": "56",
-    "Player": "Dylan Cease"
+    "Player": "Bailey Ober"
   },
   {
     "Rank": "57",
-    "Player": "Bailey Ober"
+    "Player": "Miles Mikolas"
   },
   {
     "Rank": "58",
@@ -233,7 +233,7 @@
   },
   {
     "Rank": "59",
-    "Player": "Miles Mikolas"
+    "Player": "Tyler Anderson"
   },
   {
     "Rank": "60",
@@ -241,11 +241,11 @@
   },
   {
     "Rank": "61",
-    "Player": "Tyler Anderson"
+    "Player": "Jeffrey Springs"
   },
   {
     "Rank": "62",
-    "Player": "Jeffrey Springs"
+    "Player": "Kyle Freeland"
   },
   {
     "Rank": "63",
@@ -253,11 +253,11 @@
   },
   {
     "Rank": "64",
-    "Player": "Kyle Freeland"
+    "Player": "Dustin May"
   },
   {
     "Rank": "65",
-    "Player": "Dustin May"
+    "Player": "Dylan Cease"
   },
   {
     "Rank": "66",
@@ -289,14 +289,10 @@
   },
   {
     "Rank": "73",
-    "Player": "Kyle Hendricks"
-  },
-  {
-    "Rank": "74",
     "Player": "Dean Kremer"
   },
   {
-    "Rank": "75",
+    "Rank": "74",
     "Player": "Jack Kochanowicz"
   }
 ]
