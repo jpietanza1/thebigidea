@@ -29,7 +29,7 @@
   },
   {
     "Rank": "6",
-    "Player": "Francisco Lindor#"
+    "Player": "Jackson Chourio"
   },
   {
     "Rank": "7",
@@ -37,11 +37,11 @@
   },
   {
     "Rank": "8",
-    "Player": "Juan Soto"
+    "Player": "Francisco Lindor#"
   },
   {
     "Rank": "9",
-    "Player": "Jackson Chourio"
+    "Player": "Juan Soto"
   },
   {
     "Rank": "10",
@@ -61,11 +61,11 @@
   },
   {
     "Rank": "14",
-    "Player": "Kyle Tucker"
+    "Player": "Bobby Witt Jr."
   },
   {
     "Rank": "15",
-    "Player": "Bobby Witt Jr."
+    "Player": "Kyle Tucker"
   },
   {
     "Rank": "16",
@@ -77,47 +77,47 @@
   },
   {
     "Rank": "18",
-    "Player": "Corbin Carroll"
-  },
-  {
-    "Rank": "19",
-    "Player": "Elly De La Cruz#"
-  },
-  {
-    "Rank": "20",
-    "Player": "Vladimir Guerrero Jr."
-  },
-  {
-    "Rank": "21",
     "Player": "Jeremy Peña"
   },
   {
-    "Rank": "22",
+    "Rank": "19",
     "Player": "Julio Rodríguez"
   },
   {
-    "Rank": "23",
+    "Rank": "20",
+    "Player": "Elly De La Cruz#"
+  },
+  {
+    "Rank": "21",
+    "Player": "Vladimir Guerrero Jr."
+  },
+  {
+    "Rank": "22",
     "Player": "Willy Adames"
   },
   {
+    "Rank": "23",
+    "Player": "Geraldo Perdomo#"
+  },
+  {
     "Rank": "24",
-    "Player": "Lawrence Butler"
-  },
-  {
-    "Rank": "25",
-    "Player": "Matt Olson"
-  },
-  {
-    "Rank": "26",
     "Player": "Heliot Ramos"
   },
   {
+    "Rank": "25",
+    "Player": "Lawrence Butler"
+  },
+  {
+    "Rank": "26",
+    "Player": "Corbin Carroll"
+  },
+  {
     "Rank": "27",
-    "Player": "Tyler Soderstrom"
+    "Player": "Matt Olson"
   },
   {
     "Rank": "28",
-    "Player": "Geraldo Perdomo#"
+    "Player": "Tyler Soderstrom"
   },
   {
     "Rank": "29",
@@ -137,11 +137,11 @@
   },
   {
     "Rank": "33",
-    "Player": "Ozzie Albies#"
+    "Player": "Isaac Paredes"
   },
   {
     "Rank": "34",
-    "Player": "Isaac Paredes"
+    "Player": "Ozzie Albies#"
   },
   {
     "Rank": "35",
@@ -165,83 +165,83 @@
   },
   {
     "Rank": "40",
-    "Player": "Jung Hoo Lee"
-  },
-  {
-    "Rank": "41",
     "Player": "Randy Arozarena"
   },
   {
-    "Rank": "42",
-    "Player": "Bryan Reynolds#"
+    "Rank": "41",
+    "Player": "Jung Hoo Lee"
   },
   {
-    "Rank": "43",
+    "Rank": "42",
     "Player": "Brice Turang"
   },
   {
-    "Rank": "44",
-    "Player": "Pete Crow-Armstrong"
-  },
-  {
-    "Rank": "45",
-    "Player": "Marcell Ozuna"
-  },
-  {
-    "Rank": "46",
+    "Rank": "43",
     "Player": "Taylor Ward"
   },
   {
-    "Rank": "47",
+    "Rank": "44",
     "Player": "Jose Altuve"
   },
   {
-    "Rank": "48",
-    "Player": "Ian Happ#"
+    "Rank": "45",
+    "Player": "Pete Crow-Armstrong"
   },
   {
-    "Rank": "49",
-    "Player": "Nick Castellanos"
-  },
-  {
-    "Rank": "50",
-    "Player": "Willson Contreras"
-  },
-  {
-    "Rank": "51",
+    "Rank": "46",
     "Player": "Yandy Díaz"
   },
   {
-    "Rank": "52",
+    "Rank": "47",
+    "Player": "Marcell Ozuna"
+  },
+  {
+    "Rank": "48",
+    "Player": "Nick Castellanos"
+  },
+  {
+    "Rank": "49",
+    "Player": "Ian Happ#"
+  },
+  {
+    "Rank": "50",
     "Player": "Josh Naylor"
   },
   {
-    "Rank": "53",
-    "Player": "Mookie Betts"
-  },
-  {
-    "Rank": "54",
+    "Rank": "51",
     "Player": "Eugenio Suárez"
   },
   {
-    "Rank": "55",
+    "Rank": "52",
+    "Player": "Mookie Betts"
+  },
+  {
+    "Rank": "53",
+    "Player": "Bryan Reynolds#"
+  },
+  {
+    "Rank": "54",
     "Player": "Spencer Torkelson"
   },
   {
-    "Rank": "56",
-    "Player": "Jacob Wilson"
-  },
-  {
-    "Rank": "57",
+    "Rank": "55",
     "Player": "Alec Bohm"
   },
   {
+    "Rank": "56",
+    "Player": "Nolan Schanuel"
+  },
+  {
+    "Rank": "57",
+    "Player": "Jacob Wilson"
+  },
+  {
     "Rank": "58",
-    "Player": "Steven Kwan"
+    "Player": "Willson Contreras"
   },
   {
     "Rank": "59",
-    "Player": "Nolan Schanuel"
+    "Player": "Steven Kwan"
   },
   {
     "Rank": "60",
@@ -249,11 +249,11 @@
   },
   {
     "Rank": "61",
-    "Player": "José Ramírez#"
+    "Player": "William Contreras"
   },
   {
     "Rank": "62",
-    "Player": "William Contreras"
+    "Player": "José Ramírez#"
   },
   {
     "Rank": "63",
@@ -261,119 +261,119 @@
   },
   {
     "Rank": "64",
-    "Player": "Junior Caminero"
-  },
-  {
-    "Rank": "65",
     "Player": "J.P. Crawford"
   },
   {
-    "Rank": "66",
+    "Rank": "65",
     "Player": "Maikel Garcia"
   },
   {
-    "Rank": "67",
+    "Rank": "66",
     "Player": "Paul Goldschmidt"
   },
   {
-    "Rank": "68",
-    "Player": "Anthony Volpe"
-  },
-  {
-    "Rank": "69",
-    "Player": "Michael Harris II"
-  },
-  {
-    "Rank": "70",
-    "Player": "Marcus Semien"
-  },
-  {
-    "Rank": "71",
-    "Player": "Miguel Vargas"
-  },
-  {
-    "Rank": "72",
+    "Rank": "67",
     "Player": "Christian Yelich"
   },
   {
-    "Rank": "73",
+    "Rank": "68",
+    "Player": "Marcus Semien"
+  },
+  {
+    "Rank": "69",
+    "Player": "Miguel Vargas"
+  },
+  {
+    "Rank": "70",
+    "Player": "Anthony Volpe"
+  },
+  {
+    "Rank": "71",
+    "Player": "Michael Harris II"
+  },
+  {
+    "Rank": "72",
     "Player": "Ryan McMahon"
   },
   {
-    "Rank": "74",
+    "Rank": "73",
     "Player": "Salvador Perez"
   },
   {
-    "Rank": "75",
+    "Rank": "74",
     "Player": "Trevor Story"
   },
   {
-    "Rank": "76",
-    "Player": "Nolan Arenado"
-  },
-  {
-    "Rank": "77",
+    "Rank": "75",
     "Player": "Xander Bogaerts"
   },
   {
-    "Rank": "78",
+    "Rank": "76",
+    "Player": "Junior Caminero"
+  },
+  {
+    "Rank": "77",
     "Player": "Hunter Goodman"
   },
   {
-    "Rank": "79",
+    "Rank": "78",
     "Player": "Brendan Donovan"
   },
   {
-    "Rank": "80",
-    "Player": "Trevor Larnach"
-  },
-  {
-    "Rank": "81",
-    "Player": "Brandon Nimmo"
-  },
-  {
-    "Rank": "82",
-    "Player": "Ty France"
-  },
-  {
-    "Rank": "83",
-    "Player": "Nico Hoerner"
-  },
-  {
-    "Rank": "84",
-    "Player": "Andy Pages"
-  },
-  {
-    "Rank": "85",
+    "Rank": "79",
     "Player": "Lourdes Gurriel Jr."
   },
   {
-    "Rank": "86",
+    "Rank": "80",
+    "Player": "Brandon Nimmo"
+  },
+  {
+    "Rank": "81",
+    "Player": "Nico Hoerner"
+  },
+  {
+    "Rank": "82",
     "Player": "Brandon Lowe"
   },
   {
-    "Rank": "87",
+    "Rank": "83",
+    "Player": "Andy Pages"
+  },
+  {
+    "Rank": "84",
+    "Player": "Nolan Arenado"
+  },
+  {
+    "Rank": "85",
     "Player": "Jonathan India"
   },
   {
-    "Rank": "88",
-    "Player": "Cody Bellinger"
-  },
-  {
-    "Rank": "89",
-    "Player": "Gunnar Henderson"
-  },
-  {
-    "Rank": "90",
-    "Player": "Wilmer Flores"
-  },
-  {
-    "Rank": "91",
+    "Rank": "86",
     "Player": "Sal Frelick"
   },
   {
-    "Rank": "92",
+    "Rank": "87",
+    "Player": "Wilmer Flores"
+  },
+  {
+    "Rank": "88",
+    "Player": "Ty France"
+  },
+  {
+    "Rank": "89",
+    "Player": "Trevor Larnach"
+  },
+  {
+    "Rank": "90",
     "Player": "Oneil Cruz"
+  },
+  {
+    "Rank": "91",
+    "Player": "Gunnar Henderson"
+  },
+  {
+    "Rank": "92",
+    "Player": "Cody Bellinger"
   },
   {
     "Rank": "93",
@@ -385,71 +385,71 @@
   },
   {
     "Rank": "95",
-    "Player": "Wyatt Langford"
-  },
-  {
-    "Rank": "96",
-    "Player": "Max Muncy"
-  },
-  {
-    "Rank": "97",
-    "Player": "Eric Wagaman"
-  },
-  {
-    "Rank": "98",
-    "Player": "Ke'Bryan Hayes"
-  },
-  {
-    "Rank": "99",
-    "Player": "Adley Rutschman#"
-  },
-  {
-    "Rank": "100",
     "Player": "Jackson Holliday"
   },
   {
-    "Rank": "101",
-    "Player": "Freddie Freeman"
+    "Rank": "96",
+    "Player": "Eric Wagaman"
   },
   {
-    "Rank": "102",
-    "Player": "Rhys Hoskins"
+    "Rank": "97",
+    "Player": "Max Muncy"
   },
   {
-    "Rank": "103",
+    "Rank": "98",
     "Player": "CJ Abrams"
   },
   {
-    "Rank": "104",
-    "Player": "Matt Chapman"
+    "Rank": "99",
+    "Player": "Rhys Hoskins"
   },
   {
-    "Rank": "105",
+    "Rank": "100",
+    "Player": "Wyatt Langford"
+  },
+  {
+    "Rank": "101",
     "Player": "Adolis García"
   },
   {
-    "Rank": "106",
+    "Rank": "102",
+    "Player": "Ke'Bryan Hayes"
+  },
+  {
+    "Rank": "103",
+    "Player": "Adley Rutschman#"
+  },
+  {
+    "Rank": "104",
     "Player": "George Springer"
   },
   {
-    "Rank": "107",
+    "Rank": "105",
     "Player": "Gleyber Torres"
   },
   {
-    "Rank": "108",
+    "Rank": "106",
     "Player": "Jonathan Aranda"
   },
   {
-    "Rank": "109",
+    "Rank": "107",
+    "Player": "Freddie Freeman"
+  },
+  {
+    "Rank": "108",
     "Player": "Spencer Steer"
   },
   {
+    "Rank": "109",
+    "Player": "Matt Chapman"
+  },
+  {
     "Rank": "110",
-    "Player": "Brenton Doyle"
+    "Player": "Yainer Diaz"
   },
   {
     "Rank": "111",
-    "Player": "Yainer Diaz"
+    "Player": "Brenton Doyle"
   },
   {
     "Rank": "112",
@@ -457,7 +457,7 @@
   },
   {
     "Rank": "113",
-    "Player": "Jorge Soler"
+    "Player": "Luis Robert Jr."
   },
   {
     "Rank": "114",
@@ -465,27 +465,27 @@
   },
   {
     "Rank": "115",
-    "Player": "Luis Robert Jr."
-  },
-  {
-    "Rank": "116",
-    "Player": "Kristian Campbell"
-  },
-  {
-    "Rank": "117",
     "Player": "Andrew McCutchen"
   },
   {
-    "Rank": "118",
+    "Rank": "116",
     "Player": "Kyle Stowers"
   },
   {
-    "Rank": "119",
+    "Rank": "117",
     "Player": "Xavier Edwards#"
   },
   {
+    "Rank": "118",
+    "Player": "Gavin Sheets"
+  },
+  {
+    "Rank": "119",
+    "Player": "Jorge Soler"
+  },
+  {
     "Rank": "120",
-    "Player": "Zach McKinstry"
+    "Player": "Mike Yastrzemski"
   },
   {
     "Rank": "121",
@@ -493,47 +493,47 @@
   },
   {
     "Rank": "122",
-    "Player": "Gavin Sheets"
-  },
-  {
-    "Rank": "123",
     "Player": "Ceddanne Rafaela"
   },
   {
-    "Rank": "124",
-    "Player": "Mike Yastrzemski"
-  },
-  {
-    "Rank": "125",
+    "Rank": "123",
     "Player": "Michael Busch"
   },
   {
-    "Rank": "126",
-    "Player": "Luis García Jr."
+    "Rank": "124",
+    "Player": "Kristian Campbell"
   },
   {
-    "Rank": "127",
+    "Rank": "125",
+    "Player": "Zach McKinstry"
+  },
+  {
+    "Rank": "126",
     "Player": "Gabriel Arias"
   },
   {
-    "Rank": "128",
+    "Rank": "127",
     "Player": "Kerry Carpenter"
   },
   {
-    "Rank": "129",
+    "Rank": "128",
     "Player": "Max Kepler"
   },
   {
-    "Rank": "130",
+    "Rank": "129",
     "Player": "Jordan Beck"
   },
   {
+    "Rank": "130",
+    "Player": "Luis García Jr."
+  },
+  {
     "Rank": "131",
-    "Player": "Bryce Harper"
+    "Player": "Josh Jung"
   },
   {
     "Rank": "132",
-    "Player": "Josh Jung"
+    "Player": "Joey Ortiz"
   },
   {
     "Rank": "133",
@@ -541,19 +541,19 @@
   },
   {
     "Rank": "134",
-    "Player": "Joey Ortiz"
-  },
-  {
-    "Rank": "135",
     "Player": "Teoscar Hernández"
   },
   {
-    "Rank": "136",
+    "Rank": "135",
     "Player": "J.T. Realmuto"
   },
   {
-    "Rank": "137",
+    "Rank": "136",
     "Player": "Ernie Clement"
+  },
+  {
+    "Rank": "137",
+    "Player": "Bryce Harper"
   },
   {
     "Rank": "138",
@@ -561,15 +561,15 @@
   },
   {
     "Rank": "139",
-    "Player": "Keibert Ruiz#"
+    "Player": "Trent Grisham"
   },
   {
     "Rank": "140",
-    "Player": "Josh Bell#"
+    "Player": "Josh Smith"
   },
   {
     "Rank": "141",
-    "Player": "Ryan O'Hearn"
+    "Player": "Jake Burger"
   },
   {
     "Rank": "142",
@@ -577,23 +577,23 @@
   },
   {
     "Rank": "143",
-    "Player": "Jake Burger"
+    "Player": "Keibert Ruiz#"
   },
   {
     "Rank": "144",
-    "Player": "Byron Buxton"
+    "Player": "Josh Bell#"
   },
   {
     "Rank": "145",
-    "Player": "Trent Grisham"
+    "Player": "Byron Buxton"
   },
   {
     "Rank": "146",
-    "Player": "Josh Smith"
+    "Player": "Zach Neto"
   },
   {
     "Rank": "147",
-    "Player": "Ben Rice"
+    "Player": "Ryan O'Hearn"
   },
   {
     "Rank": "148",
@@ -601,19 +601,19 @@
   },
   {
     "Rank": "149",
-    "Player": "Alejandro Kirk"
-  },
-  {
-    "Rank": "150",
-    "Player": "Zach Neto"
-  },
-  {
-    "Rank": "151",
     "Player": "Luis Rengifo#"
   },
   {
+    "Rank": "150",
+    "Player": "Ben Rice"
+  },
+  {
+    "Rank": "151",
+    "Player": "Alejandro Kirk"
+  },
+  {
     "Rank": "152",
-    "Player": "Cedric Mullins"
+    "Player": "Will Smith"
   },
   {
     "Rank": "153",
@@ -621,7 +621,7 @@
   },
   {
     "Rank": "154",
-    "Player": "Will Smith"
+    "Player": "Cedric Mullins"
   },
   {
     "Rank": "155",
@@ -641,75 +641,75 @@
   },
   {
     "Rank": "159",
-    "Player": "Santiago Espinal"
-  },
-  {
-    "Rank": "160",
     "Player": "Jo Adell"
   },
   {
-    "Rank": "161",
-    "Player": "Adam Frazier"
-  },
-  {
-    "Rank": "162",
-    "Player": "Ryan Jeffers"
-  },
-  {
-    "Rank": "163",
+    "Rank": "160",
     "Player": "Isiah Kiner-Falefa"
   },
   {
-    "Rank": "164",
-    "Player": "Shea Langeliers"
-  },
-  {
-    "Rank": "165",
-    "Player": "Logan O'Hoppe"
-  },
-  {
-    "Rank": "166",
+    "Rank": "161",
     "Player": "Cam Smith"
   },
   {
-    "Rank": "167",
+    "Rank": "162",
+    "Player": "Santiago Espinal"
+  },
+  {
+    "Rank": "163",
+    "Player": "Ryan Jeffers"
+  },
+  {
+    "Rank": "164",
     "Player": "Alec Burleson"
   },
   {
-    "Rank": "168",
+    "Rank": "165",
+    "Player": "Adam Frazier"
+  },
+  {
+    "Rank": "166",
+    "Player": "Logan O'Hoppe"
+  },
+  {
+    "Rank": "167",
     "Player": "Javier Báez"
   },
   {
-    "Rank": "169",
-    "Player": "Alex Bregman"
+    "Rank": "168",
+    "Player": "Shea Langeliers"
   },
   {
-    "Rank": "170",
+    "Rank": "169",
     "Player": "Michael Toglia#"
   },
   {
-    "Rank": "171",
-    "Player": "Jorge Polanco#"
+    "Rank": "170",
+    "Player": "Alex Bregman"
   },
   {
-    "Rank": "172",
+    "Rank": "171",
     "Player": "Tommy Edman#"
   },
   {
-    "Rank": "173",
-    "Player": "JJ Bleday"
-  },
-  {
-    "Rank": "174",
-    "Player": "Brooks Lee#"
-  },
-  {
-    "Rank": "175",
+    "Rank": "172",
     "Player": "Colt Keith"
   },
   {
-    "Rank": "176",
+    "Rank": "173",
+    "Player": "Brooks Lee#"
+  },
+  {
+    "Rank": "174",
+    "Player": "Jorge Polanco#"
+  },
+  {
+    "Rank": "175",
     "Player": "Tyrone Taylor"
+  },
+  {
+    "Rank": "176",
+    "Player": "Carlos Narváez"
   },
   {
     "Rank": "177",
@@ -717,23 +717,23 @@
   },
   {
     "Rank": "178",
-    "Player": "Carlos Narváez"
-  },
-  {
-    "Rank": "179",
     "Player": "Lenyn Sosa"
   },
   {
-    "Rank": "180",
+    "Rank": "179",
     "Player": "Trey Sweeney"
   },
   {
+    "Rank": "180",
+    "Player": "JJ Bleday"
+  },
+  {
     "Rank": "181",
-    "Player": "Pavin Smith"
+    "Player": "Chase Meidroth"
   },
   {
     "Rank": "182",
-    "Player": "Chase Meidroth"
+    "Player": "Kameron Misner"
   },
   {
     "Rank": "183",
@@ -741,15 +741,15 @@
   },
   {
     "Rank": "184",
-    "Player": "Kameron Misner"
+    "Player": "Pavin Smith"
   },
   {
     "Rank": "185",
-    "Player": "Nick Allen"
+    "Player": "Dillon Dingler"
   },
   {
     "Rank": "186",
-    "Player": "Dillon Dingler"
+    "Player": "Nick Allen"
   },
   {
     "Rank": "187",
@@ -761,31 +761,31 @@
   },
   {
     "Rank": "189",
-    "Player": "Ángel Martínez#"
-  },
-  {
-    "Rank": "190",
-    "Player": "Michael Massey"
-  },
-  {
-    "Rank": "191",
-    "Player": "Anthony Santander#"
-  },
-  {
-    "Rank": "192",
-    "Player": "Mark Vientos"
-  },
-  {
-    "Rank": "193",
     "Player": "Ketel Marte#"
   },
   {
+    "Rank": "190",
+    "Player": "Ángel Martínez#"
+  },
+  {
+    "Rank": "191",
+    "Player": "Harrison Bader"
+  },
+  {
+    "Rank": "192",
+    "Player": "Michael Massey"
+  },
+  {
+    "Rank": "193",
+    "Player": "Anthony Santander#"
+  },
+  {
     "Rank": "194",
-    "Player": "Alek Thomas"
+    "Player": "Mark Vientos"
   },
   {
     "Rank": "195",
-    "Player": "Harrison Bader"
+    "Player": "Alek Thomas"
   },
   {
     "Rank": "196",
@@ -793,27 +793,27 @@
   },
   {
     "Rank": "197",
-    "Player": "Ryan Mountcastle"
-  },
-  {
-    "Rank": "198",
-    "Player": "Bo Naylor"
-  },
-  {
-    "Rank": "199",
-    "Player": "Connor Norby"
-  },
-  {
-    "Rank": "200",
     "Player": "Caleb Durbin"
   },
   {
+    "Rank": "198",
+    "Player": "Connor Norby"
+  },
+  {
+    "Rank": "199",
+    "Player": "Jonah Heim#"
+  },
+  {
+    "Rank": "200",
+    "Player": "Bo Naylor"
+  },
+  {
     "Rank": "201",
-    "Player": "José Caballero"
+    "Player": "Ryan Mountcastle"
   },
   {
     "Rank": "202",
-    "Player": "Jonah Heim#"
+    "Player": "Jake Cronenworth"
   },
   {
     "Rank": "203",
@@ -821,55 +821,55 @@
   },
   {
     "Rank": "204",
-    "Player": "Jake Cronenworth"
-  },
-  {
-    "Rank": "205",
-    "Player": "Nolan Jones"
-  },
-  {
-    "Rank": "206",
-    "Player": "Andrew Vaughn"
-  },
-  {
-    "Rank": "207",
     "Player": "Andrew Benintendi"
   },
   {
-    "Rank": "208",
-    "Player": "Tyler Fitzgerald"
+    "Rank": "205",
+    "Player": "José Caballero"
   },
   {
-    "Rank": "209",
+    "Rank": "206",
     "Player": "Ramón Urías"
   },
   {
-    "Rank": "210",
+    "Rank": "207",
     "Player": "Taylor Walls#"
   },
   {
-    "Rank": "211",
+    "Rank": "208",
     "Player": "Ben Williamson"
   },
   {
-    "Rank": "212",
+    "Rank": "209",
     "Player": "Kyle Isbel"
   },
   {
-    "Rank": "213",
-    "Player": "Drew Waters#"
+    "Rank": "210",
+    "Player": "Tyler Fitzgerald"
   },
   {
-    "Rank": "214",
+    "Rank": "211",
     "Player": "Andrés Giménez"
   },
   {
+    "Rank": "212",
+    "Player": "Nolan Jones"
+  },
+  {
+    "Rank": "213",
+    "Player": "Andrew Vaughn"
+  },
+  {
+    "Rank": "214",
+    "Player": "Patrick Bailey#"
+  },
+  {
     "Rank": "215",
-    "Player": "Gabriel Moreno"
+    "Player": "Corey Seager"
   },
   {
     "Rank": "216",
-    "Player": "Patrick Bailey#"
+    "Player": "Drew Waters#"
   },
   {
     "Rank": "217",
@@ -877,79 +877,79 @@
   },
   {
     "Rank": "218",
-    "Player": "Jackson Merrill"
-  },
-  {
-    "Rank": "219",
-    "Player": "Corey Seager"
-  },
-  {
-    "Rank": "220",
     "Player": "Alex Verdugo"
   },
   {
-    "Rank": "221",
+    "Rank": "219",
     "Player": "Pedro Pagés"
   },
   {
-    "Rank": "222",
-    "Player": "Rowdy Tellez"
+    "Rank": "220",
+    "Player": "Gabriel Moreno"
   },
   {
-    "Rank": "223",
-    "Player": "Danny Jansen"
-  },
-  {
-    "Rank": "224",
+    "Rank": "221",
     "Player": "Jordan Walker"
   },
   {
-    "Rank": "225",
-    "Player": "Daniel Schneemann"
+    "Rank": "222",
+    "Player": "Jackson Merrill"
   },
   {
-    "Rank": "226",
-    "Player": "Miguel Andujar"
-  },
-  {
-    "Rank": "227",
-    "Player": "Alex Call"
-  },
-  {
-    "Rank": "228",
+    "Rank": "223",
     "Player": "Jazz Chisholm Jr."
   },
   {
+    "Rank": "224",
+    "Player": "Rowdy Tellez"
+  },
+  {
+    "Rank": "225",
+    "Player": "Alex Call"
+  },
+  {
+    "Rank": "226",
+    "Player": "Danny Jansen"
+  },
+  {
+    "Rank": "227",
+    "Player": "Joey Bart"
+  },
+  {
+    "Rank": "228",
+    "Player": "Daniel Schneemann"
+  },
+  {
     "Rank": "229",
+    "Player": "LaMonte Wade Jr."
+  },
+  {
+    "Rank": "229",
+    "Player": "LaMonte Wade Jr."
+  },
+  {
+    "Rank": "229",
+    "Player": "LaMonte Wade Jr."
+  },
+  {
+    "Rank": "230",
+    "Player": "Miguel Andujar"
+  },
+  {
+    "Rank": "231",
     "Player": "Kyle Farmer"
   },
   {
-    "Rank": "230",
+    "Rank": "232",
     "Player": "Leody Taveras#"
-  },
-  {
-    "Rank": "230",
-    "Player": "Leody Taveras#"
-  },
-  {
-    "Rank": "230",
-    "Player": "Leody Taveras#"
-  },
-  {
-    "Rank": "231",
-    "Player": "LaMonte Wade Jr."
-  },
-  {
-    "Rank": "231",
-    "Player": "LaMonte Wade Jr."
-  },
-  {
-    "Rank": "231",
-    "Player": "LaMonte Wade Jr."
   },
   {
     "Rank": "232",
-    "Player": "Joey Bart"
+    "Player": "Leody Taveras#"
+  },
+  {
+    "Rank": "232",
+    "Player": "Leody Taveras#"
   },
   {
     "Rank": "233",
@@ -957,11 +957,11 @@
   },
   {
     "Rank": "234",
-    "Player": "Tommy Pham"
+    "Player": "Brett Baty"
   },
   {
     "Rank": "235",
-    "Player": "Brett Baty"
+    "Player": "Tommy Pham"
   },
   {
     "Rank": "236",
@@ -969,51 +969,51 @@
   },
   {
     "Rank": "237",
-    "Player": "Victor Caratini#"
-  },
-  {
-    "Rank": "238",
-    "Player": "Iván Herrera"
-  },
-  {
-    "Rank": "239",
-    "Player": "Edgar Quero#"
-  },
-  {
-    "Rank": "240",
     "Player": "Elias Díaz"
   },
   {
-    "Rank": "241",
+    "Rank": "238",
     "Player": "Sean Murphy"
   },
   {
-    "Rank": "242",
-    "Player": "Javier Sanoja"
+    "Rank": "239",
+    "Player": "Victor Caratini#"
   },
   {
-    "Rank": "243",
-    "Player": "Heston Kjerstad"
+    "Rank": "240",
+    "Player": "Iván Herrera"
   },
   {
-    "Rank": "244",
+    "Rank": "241",
     "Player": "Matt Shaw"
   },
   {
-    "Rank": "245",
-    "Player": "Christopher Morel"
+    "Rank": "242",
+    "Player": "Edgar Quero#"
   },
   {
-    "Rank": "246",
+    "Rank": "243",
+    "Player": "Javier Sanoja"
+  },
+  {
+    "Rank": "244",
+    "Player": "Heston Kjerstad"
+  },
+  {
+    "Rank": "245",
     "Player": "Dylan Moore"
   },
   {
+    "Rank": "246",
+    "Player": "Brandon Marsh"
+  },
+  {
     "Rank": "247",
-    "Player": "Eli White"
+    "Player": "Christopher Morel"
   },
   {
     "Rank": "248",
-    "Player": "Brandon Marsh"
+    "Player": "Eli White"
   },
   {
     "Rank": "249",
@@ -1025,43 +1025,43 @@
   },
   {
     "Rank": "251",
-    "Player": "Starling Marte"
-  },
-  {
-    "Rank": "252",
-    "Player": "Drake Baldwin"
-  },
-  {
-    "Rank": "253",
-    "Player": "Luisangel Acuña"
-  },
-  {
-    "Rank": "254",
     "Player": "Isaac Collins#"
   },
   {
-    "Rank": "255",
+    "Rank": "252",
     "Player": "Nolan Gorman"
   },
   {
-    "Rank": "256",
-    "Player": "José Tena"
-  },
-  {
-    "Rank": "257",
-    "Player": "Jose Iglesias"
-  },
-  {
-    "Rank": "258",
+    "Rank": "253",
     "Player": "Ramón Laureano"
   },
   {
-    "Rank": "259",
+    "Rank": "254",
+    "Player": "Starling Marte"
+  },
+  {
+    "Rank": "255",
+    "Player": "Drake Baldwin"
+  },
+  {
+    "Rank": "256",
+    "Player": "Jose Iglesias"
+  },
+  {
+    "Rank": "257",
     "Player": "Jake Mangum#"
   },
   {
-    "Rank": "260",
+    "Rank": "258",
+    "Player": "Luisangel Acuña"
+  },
+  {
+    "Rank": "259",
     "Player": "Tyler Stephenson"
+  },
+  {
+    "Rank": "260",
+    "Player": "José Tena"
   },
   {
     "Rank": "261",
@@ -1073,67 +1073,67 @@
   },
   {
     "Rank": "263",
-    "Player": "Michael A. Taylor"
-  },
-  {
-    "Rank": "264",
     "Player": "Dane Myers"
   },
   {
-    "Rank": "265",
-    "Player": "Jose Trevino"
-  },
-  {
-    "Rank": "266",
+    "Rank": "264",
     "Player": "Mauricio Dubón"
   },
   {
-    "Rank": "267",
+    "Rank": "265",
     "Player": "Nick Kurtz"
   },
   {
+    "Rank": "266",
+    "Player": "Jose Trevino"
+  },
+  {
+    "Rank": "267",
+    "Player": "Michael A. Taylor"
+  },
+  {
     "Rank": "268",
-    "Player": "Joc Pederson"
-  },
-  {
-    "Rank": "269",
-    "Player": "Brooks Baldwin#"
-  },
-  {
-    "Rank": "270",
-    "Player": "Joshua Palacios"
-  },
-  {
-    "Rank": "271",
     "Player": "Nathan Lukes"
   },
   {
+    "Rank": "269",
+    "Player": "Joc Pederson"
+  },
+  {
+    "Rank": "270",
+    "Player": "Brooks Baldwin#"
+  },
+  {
+    "Rank": "271",
+    "Player": "Joshua Palacios"
+  },
+  {
     "Rank": "272",
-    "Player": "Liam Hicks"
+    "Player": "Matt Thaiss"
+  },
+  {
+    "Rank": "272",
+    "Player": "Matt Thaiss"
+  },
+  {
+    "Rank": "272",
+    "Player": "Matt Thaiss"
   },
   {
     "Rank": "273",
-    "Player": "Kyren Paris"
+    "Player": "Liam Hicks"
   },
   {
     "Rank": "274",
-    "Player": "Matt Thaiss"
-  },
-  {
-    "Rank": "274",
-    "Player": "Matt Thaiss"
-  },
-  {
-    "Rank": "274",
-    "Player": "Matt Thaiss"
+    "Player": "Tim Tawa"
   },
   {
     "Rank": "275",
-    "Player": "Ezequiel Tovar"
+    "Player": "Jordan Westburg"
   },
   {
     "Rank": "276",
-    "Player": "Tim Tawa"
+    "Player": "Kyren Paris"
   },
   {
     "Rank": "277",
@@ -1141,15 +1141,15 @@
   },
   {
     "Rank": "278",
-    "Player": "Jordan Westburg"
-  },
-  {
-    "Rank": "279",
     "Player": "Freddy Fermin"
   },
   {
-    "Rank": "280",
+    "Rank": "279",
     "Player": "Luis Torrens"
+  },
+  {
+    "Rank": "280",
+    "Player": "Ezequiel Tovar"
   },
   {
     "Rank": "281",
@@ -1157,115 +1157,115 @@
   },
   {
     "Rank": "282",
-    "Player": "Miles Mastrobuoni"
-  },
-  {
-    "Rank": "283",
-    "Player": "Matt Mervis"
-  },
-  {
-    "Rank": "284",
-    "Player": "Francisco Alvarez"
-  },
-  {
-    "Rank": "285",
-    "Player": "Chandler Simpson"
-  },
-  {
-    "Rank": "286",
-    "Player": "Johan Rojas"
-  },
-  {
-    "Rank": "287",
     "Player": "Josh Lowe"
   },
   {
-    "Rank": "288",
-    "Player": "Myles Straw"
-  },
-  {
-    "Rank": "289",
-    "Player": "Austin Hays"
-  },
-  {
-    "Rank": "290",
+    "Rank": "283",
     "Player": "Mitch Garver"
   },
   {
-    "Rank": "291",
-    "Player": "Brendan Rodgers"
+    "Rank": "284",
+    "Player": "Miles Mastrobuoni"
   },
   {
-    "Rank": "292",
+    "Rank": "285",
+    "Player": "Matt Mervis"
+  },
+  {
+    "Rank": "286",
+    "Player": "Francisco Alvarez"
+  },
+  {
+    "Rank": "287",
+    "Player": "Chandler Simpson"
+  },
+  {
+    "Rank": "288",
+    "Player": "Johan Rojas"
+  },
+  {
+    "Rank": "289",
     "Player": "Matt Wallner"
   },
   {
-    "Rank": "293",
+    "Rank": "290",
     "Player": "Max Muncy"
   },
   {
-    "Rank": "294",
+    "Rank": "291",
+    "Player": "Myles Straw"
+  },
+  {
+    "Rank": "292",
     "Player": "Christian Vázquez"
   },
   {
+    "Rank": "293",
+    "Player": "Austin Hays"
+  },
+  {
+    "Rank": "294",
+    "Player": "Brendan Rodgers"
+  },
+  {
     "Rank": "295",
-    "Player": "Kyle Higashioka"
-  },
-  {
-    "Rank": "296",
-    "Player": "Oswaldo Cabrera#"
-  },
-  {
-    "Rank": "297",
-    "Player": "Yordan Alvarez"
-  },
-  {
-    "Rank": "298",
     "Player": "Amed Rosario"
   },
   {
-    "Rank": "299",
+    "Rank": "296",
     "Player": "Kody Clemens"
   },
   {
-    "Rank": "299",
+    "Rank": "296",
     "Player": "Kody Clemens"
   },
   {
-    "Rank": "299",
+    "Rank": "296",
     "Player": "Kody Clemens"
   },
   {
-    "Rank": "300",
-    "Player": "Oswald Peraza"
-  },
-  {
-    "Rank": "301",
+    "Rank": "297",
     "Player": "Josh Rojas"
   },
   {
-    "Rank": "302",
+    "Rank": "298",
+    "Player": "Kyle Higashioka"
+  },
+  {
+    "Rank": "299",
     "Player": "Abraham Toro#"
   },
   {
-    "Rank": "303",
-    "Player": "Jonah Bride"
+    "Rank": "300",
+    "Player": "Oswaldo Cabrera#"
+  },
+  {
+    "Rank": "301",
+    "Player": "Yordan Alvarez"
+  },
+  {
+    "Rank": "302",
+    "Player": "Oswald Peraza"
   },
   {
     "Rank": "303",
-    "Player": "Jonah Bride"
+    "Player": "Travis d'Arnaud"
   },
   {
-    "Rank": "303",
+    "Rank": "304",
     "Player": "Jonah Bride"
   },
   {
     "Rank": "304",
-    "Player": "Justyn-Henry Malloy"
+    "Player": "Jonah Bride"
+  },
+  {
+    "Rank": "304",
+    "Player": "Jonah Bride"
   },
   {
     "Rank": "305",
-    "Player": "Mike Tauchman"
+    "Player": "Tyler Wade"
   },
   {
     "Rank": "306",
@@ -1273,19 +1273,19 @@
   },
   {
     "Rank": "307",
-    "Player": "Travis d'Arnaud"
+    "Player": "Randal Grichuk"
   },
   {
     "Rank": "308",
-    "Player": "Justin Turner"
+    "Player": "Justyn-Henry Malloy"
   },
   {
     "Rank": "309",
-    "Player": "Yoán Moncada#"
+    "Player": "Mike Tauchman"
   },
   {
     "Rank": "310",
-    "Player": "Tyler Wade"
+    "Player": "Justin Turner"
   },
   {
     "Rank": "311",
@@ -1293,195 +1293,195 @@
   },
   {
     "Rank": "312",
-    "Player": "Triston Casas"
+    "Player": "Yoán Moncada#"
   },
   {
     "Rank": "313",
-    "Player": "Gio Urshela"
+    "Player": "Triston Casas"
   },
   {
     "Rank": "314",
-    "Player": "Nick Martini"
+    "Player": "Gio Urshela"
   },
   {
     "Rank": "315",
-    "Player": "Henry Davis"
-  },
-  {
-    "Rank": "316",
-    "Player": "Randal Grichuk"
-  },
-  {
-    "Rank": "317",
-    "Player": "Royce Lewis"
-  },
-  {
-    "Rank": "318",
-    "Player": "Zach Dezenzo"
-  },
-  {
-    "Rank": "319",
-    "Player": "Martín Maldonado"
-  },
-  {
-    "Rank": "320",
-    "Player": "Hunter Renfroe"
-  },
-  {
-    "Rank": "321",
-    "Player": "Edmundo Sosa"
-  },
-  {
-    "Rank": "322",
-    "Player": "Jhonkensy Noel"
-  },
-  {
-    "Rank": "323",
     "Player": "Tyler Freeman"
   },
   {
-    "Rank": "324",
-    "Player": "Andy Ibáñez"
+    "Rank": "316",
+    "Player": "Nick Martini"
   },
   {
-    "Rank": "325",
-    "Player": "Mark Canha"
+    "Rank": "317",
+    "Player": "Henry Davis"
   },
   {
-    "Rank": "326",
-    "Player": "Christian Encarnacion-Strand"
-  },
-  {
-    "Rank": "327",
+    "Rank": "318",
     "Player": "José Herrera#"
   },
   {
-    "Rank": "328",
-    "Player": "Spencer Horwitz"
+    "Rank": "319",
+    "Player": "Royce Lewis"
   },
   {
-    "Rank": "329",
+    "Rank": "320",
     "Player": "Curtis Mead"
   },
   {
-    "Rank": "330",
+    "Rank": "321",
+    "Player": "Zach Dezenzo"
+  },
+  {
+    "Rank": "322",
+    "Player": "Spencer Horwitz"
+  },
+  {
+    "Rank": "323",
     "Player": "Ronald Acuña Jr."
   },
   {
-    "Rank": "331",
-    "Player": "Edouard Julien"
+    "Rank": "324",
+    "Player": "Martín Maldonado"
   },
   {
-    "Rank": "332",
-    "Player": "Alan Roden"
+    "Rank": "325",
+    "Player": "Hunter Renfroe"
   },
   {
-    "Rank": "333",
+    "Rank": "326",
+    "Player": "Edmundo Sosa"
+  },
+  {
+    "Rank": "327",
+    "Player": "Jhonkensy Noel"
+  },
+  {
+    "Rank": "328",
+    "Player": "Andy Ibáñez"
+  },
+  {
+    "Rank": "329",
     "Player": "Miguel Rojas"
   },
   {
-    "Rank": "334",
-    "Player": "Adael Amador#"
+    "Rank": "330",
+    "Player": "Mark Canha"
   },
   {
-    "Rank": "335",
-    "Player": "Brayan Rocchio#"
+    "Rank": "331",
+    "Player": "Christian Encarnacion-Strand"
   },
   {
-    "Rank": "336",
-    "Player": "Enmanuel Valdéz"
+    "Rank": "332",
+    "Player": "Edouard Julien"
   },
   {
-    "Rank": "337",
-    "Player": "Miguel Amaya"
-  },
-  {
-    "Rank": "338",
-    "Player": "Daulton Varsho"
-  },
-  {
-    "Rank": "339",
-    "Player": "Nick Fortes"
-  },
-  {
-    "Rank": "340",
+    "Rank": "333",
     "Player": "David Hamilton"
   },
   {
-    "Rank": "341",
+    "Rank": "334",
+    "Player": "Alan Roden"
+  },
+  {
+    "Rank": "335",
+    "Player": "Adael Amador#"
+  },
+  {
+    "Rank": "336",
     "Player": "Dylan Carlson#"
   },
   {
-    "Rank": "342",
-    "Player": "Romy González"
+    "Rank": "337",
+    "Player": "Brayan Rocchio#"
   },
   {
-    "Rank": "343",
-    "Player": "DJ LeMahieu"
-  },
-  {
-    "Rank": "344",
+    "Rank": "338",
     "Player": "Donovan Solano"
   },
   {
-    "Rank": "345",
-    "Player": "Max Schuemann"
+    "Rank": "339",
+    "Player": "Enmanuel Valdéz"
   },
   {
-    "Rank": "346",
-    "Player": "Jason Heyward"
+    "Rank": "340",
+    "Player": "DJ LeMahieu"
   },
   {
-    "Rank": "347",
-    "Player": "Brandon Lockridge"
+    "Rank": "341",
+    "Player": "Miguel Amaya"
   },
   {
-    "Rank": "348",
+    "Rank": "342",
+    "Player": "Daulton Varsho"
+  },
+  {
+    "Rank": "343",
+    "Player": "Nick Fortes"
+  },
+  {
+    "Rank": "344",
     "Player": "Lane Thomas"
   },
   {
-    "Rank": "349",
-    "Player": "Tyler O'Neill"
+    "Rank": "345",
+    "Player": "Romy González"
   },
   {
-    "Rank": "350",
-    "Player": "Rob Refsnyder"
-  },
-  {
-    "Rank": "351",
+    "Rank": "346",
     "Player": "Casey Schmitt"
   },
   {
-    "Rank": "352",
-    "Player": "Jacob Stallings"
-  },
-  {
-    "Rank": "353",
-    "Player": "Vinny Capra"
-  },
-  {
-    "Rank": "353",
-    "Player": "Vinny Capra"
-  },
-  {
-    "Rank": "353",
-    "Player": "Vinny Capra"
-  },
-  {
-    "Rank": "354",
-    "Player": "Jeimer Candelario#"
-  },
-  {
-    "Rank": "355",
+    "Rank": "347",
     "Player": "Sam Haggerty#"
   },
   {
+    "Rank": "348",
+    "Player": "Max Schuemann"
+  },
+  {
+    "Rank": "349",
+    "Player": "Jason Heyward"
+  },
+  {
+    "Rank": "350",
+    "Player": "Brandon Lockridge"
+  },
+  {
+    "Rank": "351",
+    "Player": "Jonatan Clase#"
+  },
+  {
+    "Rank": "352",
+    "Player": "Tyler O'Neill"
+  },
+  {
+    "Rank": "353",
+    "Player": "Rob Refsnyder"
+  },
+  {
+    "Rank": "354",
+    "Player": "Jacob Stallings"
+  },
+  {
+    "Rank": "355",
+    "Player": "Vinny Capra"
+  },
+  {
+    "Rank": "355",
+    "Player": "Vinny Capra"
+  },
+  {
+    "Rank": "355",
+    "Player": "Vinny Capra"
+  },
+  {
     "Rank": "356",
-    "Player": "Tim Anderson"
+    "Player": "Jeimer Candelario#"
   },
   {
     "Rank": "357",
-    "Player": "Jonatan Clase#"
+    "Player": "Tim Anderson"
   },
   {
     "Rank": "358",
@@ -1489,51 +1489,51 @@
   },
   {
     "Rank": "359",
-    "Player": "Jon Berti"
+    "Player": "Orlando Arcia"
   },
   {
-    "Rank": "360",
+    "Rank": "359",
+    "Player": "Orlando Arcia"
+  },
+  {
+    "Rank": "359",
     "Player": "Orlando Arcia"
   },
   {
     "Rank": "360",
-    "Player": "Orlando Arcia"
-  },
-  {
-    "Rank": "360",
-    "Player": "Orlando Arcia"
-  },
-  {
-    "Rank": "361",
     "Player": "Luke Raley"
   },
   {
+    "Rank": "361",
+    "Player": "Jon Berti"
+  },
+  {
     "Rank": "362",
-    "Player": "Cavan Biggio"
-  },
-  {
-    "Rank": "363",
-    "Player": "Derek Hill"
-  },
-  {
-    "Rank": "364",
     "Player": "Evan Carter"
   },
   {
-    "Rank": "365",
+    "Rank": "363",
+    "Player": "Cavan Biggio"
+  },
+  {
+    "Rank": "364",
     "Player": "Denzel Clarke"
   },
   {
+    "Rank": "365",
+    "Player": "Derek Hill"
+  },
+  {
     "Rank": "366",
-    "Player": "Robert Hassell III"
+    "Player": "Christian Koss"
   },
   {
     "Rank": "367",
-    "Player": "Hyeseong Kim"
+    "Player": "Robert Hassell III"
   },
   {
     "Rank": "368",
-    "Player": "Christian Koss"
+    "Player": "Hyeseong Kim"
   },
   {
     "Rank": "369",
@@ -1577,107 +1577,107 @@
   },
   {
     "Rank": "379",
-    "Player": "Noelvi Marté"
-  },
-  {
-    "Rank": "380",
-    "Player": "Leo Rivas#"
-  },
-  {
-    "Rank": "381",
-    "Player": "Griffin Conine"
-  },
-  {
-    "Rank": "382",
     "Player": "Tyler Heineman#"
   },
   {
+    "Rank": "380",
+    "Player": "Noelvi Marté"
+  },
+  {
+    "Rank": "381",
+    "Player": "Leo Rivas#"
+  },
+  {
+    "Rank": "382",
+    "Player": "Griffin Conine"
+  },
+  {
     "Rank": "383",
-    "Player": "Wenceel Pérez#"
-  },
-  {
-    "Rank": "384",
-    "Player": "Ben Rortvedt"
-  },
-  {
-    "Rank": "385",
-    "Player": "Thairo Estrada"
-  },
-  {
-    "Rank": "386",
-    "Player": "Chris Taylor"
-  },
-  {
-    "Rank": "386",
-    "Player": "Chris Taylor"
-  },
-  {
-    "Rank": "386",
-    "Player": "Chris Taylor"
-  },
-  {
-    "Rank": "387",
-    "Player": "Jacob Amaya"
-  },
-  {
-    "Rank": "388",
-    "Player": "Will Wagner"
-  },
-  {
-    "Rank": "389",
     "Player": "Colton Cowser"
   },
   {
-    "Rank": "390",
+    "Rank": "384",
+    "Player": "Wenceel Pérez#"
+  },
+  {
+    "Rank": "385",
+    "Player": "Ben Rortvedt"
+  },
+  {
+    "Rank": "386",
+    "Player": "Thairo Estrada"
+  },
+  {
+    "Rank": "387",
     "Player": "Austin Hedges"
   },
   {
-    "Rank": "391",
-    "Player": "DaShawn Keirsey Jr."
-  },
-  {
-    "Rank": "392",
-    "Player": "Yohel Pozo"
-  },
-  {
-    "Rank": "393",
-    "Player": "Jarred Kelenic"
-  },
-  {
-    "Rank": "394",
-    "Player": "Jorge Mateo"
-  },
-  {
-    "Rank": "395",
+    "Rank": "388",
     "Player": "Marcelo Mayer"
   },
   {
-    "Rank": "396",
+    "Rank": "389",
     "Player": "Austin Slater"
   },
   {
-    "Rank": "397",
+    "Rank": "390",
+    "Player": "Chris Taylor"
+  },
+  {
+    "Rank": "390",
+    "Player": "Chris Taylor"
+  },
+  {
+    "Rank": "390",
+    "Player": "Chris Taylor"
+  },
+  {
+    "Rank": "391",
+    "Player": "Jacob Amaya"
+  },
+  {
+    "Rank": "392",
+    "Player": "Will Wagner"
+  },
+  {
+    "Rank": "393",
     "Player": "Austin Wynns"
   },
   {
-    "Rank": "397",
+    "Rank": "393",
     "Player": "Austin Wynns"
   },
   {
-    "Rank": "397",
+    "Rank": "393",
     "Player": "Austin Wynns"
+  },
+  {
+    "Rank": "394",
+    "Player": "DaShawn Keirsey Jr."
+  },
+  {
+    "Rank": "395",
+    "Player": "Nick Gonzales"
+  },
+  {
+    "Rank": "396",
+    "Player": "Yohel Pozo"
+  },
+  {
+    "Rank": "397",
+    "Player": "Jarred Kelenic"
   },
   {
     "Rank": "398",
-    "Player": "Tim Elko"
+    "Player": "Jorge Mateo"
   },
   {
     "Rank": "399",
-    "Player": "Nick Maton"
+    "Player": "Tim Elko"
   },
   {
     "Rank": "400",
-    "Player": "Nick Gonzales"
+    "Player": "Nick Maton"
   },
   {
     "Rank": "401",
@@ -1697,187 +1697,187 @@
   },
   {
     "Rank": "403",
-    "Player": "Garrett Hampson"
-  },
-  {
-    "Rank": "403",
-    "Player": "Garrett Hampson"
-  },
-  {
-    "Rank": "403",
-    "Player": "Garrett Hampson"
-  },
-  {
-    "Rank": "404",
-    "Player": "Will Wilson"
-  },
-  {
-    "Rank": "405",
-    "Player": "Sam Huff"
-  },
-  {
-    "Rank": "406",
-    "Player": "Paul DeJong"
-  },
-  {
-    "Rank": "407",
-    "Player": "Rafael Marchán#"
-  },
-  {
-    "Rank": "408",
-    "Player": "Endy Rodríguez#"
-  },
-  {
-    "Rank": "409",
     "Player": "Riley Adams"
   },
   {
-    "Rank": "410",
+    "Rank": "404",
     "Player": "Jac Caglianone"
   },
   {
-    "Rank": "411",
-    "Player": "Ronny Simón#"
+    "Rank": "405",
+    "Player": "Garrett Hampson"
   },
   {
-    "Rank": "412",
+    "Rank": "405",
+    "Player": "Garrett Hampson"
+  },
+  {
+    "Rank": "405",
+    "Player": "Garrett Hampson"
+  },
+  {
+    "Rank": "406",
+    "Player": "Will Wilson"
+  },
+  {
+    "Rank": "407",
+    "Player": "Sam Huff"
+  },
+  {
+    "Rank": "408",
     "Player": "Parker Meadows"
   },
   {
-    "Rank": "413",
-    "Player": "Jace Jung"
+    "Rank": "409",
+    "Player": "Paul DeJong"
   },
   {
-    "Rank": "414",
+    "Rank": "410",
+    "Player": "Rafael Marchán#"
+  },
+  {
+    "Rank": "411",
+    "Player": "Endy Rodríguez#"
+  },
+  {
+    "Rank": "412",
     "Player": "Nick Loftin"
   },
   {
-    "Rank": "415",
-    "Player": "Chas McCormick"
+    "Rank": "413",
+    "Player": "Ronny Simón#"
   },
   {
-    "Rank": "416",
-    "Player": "Nick Sogard#"
-  },
-  {
-    "Rank": "417",
-    "Player": "Jorbit Vivas"
-  },
-  {
-    "Rank": "418",
-    "Player": "MJ Melendez"
-  },
-  {
-    "Rank": "419",
-    "Player": "Jake Rogers"
-  },
-  {
-    "Rank": "420",
-    "Player": "Dominic Smith"
-  },
-  {
-    "Rank": "421",
+    "Rank": "414",
     "Player": "Cole Young"
   },
   {
-    "Rank": "422",
-    "Player": "Daylen Lile"
-  },
-  {
-    "Rank": "423",
+    "Rank": "415",
     "Player": "Coby Mayo"
   },
   {
-    "Rank": "424",
-    "Player": "Bryan De La Cruz"
+    "Rank": "416",
+    "Player": "Jace Jung"
   },
   {
-    "Rank": "425",
+    "Rank": "417",
+    "Player": "Chas McCormick"
+  },
+  {
+    "Rank": "418",
+    "Player": "Dominic Smith"
+  },
+  {
+    "Rank": "419",
+    "Player": "Nick Sogard#"
+  },
+  {
+    "Rank": "420",
+    "Player": "Jorbit Vivas"
+  },
+  {
+    "Rank": "421",
+    "Player": "MJ Melendez"
+  },
+  {
+    "Rank": "422",
+    "Player": "Jake Rogers"
+  },
+  {
+    "Rank": "423",
     "Player": "Ezequiel Durán"
   },
   {
-    "Rank": "426",
+    "Rank": "424",
     "Player": "Eric Haase"
   },
   {
-    "Rank": "427",
-    "Player": "Jack Suwinski"
+    "Rank": "425",
+    "Player": "Daylen Lile"
   },
   {
-    "Rank": "428",
-    "Player": "Nasim Nuñez#"
-  },
-  {
-    "Rank": "429",
-    "Player": "Davis Schneider"
-  },
-  {
-    "Rank": "430",
-    "Player": "Travis Jankowski"
-  },
-  {
-    "Rank": "430",
-    "Player": "Travis Jankowski"
-  },
-  {
-    "Rank": "430",
-    "Player": "Travis Jankowski"
-  },
-  {
-    "Rank": "431",
-    "Player": "Sam Hilliard"
-  },
-  {
-    "Rank": "432",
-    "Player": "Ronny Mauricio#"
-  },
-  {
-    "Rank": "433",
-    "Player": "Jake McCarthy"
-  },
-  {
-    "Rank": "434",
-    "Player": "Dalton Rushing"
-  },
-  {
-    "Rank": "435",
+    "Rank": "426",
     "Player": "Gary Sánchez"
   },
   {
-    "Rank": "436",
-    "Player": "Maverick Handley"
+    "Rank": "427",
+    "Player": "Bryan De La Cruz"
   },
   {
-    "Rank": "437",
-    "Player": "Jhonny Pereda"
-  },
-  {
-    "Rank": "438",
+    "Rank": "428",
     "Player": "Ryan Ritter"
   },
   {
-    "Rank": "439",
-    "Player": "Víctor Robles"
+    "Rank": "429",
+    "Player": "Jack Suwinski"
   },
   {
-    "Rank": "440",
-    "Player": "Austin Barnes"
+    "Rank": "430",
+    "Player": "Nasim Nuñez#"
   },
   {
-    "Rank": "441",
+    "Rank": "431",
+    "Player": "Davis Schneider"
+  },
+  {
+    "Rank": "432",
+    "Player": "Travis Jankowski"
+  },
+  {
+    "Rank": "432",
+    "Player": "Travis Jankowski"
+  },
+  {
+    "Rank": "432",
+    "Player": "Travis Jankowski"
+  },
+  {
+    "Rank": "433",
     "Player": "Heriberto Hernández"
   },
   {
-    "Rank": "442",
-    "Player": "Ryan Kreidler"
+    "Rank": "434",
+    "Player": "Sam Hilliard"
   },
   {
-    "Rank": "443",
+    "Rank": "435",
+    "Player": "Ronny Mauricio#"
+  },
+  {
+    "Rank": "436",
     "Player": "Thomas Saggese"
   },
   {
-    "Rank": "444",
+    "Rank": "437",
     "Player": "Otto Kemp"
+  },
+  {
+    "Rank": "438",
+    "Player": "Jake McCarthy"
+  },
+  {
+    "Rank": "439",
+    "Player": "Dalton Rushing"
+  },
+  {
+    "Rank": "440",
+    "Player": "Maverick Handley"
+  },
+  {
+    "Rank": "441",
+    "Player": "Jhonny Pereda"
+  },
+  {
+    "Rank": "442",
+    "Player": "Víctor Robles"
+  },
+  {
+    "Rank": "443",
+    "Player": "Austin Barnes"
+  },
+  {
+    "Rank": "444",
+    "Player": "Ryan Kreidler"
   },
   {
     "Rank": "445",
@@ -1893,23 +1893,23 @@
   },
   {
     "Rank": "448",
-    "Player": "Matt Gorski"
+    "Player": "Daz Cameron"
   },
   {
     "Rank": "449",
-    "Player": "Weston Wilson"
+    "Player": "Matt Gorski"
   },
   {
     "Rank": "450",
-    "Player": "Luken Baker"
+    "Player": "Weston Wilson"
   },
   {
     "Rank": "451",
-    "Player": "Kris Bryant"
+    "Player": "Luken Baker"
   },
   {
     "Rank": "452",
-    "Player": "Daz Cameron"
+    "Player": "Kris Bryant"
   },
   {
     "Rank": "453",
@@ -1941,63 +1941,63 @@
   },
   {
     "Rank": "460",
-    "Player": "Tomás Nido"
-  },
-  {
-    "Rank": "461",
-    "Player": "Zac Veen"
-  },
-  {
-    "Rank": "462",
-    "Player": "Stuart Fairchild"
-  },
-  {
-    "Rank": "463",
-    "Player": "José Miranda"
-  },
-  {
-    "Rank": "464",
-    "Player": "John Rave"
-  },
-  {
-    "Rank": "465",
     "Player": "Reese McGuire"
   },
   {
-    "Rank": "466",
-    "Player": "Pablo Reyes"
+    "Rank": "461",
+    "Player": "Tomás Nido"
   },
   {
-    "Rank": "467",
-    "Player": "Dominic Canzone"
-  },
-  {
-    "Rank": "468",
+    "Rank": "462",
     "Player": "Kyle Teel"
   },
   {
-    "Rank": "469",
+    "Rank": "463",
+    "Player": "Zac Veen"
+  },
+  {
+    "Rank": "464",
     "Player": "Roman Anthony"
   },
   {
-    "Rank": "470",
-    "Player": "Korey Lee"
+    "Rank": "465",
+    "Player": "Stuart Fairchild"
   },
   {
-    "Rank": "471",
-    "Player": "Jacob Melton"
+    "Rank": "466",
+    "Player": "José Miranda"
   },
   {
-    "Rank": "472",
-    "Player": "Andruw Monasterio"
+    "Rank": "467",
+    "Player": "John Rave"
   },
   {
-    "Rank": "473",
+    "Rank": "468",
+    "Player": "Pablo Reyes"
+  },
+  {
+    "Rank": "469",
     "Player": "Jared Young"
   },
   {
-    "Rank": "474",
+    "Rank": "470",
+    "Player": "Dominic Canzone"
+  },
+  {
+    "Rank": "471",
     "Player": "David Fry"
+  },
+  {
+    "Rank": "472",
+    "Player": "Korey Lee"
+  },
+  {
+    "Rank": "473",
+    "Player": "Jacob Melton"
+  },
+  {
+    "Rank": "474",
+    "Player": "Andruw Monasterio"
   },
   {
     "Rank": "475",
@@ -2033,195 +2033,203 @@
   },
   {
     "Rank": "481",
-    "Player": "Vidal Bruján#"
-  },
-  {
-    "Rank": "482",
-    "Player": "Jonny DeLuca"
-  },
-  {
-    "Rank": "483",
-    "Player": "Michael Stefanic"
-  },
-  {
-    "Rank": "484",
-    "Player": "David Villar"
-  },
-  {
-    "Rank": "485",
-    "Player": "Luis Campusano"
-  },
-  {
-    "Rank": "486",
-    "Player": "Logan Davidson#"
-  },
-  {
-    "Rank": "487",
-    "Player": "Jose Siri"
-  },
-  {
-    "Rank": "488",
-    "Player": "Braxton Fulford"
-  },
-  {
-    "Rank": "489",
     "Player": "Johnathan Rodríguez"
   },
   {
-    "Rank": "490",
-    "Player": "Jerar Encarnación"
+    "Rank": "482",
+    "Player": "Vidal Bruján#"
   },
   {
-    "Rank": "491",
-    "Player": "Scott Kingery"
+    "Rank": "483",
+    "Player": "Jonny DeLuca"
   },
   {
-    "Rank": "492",
-    "Player": "Andrew Knizner"
+    "Rank": "484",
+    "Player": "Michael Stefanic"
   },
   {
-    "Rank": "493",
-    "Player": "Jordan Lawlar"
+    "Rank": "485",
+    "Player": "David Villar"
   },
   {
-    "Rank": "494",
-    "Player": "Bobby Dalbec"
+    "Rank": "486",
+    "Player": "Luis Campusano"
   },
   {
-    "Rank": "495",
-    "Player": "Keston Hiura"
+    "Rank": "487",
+    "Player": "Logan Davidson#"
   },
   {
-    "Rank": "496",
-    "Player": "José Azócar"
-  },
-  {
-    "Rank": "496",
-    "Player": "José Azócar"
-  },
-  {
-    "Rank": "496",
-    "Player": "José Azócar"
-  },
-  {
-    "Rank": "497",
-    "Player": "Rece Hinds"
-  },
-  {
-    "Rank": "498",
-    "Player": "Daniel Johnson"
-  },
-  {
-    "Rank": "499",
-    "Player": "Jahmai Jones"
-  },
-  {
-    "Rank": "500",
-    "Player": "Manuel Margot"
-  },
-  {
-    "Rank": "501",
+    "Rank": "488",
     "Player": "Christian Moore"
   },
   {
-    "Rank": "502",
-    "Player": "Michael Siani"
+    "Rank": "489",
+    "Player": "Jose Siri"
   },
   {
-    "Rank": "503",
-    "Player": "Akil Baddoo"
+    "Rank": "490",
+    "Player": "Braxton Fulford"
   },
   {
-    "Rank": "504",
-    "Player": "Moisés Ballesteros"
+    "Rank": "491",
+    "Player": "Jerar Encarnación"
   },
   {
-    "Rank": "505",
-    "Player": "Blake Sabol"
+    "Rank": "492",
+    "Player": "Scott Kingery"
   },
   {
-    "Rank": "506",
-    "Player": "Drew Avans"
+    "Rank": "493",
+    "Player": "Andrew Knizner"
   },
   {
-    "Rank": "506",
-    "Player": "Drew Avans"
+    "Rank": "494",
+    "Player": "Jordan Lawlar"
   },
   {
-    "Rank": "506",
-    "Player": "Drew Avans"
+    "Rank": "495",
+    "Player": "Bobby Dalbec"
   },
   {
-    "Rank": "507",
-    "Player": "CJ Alexander"
+    "Rank": "496",
+    "Player": "Keston Hiura"
   },
   {
-    "Rank": "508",
+    "Rank": "497",
     "Player": "Brady House"
   },
   {
-    "Rank": "509",
-    "Player": "Owen Miller"
+    "Rank": "498",
+    "Player": "Jahmai Jones"
   },
   {
-    "Rank": "510",
-    "Player": "Gage Workman"
+    "Rank": "499",
+    "Player": "José Azócar"
   },
   {
-    "Rank": "510",
-    "Player": "Gage Workman"
+    "Rank": "499",
+    "Player": "José Azócar"
   },
   {
-    "Rank": "510",
-    "Player": "Gage Workman"
+    "Rank": "499",
+    "Player": "José Azócar"
   },
   {
-    "Rank": "511",
-    "Player": "Jorge Barrosa#"
+    "Rank": "500",
+    "Player": "Rece Hinds"
   },
   {
-    "Rank": "512",
-    "Player": "Tirso Ornelas"
+    "Rank": "501",
+    "Player": "Daniel Johnson"
   },
   {
-    "Rank": "513",
-    "Player": "Jurickson Profar#"
+    "Rank": "502",
+    "Player": "Manuel Margot"
   },
   {
-    "Rank": "514",
-    "Player": "Tucker Barnhart"
+    "Rank": "503",
+    "Player": "Michael Siani"
   },
   {
-    "Rank": "515",
-    "Player": "Jacob Hurtubise"
+    "Rank": "504",
+    "Player": "Akil Baddoo"
   },
   {
-    "Rank": "516",
-    "Player": "Ryan Vilade"
+    "Rank": "505",
+    "Player": "Moisés Ballesteros"
   },
   {
-    "Rank": "517",
-    "Player": "Luke Williams"
-  },
-  {
-    "Rank": "518",
+    "Rank": "506",
     "Player": "Ryan Noda"
   },
   {
-    "Rank": "519",
-    "Player": "Will Brennan"
+    "Rank": "507",
+    "Player": "Blake Sabol"
   },
   {
-    "Rank": "520",
-    "Player": "Blaine Crim"
+    "Rank": "508",
+    "Player": "Drew Avans"
   },
   {
-    "Rank": "521",
+    "Rank": "508",
+    "Player": "Drew Avans"
+  },
+  {
+    "Rank": "508",
+    "Player": "Drew Avans"
+  },
+  {
+    "Rank": "509",
+    "Player": "CJ Alexander"
+  },
+  {
+    "Rank": "510",
+    "Player": "Owen Miller"
+  },
+  {
+    "Rank": "511",
     "Player": "Giancarlo Stanton"
   },
   {
+    "Rank": "512",
+    "Player": "Gage Workman"
+  },
+  {
+    "Rank": "512",
+    "Player": "Gage Workman"
+  },
+  {
+    "Rank": "512",
+    "Player": "Gage Workman"
+  },
+  {
+    "Rank": "513",
+    "Player": "Jorge Barrosa#"
+  },
+  {
+    "Rank": "514",
+    "Player": "Tirso Ornelas"
+  },
+  {
+    "Rank": "515",
+    "Player": "Jurickson Profar#"
+  },
+  {
+    "Rank": "516",
+    "Player": "Ildemaro Vargas#"
+  },
+  {
+    "Rank": "517",
+    "Player": "Tucker Barnhart"
+  },
+  {
+    "Rank": "518",
+    "Player": "Jacob Hurtubise"
+  },
+  {
+    "Rank": "519",
+    "Player": "Ryan Vilade"
+  },
+  {
+    "Rank": "520",
+    "Player": "Luke Williams"
+  },
+  {
+    "Rank": "521",
+    "Player": "Cooper Hummel#"
+  },
+  {
+    "Rank": "521",
+    "Player": "Cooper Hummel#"
+  },
+  {
+    "Rank": "521",
+    "Player": "Cooper Hummel#"
+  },
+  {
     "Rank": "522",
-    "Player": "Ji Hwan Bae"
+    "Player": "Will Brennan"
   },
   {
     "Rank": "523",
@@ -2229,87 +2237,79 @@
   },
   {
     "Rank": "524",
-    "Player": "Will Robertson"
+    "Player": "Blaine Crim"
   },
   {
     "Rank": "525",
-    "Player": "Brett Wisely"
+    "Player": "Ji Hwan Bae"
   },
   {
     "Rank": "526",
-    "Player": "Cooper Hummel#"
-  },
-  {
-    "Rank": "526",
-    "Player": "Cooper Hummel#"
-  },
-  {
-    "Rank": "526",
-    "Player": "Cooper Hummel#"
+    "Player": "Andrés Chaparro"
   },
   {
     "Rank": "527",
-    "Player": "Ali Sánchez"
+    "Player": "Will Robertson"
   },
   {
     "Rank": "528",
-    "Player": "Nick Solak"
+    "Player": "Brett Wisely"
   },
   {
     "Rank": "529",
-    "Player": "Ildemaro Vargas#"
+    "Player": "Ali Sánchez"
   },
   {
     "Rank": "530",
-    "Player": "Matt Vierling"
+    "Player": "Nick Solak"
   },
   {
     "Rank": "531",
-    "Player": "Nick Ahmed"
+    "Player": "Matt Vierling"
   },
   {
     "Rank": "532",
-    "Player": "Luis Guillorme"
+    "Player": "Nick Ahmed"
   },
   {
     "Rank": "533",
-    "Player": "Luke Maile"
+    "Player": "Luis Guillorme"
   },
   {
     "Rank": "534",
-    "Player": "Víctor Mesa Jr."
+    "Player": "Luke Maile"
   },
   {
     "Rank": "535",
-    "Player": "Coco Montes"
+    "Player": "Víctor Mesa Jr."
   },
   {
     "Rank": "536",
-    "Player": "Omar Narváez"
+    "Player": "Coco Montes"
   },
   {
     "Rank": "537",
-    "Player": "Liover Peguero"
+    "Player": "Omar Narváez"
   },
   {
     "Rank": "538",
+    "Player": "Liover Peguero"
+  },
+  {
+    "Rank": "539",
     "Player": "Rhylan Thomas"
   },
   {
-    "Rank": "539",
-    "Player": "Chadwick Tromp"
-  },
-  {
-    "Rank": "539",
-    "Player": "Chadwick Tromp"
-  },
-  {
-    "Rank": "539",
+    "Rank": "540",
     "Player": "Chadwick Tromp"
   },
   {
     "Rank": "540",
-    "Player": "Andrés Chaparro"
+    "Player": "Chadwick Tromp"
+  },
+  {
+    "Rank": "540",
+    "Player": "Chadwick Tromp"
   },
   {
     "Rank": "541",
@@ -2365,59 +2365,59 @@
   },
   {
     "Rank": "552",
-    "Player": "Tsung-Che Cheng"
-  },
-  {
-    "Rank": "553",
-    "Player": "Bryce Johnson#"
-  },
-  {
-    "Rank": "554",
-    "Player": "Dom Nuñez"
-  },
-  {
-    "Rank": "555",
-    "Player": "Tyler Callihan"
-  },
-  {
-    "Rank": "556",
-    "Player": "Carson McCusker"
-  },
-  {
-    "Rank": "557",
-    "Player": "Jonathan Ornelas"
-  },
-  {
-    "Rank": "558",
-    "Player": "César Salazar"
-  },
-  {
-    "Rank": "559",
     "Player": "Trenton Brooks"
   },
   {
-    "Rank": "560",
-    "Player": "Mason McCoy"
+    "Rank": "553",
+    "Player": "Tsung-Che Cheng"
   },
   {
-    "Rank": "561",
+    "Rank": "554",
+    "Player": "Bryce Johnson#"
+  },
+  {
+    "Rank": "555",
+    "Player": "Dom Nuñez"
+  },
+  {
+    "Rank": "556",
+    "Player": "Luis Vázquez"
+  },
+  {
+    "Rank": "557",
+    "Player": "Tyler Callihan"
+  },
+  {
+    "Rank": "558",
     "Player": "Billy Cook"
   },
   {
+    "Rank": "559",
+    "Player": "Carson McCusker"
+  },
+  {
+    "Rank": "560",
+    "Player": "Jonathan Ornelas"
+  },
+  {
+    "Rank": "561",
+    "Player": "César Salazar"
+  },
+  {
     "Rank": "562",
-    "Player": "Brewer Hicklen"
+    "Player": "Mason McCoy"
   },
   {
     "Rank": "563",
-    "Player": "Trey Lipscomb"
+    "Player": "Brewer Hicklen"
   },
   {
     "Rank": "564",
-    "Player": "Richie Palacios"
+    "Player": "Trey Lipscomb"
   },
   {
     "Rank": "565",
-    "Player": "Luis Vázquez"
+    "Player": "Richie Palacios"
   },
   {
     "Rank": "566",
