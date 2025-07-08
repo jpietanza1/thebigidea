@@ -23,7 +23,7 @@
         {
             "Rank": "5.",
             "Player": "Aranda \u2022 TBR",
-            "Batting Average": ".320"
+            "Batting Average": ".319"
         },
         {
             "Rank": "6.",
@@ -38,16 +38,16 @@
         {
             "Rank": "8.",
             "Player": "Garcia \u2022 KCR",
-            "Batting Average": ".303"
+            "Batting Average": ".306"
         },
         {
             "Rank": "9.",
             "Player": "Kirk \u2022 TOR",
-            "Batting Average": ".301"
+            "Batting Average": ".300"
         },
         {
             "Rank": "10.",
-            "Player": "Turner \u2022 PHI",
+            "Player": "Naylor \u2022 ARI",
             "Batting Average": ".299"
         }
     ],
@@ -60,47 +60,47 @@
         {
             "Rank": "2.",
             "Player": "Smith \u2022 LAD",
-            "On Base Percentage": ".433"
+            "On Base Percentage": ".434"
         },
         {
             "Rank": "3.",
-            "Player": "Aranda \u2022 TBR",
-            "On Base Percentage": ".398"
-        },
-        {
-            "Rank": "4.",
             "Player": "Soto \u2022 NYM",
             "On Base Percentage": ".396"
         },
         {
-            "Rank": "5.",
-            "Player": "Devers \u2022 2TM",
-            "On Base Percentage": ".391"
+            "Rank": "4.",
+            "Player": "Aranda \u2022 TBR",
+            "On Base Percentage": ".396"
         },
         {
-            "Rank": "6.",
+            "Rank": "5.",
             "Player": "Wood \u2022 WSN",
             "On Base Percentage": ".391"
         },
         {
-            "Rank": "7.",
-            "Player": "Torres \u2022 DET",
-            "On Base Percentage": ".387"
+            "Rank": "6.",
+            "Player": "Devers \u2022 2TM",
+            "On Base Percentage": ".390"
         },
         {
-            "Rank": "8.",
+            "Rank": "7.",
             "Player": "Tucker \u2022 CHC",
             "On Base Percentage": ".387"
         },
         {
+            "Rank": "8.",
+            "Player": "Torres \u2022 DET",
+            "On Base Percentage": ".386"
+        },
+        {
             "Rank": "9.",
-            "Player": "Marte \u2022 ARI",
-            "On Base Percentage": ".396"
+            "Player": "Crawford \u2022 SEA",
+            "On Base Percentage": ".385"
         },
         {
             "Rank": "10.",
-            "Player": "Crawford \u2022 SEA",
-            "On Base Percentage": ".385"
+            "Player": "Guerrero \u2022 TOR",
+            "On Base Percentage": ".384"
         }
     ],
     "Slugging": [
@@ -117,37 +117,37 @@
         {
             "Rank": "3.",
             "Player": "Ohtani \u2022 LAD",
-            "Slugging": ".610"
+            "Slugging": ".609"
         },
         {
             "Rank": "4.",
-            "Player": "Marte \u2022 ARI",
-            "Slugging": ".586"
-        },
-        {
-            "Rank": "5.",
             "Player": "Busch \u2022 CHC",
             "Slugging": ".566"
         },
         {
+            "Rank": "5.",
+            "Player": "Marte \u2022 ARI",
+            "Slugging": ".586"
+        },
+        {
             "Rank": "6.",
-            "Player": "Su\u00e1rez \u2022 ARI",
-            "Slugging": ".562"
+            "Player": "Carroll \u2022 ARI",
+            "Slugging": ".563"
         },
         {
             "Rank": "7.",
-            "Player": "Suzuki \u2022 CHC",
+            "Player": "Su\u00e1rez \u2022 ARI",
             "Slugging": ".561"
         },
         {
             "Rank": "8.",
-            "Player": "Smith \u2022 LAD",
-            "Slugging": ".560"
+            "Player": "Suzuki \u2022 CHC",
+            "Slugging": ".561"
         },
         {
             "Rank": "9.",
-            "Player": "Carroll \u2022 ARI",
-            "Slugging": ".556"
+            "Player": "Smith \u2022 LAD",
+            "Slugging": ".557"
         },
         {
             "Rank": "10.",
