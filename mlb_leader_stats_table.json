@@ -3,7 +3,7 @@
         {
             "Rank": "1.",
             "Player": "Judge \u2022 NYY",
-            "Batting Average": ".360"
+            "Batting Average": ".356"
         },
         {
             "Rank": "2.",
@@ -12,12 +12,12 @@
         },
         {
             "Rank": "3.",
-            "Player": "Aranda \u2022 TBR",
-            "Batting Average": ".327"
+            "Player": "Smith \u2022 LAD",
+            "Batting Average": ".326"
         },
         {
             "Rank": "4.",
-            "Player": "Smith \u2022 LAD",
+            "Player": "Aranda \u2022 TBR",
             "Batting Average": ".326"
         },
         {
@@ -55,7 +55,7 @@
         {
             "Rank": "1.",
             "Player": "Judge \u2022 NYY",
-            "On Base Percentage": ".468"
+            "On Base Percentage": ".463"
         },
         {
             "Rank": "2.",
@@ -65,7 +65,7 @@
         {
             "Rank": "3.",
             "Player": "Aranda \u2022 TBR",
-            "On Base Percentage": ".403"
+            "On Base Percentage": ".401"
         },
         {
             "Rank": "4.",
@@ -74,28 +74,28 @@
         },
         {
             "Rank": "5.",
-            "Player": "Tucker \u2022 CHC",
-            "On Base Percentage": ".390"
-        },
-        {
-            "Rank": "6.",
             "Player": "Marte \u2022 ARI",
             "On Base Percentage": ".397"
         },
         {
-            "Rank": "7.",
+            "Rank": "6.",
             "Player": "Devers \u2022 2TM",
             "On Base Percentage": ".388"
         },
         {
+            "Rank": "7.",
+            "Player": "Tucker \u2022 CHC",
+            "On Base Percentage": ".387"
+        },
+        {
             "Rank": "8.",
             "Player": "Wood \u2022 WSN",
-            "On Base Percentage": ".388"
+            "On Base Percentage": ".387"
         },
         {
             "Rank": "9.",
             "Player": "Crawford \u2022 SEA",
-            "On Base Percentage": ".386"
+            "On Base Percentage": ".387"
         },
         {
             "Rank": "10.",
@@ -107,12 +107,12 @@
         {
             "Rank": "1.",
             "Player": "Judge \u2022 NYY",
-            "Slugging": ".737"
+            "Slugging": ".729"
         },
         {
             "Rank": "2.",
             "Player": "Raleigh \u2022 SEA",
-            "Slugging": ".639"
+            "Slugging": ".631"
         },
         {
             "Rank": "3.",
@@ -127,37 +127,32 @@
         {
             "Rank": "5.",
             "Player": "Carroll \u2022 ARI",
-            "Slugging": ".565"
+            "Slugging": ".561"
         },
         {
             "Rank": "6.",
-            "Player": "Su\u00e1rez \u2022 ARI",
-            "Slugging": ".563"
+            "Player": "Crow-Armstrong \u2022 CHC",
+            "Slugging": ".560"
         },
         {
             "Rank": "7.",
-            "Player": "Busch \u2022 CHC",
-            "Slugging": ".559"
+            "Player": "Su\u00e1rez \u2022 ARI",
+            "Slugging": ".556"
         },
         {
             "Rank": "8.",
-            "Player": "Schwarber \u2022 PHI",
+            "Player": "Busch \u2022 CHC",
             "Slugging": ".553"
         },
         {
             "Rank": "9.",
-            "Player": "Suzuki \u2022 CHC",
-            "Slugging": ".551"
+            "Player": "Schwarber \u2022 PHI",
+            "Slugging": ".553"
         },
         {
             "Rank": "10.",
-            "Player": "Alonso \u2022 NYM",
-            "Slugging": ".551"
-        },
-        {
-            "Rank": "",
-            "Player": "Wood \u2022 WSN",
-            "Slugging": ".551"
+            "Player": "Suzuki \u2022 CHC",
+            "Slugging": ".552"
         }
     ],
     "Home Runs": [
@@ -188,27 +183,27 @@
         },
         {
             "Rank": "6.",
+            "Player": "Crow-Armstrong \u2022 CHC",
+            "Home Runs": "25"
+        },
+        {
+            "Rank": "",
             "Player": "Suzuki \u2022 CHC",
             "Home Runs": "25"
         },
         {
-            "Rank": "7.",
+            "Rank": "8.",
             "Player": "Wood \u2022 WSN",
             "Home Runs": "24"
         },
         {
-            "Rank": "8.",
-            "Player": "Crow-Armstrong \u2022 CHC",
+            "Rank": "9.",
+            "Player": "Caminero \u2022 TBR",
             "Home Runs": "23"
         },
         {
-            "Rank": "9.",
+            "Rank": "10.",
             "Player": "Greene \u2022 DET",
-            "Home Runs": "22"
-        },
-        {
-            "Rank": "",
-            "Player": "Caminero \u2022 TBR",
             "Home Runs": "22"
         }
     ],
@@ -230,6 +225,11 @@
         },
         {
             "Rank": "4.",
+            "Player": "Simpson \u2022 TBR",
+            "Stolen Bases": "26"
+        },
+        {
+            "Rank": "5.",
             "Player": "Ram\u00edrez \u2022 CLE",
             "Stolen Bases": "25"
         },
@@ -239,33 +239,28 @@
             "Stolen Bases": "25"
         },
         {
-            "Rank": "",
-            "Player": "Simpson \u2022 TBR",
-            "Stolen Bases": "25"
-        },
-        {
             "Rank": "7.",
             "Player": "Turner \u2022 PHI",
             "Stolen Bases": "24"
         },
         {
             "Rank": "8.",
+            "Player": "De La Cruz \u2022 CIN",
+            "Stolen Bases": "23"
+        },
+        {
+            "Rank": "",
+            "Player": "Scott \u2022 STL",
+            "Stolen Bases": "23"
+        },
+        {
+            "Rank": "10.",
             "Player": "Tucker \u2022 CHC",
             "Stolen Bases": "22"
         },
         {
             "Rank": "",
             "Player": "Robert \u2022 CHW",
-            "Stolen Bases": "22"
-        },
-        {
-            "Rank": "",
-            "Player": "De La Cruz \u2022 CIN",
-            "Stolen Bases": "22"
-        },
-        {
-            "Rank": "",
-            "Player": "Scott \u2022 STL",
             "Stolen Bases": "22"
         }
     ]
