@@ -6,53 +6,257 @@
             "Batting Average": ".333"
         },
         {
-            "Rank": "2.",
-            "Player": "Pe\u00f1a \u2022 HOU",
-            "Batting Average": ".317"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "3.",
-            "Player": "Aranda \u2022 TBR",
-            "Batting Average": ".316"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "4.",
-            "Player": "Wilson \u2022 ATH",
-            "Batting Average": ".312"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "5.",
-            "Player": "Smith \u2022 LAD",
-            "Batting Average": ".306"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "6.",
-            "Player": "Edwards \u2022 MIA",
-            "Batting Average": ".306"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "7.",
-            "Player": "Garcia \u2022 KCR",
-            "Batting Average": ".301"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "8.",
-            "Player": "Freeman \u2022 LAD",
-            "Batting Average": ".299"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "9.",
-            "Player": "Marte \u2022 ARI",
-            "Batting Average": ".298"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         },
         {
-            "Rank": "10.",
-            "Player": "Guerrero \u2022 TOR",
-            "Batting Average": ".298"
+            "Rank": "",
+            "Player": "",
+            "Batting Average": ""
         }
     ],
-    "On Base Percentage": [],
-    "Slugging": [],
-    "Home Runs": [],
-    "Stolen Bases": []
+    "On Base Percentage": [
+        {
+            "Rank": "1.",
+            "Player": "Judge \u2022 NYY",
+            "On Base Percentage": ".447"
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "On Base Percentage": ""
+        }
+    ],
+    "Slugging": [
+        {
+            "Rank": "1.",
+            "Player": "Judge \u2022 NYY",
+            "Slugging": ".687"
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Slugging": ""
+        }
+    ],
+    "Home Runs": [
+        {
+            "Rank": "1.",
+            "Player": "Raleigh \u2022 SEA",
+            "Home Runs": "47"
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Home Runs": ""
+        }
+    ],
+    "Stolen Bases": [
+        {
+            "Rank": "1.",
+            "Player": "Caballero \u2022 2TM",
+            "Stolen Bases": "39"
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        },
+        {
+            "Rank": "",
+            "Player": "",
+            "Stolen Bases": ""
+        }
+    ]
 }
