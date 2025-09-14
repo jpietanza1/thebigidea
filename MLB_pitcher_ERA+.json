@@ -29,11 +29,11 @@
   },
   {
     "Rank": "8",
-    "Player": "Yoshinobu Yamamoto"
+    "Player": "Nick Pivetta"
   },
   {
     "Rank": "9",
-    "Player": "Nick Pivetta"
+    "Player": "Yoshinobu Yamamoto"
   },
   {
     "Rank": "10",
@@ -45,23 +45,23 @@
   },
   {
     "Rank": "12",
-    "Player": "Brayan Bello"
-  },
-  {
-    "Rank": "13",
     "Player": "Gavin Williams"
   },
   {
-    "Rank": "14",
+    "Rank": "13",
     "Player": "Merrill Kelly"
   },
   {
-    "Rank": "15",
+    "Rank": "14",
     "Player": "Carlos Rodón"
   },
   {
-    "Rank": "16",
+    "Rank": "15",
     "Player": "Jacob deGrom"
+  },
+  {
+    "Rank": "16",
+    "Player": "Brayan Bello"
   },
   {
     "Rank": "17",
@@ -69,27 +69,27 @@
   },
   {
     "Rank": "18",
-    "Player": "Logan Webb"
-  },
-  {
-    "Rank": "19",
     "Player": "Matthew Boyd"
   },
   {
-    "Rank": "20",
+    "Rank": "19",
     "Player": "Kevin Gausman"
   },
   {
-    "Rank": "21",
+    "Rank": "20",
     "Player": "Bryan Woo"
   },
   {
-    "Rank": "22",
+    "Rank": "21",
     "Player": "Framber Valdez"
   },
   {
-    "Rank": "23",
+    "Rank": "22",
     "Player": "Robbie Ray"
+  },
+  {
+    "Rank": "23",
+    "Player": "Logan Webb"
   },
   {
     "Rank": "24",
@@ -133,19 +133,19 @@
   },
   {
     "Rank": "34",
-    "Player": "José Soriano"
-  },
-  {
-    "Rank": "35",
     "Player": "Mitch Keller"
   },
   {
+    "Rank": "35",
+    "Player": "José Soriano"
+  },
+  {
     "Rank": "36",
-    "Player": "MacKenzie Gore"
+    "Player": "Nick Martinez"
   },
   {
     "Rank": "37",
-    "Player": "Nick Martinez"
+    "Player": "MacKenzie Gore"
   },
   {
     "Rank": "38",
@@ -157,7 +157,7 @@
   },
   {
     "Rank": "40",
-    "Player": "Will Warren"
+    "Player": "Dylan Cease"
   },
   {
     "Rank": "41",
@@ -173,15 +173,15 @@
   },
   {
     "Rank": "44",
-    "Player": "Dean Kremer"
+    "Player": "Tomoyuki Sugano"
   },
   {
     "Rank": "45",
-    "Player": "Zac Gallen"
+    "Player": "Dean Kremer"
   },
   {
     "Rank": "46",
-    "Player": "Dylan Cease"
+    "Player": "Zac Gallen"
   },
   {
     "Rank": "47",
@@ -189,30 +189,34 @@
   },
   {
     "Rank": "48",
-    "Player": "Brandon Pfaadt"
+    "Player": "Luis Severino"
   },
   {
     "Rank": "49",
-    "Player": "Shane Baz"
+    "Player": "Brandon Pfaadt"
   },
   {
     "Rank": "50",
-    "Player": "Sandy Alcantara"
+    "Player": "Shane Baz"
   },
   {
     "Rank": "51",
-    "Player": "Chris Paddack"
+    "Player": "Sandy Alcantara"
   },
   {
     "Rank": "52",
-    "Player": "Andre Pallante"
+    "Player": "Chris Paddack"
   },
   {
     "Rank": "53",
-    "Player": "Mitchell Parker"
+    "Player": "Andre Pallante"
   },
   {
     "Rank": "54",
+    "Player": "Mitchell Parker"
+  },
+  {
+    "Rank": "55",
     "Player": "Jake Irvin"
   }
 ]
