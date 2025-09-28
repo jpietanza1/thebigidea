@@ -49,15 +49,15 @@
   },
   {
     "Rank": "13",
-    "Player": "Joe Ryan"
-  },
-  {
-    "Rank": "14",
     "Player": "Jacob deGrom"
   },
   {
-    "Rank": "15",
+    "Rank": "14",
     "Player": "Kevin Gausman"
+  },
+  {
+    "Rank": "15",
+    "Player": "Joe Ryan"
   },
   {
     "Rank": "16",
@@ -101,23 +101,23 @@
   },
   {
     "Rank": "26",
-    "Player": "Yusei Kikuchi"
-  },
-  {
-    "Rank": "27",
-    "Player": "Luis Castillo"
-  },
-  {
-    "Rank": "28",
     "Player": "Ryan Pepiot"
   },
   {
+    "Rank": "27",
+    "Player": "Yusei Kikuchi"
+  },
+  {
+    "Rank": "28",
+    "Player": "Luis Castillo"
+  },
+  {
     "Rank": "29",
-    "Player": "Jeffrey Springs"
+    "Player": "Michael Wacha"
   },
   {
     "Rank": "30",
-    "Player": "Michael Wacha"
+    "Player": "Mitch Keller"
   },
   {
     "Rank": "31",
@@ -125,7 +125,7 @@
   },
   {
     "Rank": "32",
-    "Player": "Mitch Keller"
+    "Player": "Jeffrey Springs"
   },
   {
     "Rank": "33",
@@ -145,11 +145,11 @@
   },
   {
     "Rank": "37",
-    "Player": "Dean Kremer"
+    "Player": "David Peterson"
   },
   {
     "Rank": "38",
-    "Player": "David Peterson"
+    "Player": "Dean Kremer"
   },
   {
     "Rank": "39",
@@ -161,30 +161,38 @@
   },
   {
     "Rank": "41",
-    "Player": "Zac Gallen"
+    "Player": "Will Warren"
   },
   {
     "Rank": "42",
-    "Player": "Brandon Pfaadt"
+    "Player": "Kyle Hendricks"
   },
   {
     "Rank": "43",
-    "Player": "Shane Baz"
+    "Player": "Zac Gallen"
   },
   {
     "Rank": "44",
-    "Player": "Sandy Alcantara"
+    "Player": "Brandon Pfaadt"
   },
   {
     "Rank": "45",
-    "Player": "Andre Pallante"
+    "Player": "Shane Baz"
   },
   {
     "Rank": "46",
-    "Player": "Jake Irvin"
+    "Player": "Sandy Alcantara"
   },
   {
     "Rank": "47",
+    "Player": "Andre Pallante"
+  },
+  {
+    "Rank": "48",
+    "Player": "Jake Irvin"
+  },
+  {
+    "Rank": "49",
     "Player": "Mitchell Parker"
   }
 ]
